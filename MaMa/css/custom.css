@@ -3,6 +3,7 @@ body {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
+  padding-top:65px;
   hyphens: auto;
 }
 #scriptselector .btn {
@@ -31,9 +32,7 @@ body {
 .l:last-child, .l:last-of-type {
   margin-bottom:10px;
 }
-.lg .l
-/* Add space after pāda-break (<lb type="pada"/>) */
-.caesura:after {
+.lg .l .caesura:after {
   content: "\A\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0" !important;
   white-space:pre;
 }
@@ -46,21 +45,19 @@ body {
   font-weight:bold;
 }
 .quote {
-  background:#f0f0f0;
   -moz-border-radius:4px;
   border-radius:4px;
   padding:4px;
+  letter-spacing:2px;
 }
 
 .quote .l {
-  background:#f0f0f0;
   -moz-border-radius:4px;
   border-radius:2px;
   padding:2px;
 }
 ..quote .l span {
   display:inline;
-  background:#f0f0f0;
   -moz-border-radius:4px;
   border-radius:4px;
   padding:2px;
@@ -112,9 +109,6 @@ body {
 .stage-sp {
   display:inline;
 }
-.stage-center {
-  display:block;
-}
 .stage.division {
   font-size:20px;
 }
@@ -128,7 +122,28 @@ p.sp {
   display:inline;
   text-transform:uppercase;
 }
-
+.s:after {
+  content:" "!important;
+}
+.word:after {
+  content:" "!important;
+}
+.word:last-child:after {
+  content:''!important;
+}
+.chaya-toggle {
+  font-family:"Printers Ornaments One";
+  color:#C8C8C8;
+  padding-right:5px;
+}
+.chaya-toggle:hover {
+  color:#D3D3D3;
+}
+.fleuron {
+  font-family:"Printers Ornaments One";
+  color:gray;
+  font-size:200%;
+}
 /* miscellaneous things */
 .panel-title a {
   text-decoration:none;

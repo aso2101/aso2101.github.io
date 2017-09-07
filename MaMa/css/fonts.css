@@ -17,3 +17,7 @@
     font-family: "Murty Sanskrit";
     src: url(Murty-Sanskrit-1.00.otf);
 }
+@font-face {
+    font-family: "Printers Ornaments One";
+    src: url(printorn.ttf);
+}

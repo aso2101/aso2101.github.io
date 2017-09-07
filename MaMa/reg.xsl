@@ -3,6 +3,7 @@
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   exclude-result-prefixes="tei">
   <xsl:output method="xml" encoding="UTF-8"/>
+  <xsl:strip-space elements="tei:*"/>
   <!-- this is the identity transform template !-->
   <xsl:template match="/|@*|node()">
     <xsl:copy>

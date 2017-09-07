@@ -4,6 +4,7 @@
   exclude-result-prefixes="tei">
   <xsl:output method="xml" encoding="UTF-8"/>
   <!-- this is the identity transform template !-->
+  <xsl:strip-space elements="tei:*"/>
   <xsl:template match="/|@*|node()">
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>

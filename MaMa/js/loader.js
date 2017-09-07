@@ -1,11 +1,14 @@
 var xml = "malatimadhava.xml";
-var xslt = "sarit-base.xsl";
+var xslt = "common-test.xsl";
 
 function initialize(script,version) {
   $(".panel-group").remove();
   setVersion();
   setScript();
   outline();
+  if (sessionStorage.scrollTop != "undefined") {
+    $(window).scrollTop(sessionStorage.scrollTop);
+  }
 }
 
 function setVersion() {
@@ -27,8 +30,19 @@ function setScript() {
   if (val == "Deva") {
     $("input[name='script'][value='Deva']").prop("checked",true);
     $("input[name='script'][value='Deva']").parent().addClass("active");
-  }
-  else {
+  } else if (val == "Guru") {
+    $("input[name='script'][value='Guru']").prop("checked",true);
+    $("input[name='script'][value='Guru']").parent().addClass("active");
+  } else if (val == "Gujr") {
+    $("input[name='script'][value='Gujr']").prop("checked",true);
+    $("input[name='script'][value='Gujr']").parent().addClass("active");
+  } else if (val == "Kann") {
+    $("input[name='script'][value='Kann']").prop("checked",true);
+    $("input[name='script'][value='Kann']").parent().addClass("active");
+  } else if (val == "Mala") {
+    $("input[name='script'][value='Mala']").prop("checked",true);
+    $("input[name='script'][value='Mala']").parent().addClass("active");
+  } else {
     $("input[name='script'][value='Latn']").prop("checked",true);
     $("input[name='script'][value='Latn']").parent().addClass("active");
   }
@@ -41,29 +55,13 @@ function setScript() {
 function outline() {
   var ver = localStorage.getItem("version");
   $.when($.get(xml),$.get(ver),$.get(xslt)).done(function(x,y,z) {
-    var textVersion = transformSanskrit(x[0],y[0]),
-	panelGroup = $('<div class="panel-group"></div>'),
-	chapternumber = '';
-    $(textVersion).find('div[type="aṅka"]').each(function(index) {
-      var panelHeading = $('<div class="panel-heading clearfix"></div>'),
-	  chapter = $(this);
-          chapternumber = chapter.attr('n'),
-          chaptertitle = chapter.children('head').text(),
-          chapterlink = $('<div class="panel-title pull-left"><a class="skt" data-toggle="collapse" href="#'+chapternumber+'">'+chaptertitle+'</a></div>'),
-          panelContent = $('<div class="panel-collapse collapse in" id="#"></div>').attr("id",chapternumber),
-          chapterPanel = $('<div class="panel panel-default chapter"></div>'),
-	  fragment = document.createDocumentFragment();
-      // the namespace is necessary to ge the XSLT working
-      chapter.attr("xmlns","http://www.tei-c.org/ns/1.0");
-      chapter.appendTo(fragment);
-      content = transformSanskrit(fragment,z[0]), 
-     $(panelHeading).append(chapterlink);
-      $('<div class="panel-body"></div>').append(content).appendTo(panelContent);
-      $(chapterPanel).append(panelHeading);
-      $(chapterPanel).append(panelContent);
-      $(panelGroup).append(chapterPanel);
-    });
-    $("#root").append(panelGroup);
+    xsltProcessor = new XSLTProcessor();
+    xsltProcessor.importStylesheet(y[0]);
+    var textVersion = xsltProcessor.transformToDocument(x[0]),
+	content = transformSanskrit(textVersion,z[0]);
+    console.log(textVersion);
+    console.log(content);
+    $("#root").append(content);
     activateModals();
     activateChaya();
     translit();
@@ -71,27 +69,25 @@ function outline() {
 }
 
 function activateModals() {
-  $(".modal").modal({
-    backdrop:'static',
-    show: false
+  $('.modal').on('shown.bs.modal',function(e){
+    var tab = e.relatedTarget.hash;
+    $('.nav-tabs a[href="' + tab + '"]').tab('show');
   });
-  $(".hasModal").hover(function() {
-    $(this).children('span :not(.chaya-toggle)').css('background','#F0F0F0');
-    $(this).css('background','#F0F0F0');
-  }, function() {
-    $(this).children('span :not(.chaya-toggle)').css('background','#FFF');
-    $(this).css('background','#FFF');
-  });
-  $(".hasModal").css('cursor','pointer');
-  $(".hasModal").on('click',function(evt){
-    if(evt.target.class == "chaya-toggle")
-        return;
-    var id = $(this).attr('id'),
-        modalid = "modal-"+id.replace(/\./g,'\\.');
-    $("#"+modalid).modal('toggle');
+  $(".modal-close").on('click',function(e){
+    $(this).closest('.modal').modal('toggle');
   });
   $(".chaya-toggle").on('click',function(e){
     e.stopPropagation();
+  });
+  $(".app-note, .app-lem").popover({
+    html: true,
+    content: function() {
+      idtarget = $(this).attr("data-target");
+      return $(idtarget).html();
+    }
+  });
+  $(".app-note, .app-lem").on('click', function(e) {
+      e.preventDefault(); return true;
   });
 }
 
@@ -108,7 +104,7 @@ function activateChaya() {
 function translit() {
   var script = localStorage.getItem("script");
   if (script == "Deva") {
-    $("#root").find(".skt, .skt").each(function() {
+    $("#root, #modals").find(".san").each(function() {
       $(this).contents().filter(function() {
         return this.nodeType == 3;
       }).each(function() {
@@ -119,8 +115,56 @@ function translit() {
         $(this).replaceWith(z);
       });
     });
+  } else if (script == "Guru") {
+    $("#root, #modals").find(".san").each(function() {
+      $(this).contents().filter(function() {
+        return this.nodeType == 3;
+      }).each(function() {
+        q = $(this).text();
+	r = preprocess(q);
+        y = Sanscript.t(r,'iast','gurmukhi').replace(/\s+([।॥])/g,'\u00a0$1');
+        z = $('<span class="transliterated Deva"></span>').append(y)
+        $(this).replaceWith(z);
+      });
+    });
+  } else if (script == "Gujr") {
+    $("#root, #modals").find(".san").each(function() {
+      $(this).contents().filter(function() {
+        return this.nodeType == 3;
+      }).each(function() {
+        q = $(this).text();
+	r = preprocess(q);
+        y = Sanscript.t(r,'iast','gujarati').replace(/\s+([।॥])/g,'\u00a0$1');
+        z = $('<span class="transliterated Deva"></span>').append(y)
+        $(this).replaceWith(z);
+      });
+    });
+  } else if (script == "Kann") {
+    $("#root, #modals").find(".san").each(function() {
+      $(this).contents().filter(function() {
+        return this.nodeType == 3;
+      }).each(function() {
+        q = $(this).text();
+	r = preprocess(q);
+        y = Sanscript.t(r,'iast','kannada').replace(/\s+([।॥])/g,'\u00a0$1');
+        z = $('<span class="transliterated Deva"></span>').append(y)
+        $(this).replaceWith(z);
+      });
+    });
+  } else if (script == "Mala") {
+    $("#root, #modals").find(".san").each(function() {
+      $(this).contents().filter(function() {
+        return this.nodeType == 3;
+      }).each(function() {
+        q = $(this).text();
+	r = preprocess(q);
+        y = Sanscript.t(r,'iast','malayalam').replace(/\s+([।॥])/g,'\u00a0$1');
+        z = $('<span class="transliterated Deva"></span>').append(y)
+        $(this).replaceWith(z);
+      });
+    });
   } else {
-    $("#root").find(".skt").not('.l').each(function() {
+    $("#root, #modals").find(".san").not('.l').each(function() {
       $(this).contents().filter(function() {
         return this.nodeType == 3;
       }).each(function() {
@@ -130,13 +174,13 @@ function translit() {
         $(this).replaceWith(r);
       });
     });
-    $("#root").find(".l.skt, .l.skt").each(function() {
+    $("#root, #modals").find(".l.san").each(function() {
       $(this).contents().filter(function() {
         return this.nodeType == 3;
       }).each(function() {
         var q = $(this).text(),
             r = q.replace(/\u007c\u007c/g,'~')
-	         .replace(/\u007c/g,'');
+	         .replace(/\u007c/g,'~');
         $(this).replaceWith(r);
       });
     });
@@ -145,13 +189,22 @@ function translit() {
 
 // Preprocess strings from IAST to Devanāgarī. 
 function preprocess(x) {
-  return x.replace(" ’","'")
+  var script = localStorage.getItem("script");
+  var trans = x.replace(" ’","'")
+    .replace(/aï/g,"a####i")
+    .replace(/aü/g,"a####u")
     .replace(/([rnmd]) ([gṅjñḍṇdnbmhyvrlaāiīuūeo])/g,"$1$2")
-    .replace("aï","a####i")
-    .replace("aü","a####u")
     .replace(/([kcṭtpśsṣ]) ([kcṭtpśsṣ])/g,"$1$2")
-    .replace(/([vy]) ([aāiīuūeo])/,"$1$2")
-    .replace(/ḷ([aāiīuūṛṝ])/,"ḻ$1");
+    .replace(/([vy]) ([aāiīuūeo])/g,"$1$2")
+    .replace(/ḷ([aāiīuūṛṝ])/g,"ḻ$1");
+  if (script == "Deva") {
+    trans = trans.replace(/ṁ/g,"ँ");
+  } else if (script == "Guru") {
+    trans = trans.replace(/ṁ/g,"ਁ");
+  } else if (script == "Gujr") {
+    trans = trans.replace(/ṁ/g,"ઁ");
+  }
+  return trans;
 }
 
 function transformSanskrit(node,xsl) {
@@ -160,3 +213,6 @@ function transformSanskrit(node,xsl) {
   return xsltProcessor.transformToFragment(node,document);
 }
 
+$(window).scroll(function() {
+  sessionStorage.scrollTop = $(this).scrollTop();
+});
