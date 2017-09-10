@@ -1,0 +1,70 @@
+/* Fonts */
+body {
+  font-family:"IndUni-H";
+}
+.kan-Kann {
+  font-family:"Lohit Kannada";
+  line-height:1em;
+}
+.apparatus h4 {
+  font-size:1.15em;
+}
+.apparatus p {
+  font-size:0.85em;
+}
+
+.folio,.lineation{color:gray;}
+.folio:before,.lineation:before{content:"[";}.folio:after,.lineation:after{content:"]";}
+.add-above {
+  font-size:0.7em;
+  vertical-align:super;
+}
+.add-margin-right {
+  float:right;
+  font-size:0.7em;
+}
+.uncertain:before{content:'[';}.uncertain:after{content:']';}
+.phys-line {
+  display:block;
+  margin-left:25px;
+  text-indent:-20px;
+  word-break:break-all;
+}
+
+/* Spacing */
+.krm-verse {
+  margin-top:15px;
+}
+.scriptSelector, .sourceSelector {
+  margin-top:10px;
+}
+.ed-pane .tab-content {
+  margin: 10px;
+}
+.lg {
+  margin-left:10px;
+}
+.ms-pane {
+  margin:15px;
+}
+.apparatus, .translation {
+  margin:10px;
+}
+
+/* Formats line-groups (verses):
+      These are inline so that following
+      <ref> elements can be inline with the
+      last line of a verse. */
+.l {
+  display:block;
+  line-height:1.5em;
+  font-size:1.15em;
+}
+.lg .kan-Kann {
+  line-height:1.75em;
+  font-size:1.25em;
+  letter-spacing:1px;
+}
+.l:nth-child(2), .l:nth-child(4) {
+  margin-left:30px; 
+}
