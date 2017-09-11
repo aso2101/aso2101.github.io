@@ -23,6 +23,10 @@ body {
   float:right;
   font-size:0.7em;
 }
+.binding-hole:after {
+  content:"◯";
+  padding:0 4px;
+}
 .uncertain:before{content:'[';}.uncertain:after{content:']';}
 .phys-line {
   display:block;
