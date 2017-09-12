@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+  </teiHeader>
+  <text xml:lang="kan-Latn">
+    <body>
+      <div type="chapter" n="1">
+	<lg n="146">
+	  <l>ಸಮುಚಿತನೃಪತುಂಗದೇವಮಾರ್ಗ</l>
+	  <l>ಕ್ರಮಗಮನಾಭಿಮುಖರ್ಕಳಪ್ಪರೆಲ್ಲರ್</l>
+	  <l>ಕ್ರಮಸಹಿತಮಗಮ್ಯರೂಪಕಾವ್ಯ</l>
+	  <l>ಶ್ರಮಪದಮಂ ನಿರಪಾಯನೆಯ್ದಲಾರ್ಪರ್</l>
+	</lg>
+      </div>
+    </body>
+  </text>
+</TEI>

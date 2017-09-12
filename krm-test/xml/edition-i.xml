@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+  </teiHeader>
+  <text xml:lang="kan-Latn">
+    <body>
+      <div type="chapter" n="1">
+	<lg n="145">
+	</lg>
+	<lg n="146" met="Puṣpitāgrā">
+	  <l>samucita-nr̥patuṅga-deva-mārga-</l>
+	  <l>kramagamanābhimukharkaḷ appar ellar</l>
+	  <l>krama-sahitam agamya-rūpa-kāvya-</l>
+	  <l>śramapadamaṁ nirapāyan eydal ārpar</l>
+	  <note type="apparatus">
+	    <listApp>
+	      <app loc="b">
+		<lem type="conj" resp="Krishnamoorthy">kramagamanā-</lem>
+		<rdg wit="#a #b">kramanamanā-</rdg>
+		<rdg wit="#c">kramamumana-</rdg>
+		<note>We guess that the archetype misread <foreign xml:lang="kan-Latn">kramagamanā-</foreign> as <foreign xml:lang="kan-Latn">kramanamanā-</foreign>, the reading of AB, and that C’s <foreign xml:lang="kan-Latn">kramamumana-</foreign> is an attempt to restore sense by reading it as an accusative with a coordinating infix.</note>
+	      </app>
+	    </listApp>
+	  </note>
+	</lg>
+	<lg n="147" met="Puṣpitāgrā">
+	  <l>atiśaya-dhavaḷōrvipōditālaṅ-</l>
+	  <l>kr̥ta-mati-nīti-nirantara-pratītaṁ</l>
+	  <l>śruti-yuvati-kr̥tōpacāra-sāra-</l>
+	  <l>svata-guṇadiṁ kr̥ta-kr̥tya-mallan akkuṁ</l>
+	  <note type="apparatus">
+	    <listApp>
+	      <app loc="a">
+		<lem wit="#c">-ōrvvipō-</lem>
+		<rdg wit="#a #b">-ōrviśō-</rdg>
+		<note>AB’s reading (which must be read as <foreign xml:lang="kan-Latn">-ōrvīśō-</foreign>) is metrically impossible, but it demonstrates that the Mysore mss. share an archetype.</note>
+	      </app>
+	      <app loc="d">
+		<lem type="conj">-guṇadiṁ kr̥ta-kr̥tya-mallan akkuṁ</lem>
+		<rdg wit="#a #b">-guṇadiṁ kr̥takr̥tyam akkuṁ</rdg>
+		<rdg wit="#c">-guṇagaṇadinde kr̥tyam akkuṁ</rdg>
+	      </app>
+	    </listApp>
+	  </note>
+	</lg>
+	<lg n="148" met="Campakamālā">
+	</lg>
+	<lg n="149" met="Campakamālā">
+	</lg>
+      </div>
+    </body>
+  </text>
+</TEI>

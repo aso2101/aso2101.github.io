@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+  </teiHeader>
+  <text xml:lang="kan-Latn">
+    <body>
+      <div type="chapter" n="1">
+	<pb n="5v"/>
+	<lb n="9"/>
+	<lg n="146">
+	  <l>samucitanrupatuṁgadevamārgga</l>
+	  <l>kramamumanabhimukharkkaḷ appar</l>
+	  <l>kramasahitamagamyarūpakāvya</l>
+	  <l>śramapadanirapāyakeydalārppar || 147 ||</l>
+	</lg>
+	<lg n="147">
+	  <l>atiśayadhavaḷo<lb n="10"/>rvvipoditāḷaṁ</l>
+	  <l>krutamatinutiniraṁtarapratitaṁ</l>
+	  <l>śrutiyuvatikrutopacārasāra</l>
+	  <l>svataguṇagaṇadiṁde krutyamakkuṁ || 148 ||</l>
+	</lg>
+	<lg n="148">
+	  <l>vr̥ | nuḍigaḷoḍaṁbaḍalbagevolbageyaṁmigaliyyadodaṁdenā</l>
+	  <l><unclear>ḻ</unclear>nuḍiyabeḍaṁgekaṁna<lb n="11"/>ḍadamātinoḷāvikaṭākṣaraṁgaḷoḷ</l>
+	  <l>toḍaradesakkadaṁgaḷapadaṁpavaṇāgiremelpuvettudāṁ</l>
+	  <l>guḍiviḍidaṁteniḷvanitapeḷvudu nitiniraṁtarakramaṁ || 149 ||</l>
+	</lg>
+	<lg n="149">
+	  <l>sakaḷāḷāpakaḷākaḷāpakathitavyāvruttiyoḷkūḍi<pb n="6r"/><lb n="1"/><unclear>ci</unclear></l>
+	  <l>trakaraṁbolparabhāgabhāvavilasadvarṇakramāvruttiyaṁ</l>
+	  <l>prakaṭaṁmāḍirepeḷdacitrakrutiyaṁvyāvarṇṇisuttaṁkavi</l>
+	  <l>prakaraśrīvijayaprabhūtamanidaṁkaikoḷvudimāḷkeyaṁ || 150 ||</l>
+	</lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+  </teiHeader>
+  <text xml:lang="kan-Latn">
+    <body>
+      <div type="chapter" n="1">
+	<pb n="7r"/>
+	<lb n="4"/>
+	<lg n="146">
+	  <l>samucita <space type="binding-hole"/>nr̥patuṁgadevamārgga</l>
+	  <l>kramanamanābhimukharkaḷ appa</l>
+	  <l>kramasahita <space type="binding-hole"/> vagaṁmyarūpakāvya</l>
+	  <l>śramapadamaṁ<lb n="5"/>nirapāyaneydal ārppar || 147 ||</l>
+	</lg>
+	<lg n="147">
+	  <l>atiśa<space type="binding-hole"/>yadhavorviśoditālaṁ</l>
+	  <l>kr̥timatinītiniraṁtarapratītaṁ</l>
+	  <l>śr̥ti<space type="binding-hole"/>yuvatikṛtopacārasāra</l>
+	  <l>svataguṇa<lb n="6"/>diṁ kṛtakṛtyamakkuṁ || 148 ||</l>
+	</lg>
+	<lg n="148">
+	  <l><unclear>savṛ</unclear> || nuḍigaḷoḍaṁba<del><gap reason="lost" unit="character" extent="1"/></del>ḍal bagedavol bagedavolbageyaṁ migalīyyadoṁde nā</l>
+	  <l><unclear>ḻ</unclear>nuḍiyabeḍaṁge kaṁnaḍa<pb n="7v"/><lb n="1"/>ḍada mātinoḷ ā vikaṭākṣaraṁgaḷoḷ</l>
+	  <l>toḍarade sakkadaṁgaḷa padaṁ pavaṇāgire mēlluvettu dāṁ</l>
+	  <l>guḍiviḍuvaṁte nīḷdu nile pēḷvudu nītiniraṁtarakramaṁ || 149 ||</l>
+	</lg>
+	<lg n="149">
+	  <l>sakaḷāḷāpakaḷākaḷāpakathi<lb n="2"/>tavyāvṛttiyoḷ kūḍi ci</l>
+	  <l>trakaraṁbol parabhāvaviḷāsadvarnnakramāvṛttiyaṁ</l>
+	  <l>prakaṭaṁ māḍire peḷda citrakṛtiyaṁ vyāvarnnisuttuṁ kavi</l>
+	  <l>prakaraṁśrīvijayaprabhūta<lb n="3"/>manidaṁ kaikoḷvudī māḷkeyaṁ || 150 || </l>
+	</lg>
+	<lg n="c">
+	  <l>idu paramaśrīnṛpatuṁgadevānumatam appa kavirājamārggadoḷ 
+<space type="binding-hole"/>doṣānuvarnanirnayaṁ prathama paricchedaṁ ||</l>
+	</lg>
+      </div>
+    </body>
+  </text>
+</TEI>
