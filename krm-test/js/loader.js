@@ -29,17 +29,17 @@ function load_edition(chapter,verse) {
 	    var q = $('<a class="btn btn-primary btn-sm" href="index.html?c='+chapter+'&v='+next+'" role="button"><span class="fa fa-chevron-right" style="font-size:18px;vertical-align:middle;line-height:1.5em;"></span><br/><span class="nav-label">'+next+'</span></a></div>');
 	    $("#forward-nav").append(q);
 	}
+	/* other data: verse number */
+	$("#number").append(verse);
+	/* other data: name of the meter */
+	var met = $(thisVerseTranslit).attr("met");
+	$("#meter").append(met);
 	/* generate the content using XSLT */
 	var iContent = transformXSLT(thisVerseTranslit[0],s[0]),
 	    kContent = transformXSLT(thisVerseKannada[0],s[0]);
 	/* append the content in the right place */
 	$('#ed-roman').append(iContent);
 	$('#ed-kannada').append(kContent);
-	/* other data: verse number */
-	$("#number").append(verse);
-	/* other data: name of the meter */
-	var met = $(thisVerseTranslit).attr("met");
-	$("#meter").append(met);
     });
 };
 
