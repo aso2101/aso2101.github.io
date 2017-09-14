@@ -17,22 +17,39 @@
   <xsl:template match="tei:l">
     <xsl:element name="span">
       <xsl:attribute name="class">
-	<xsl:text>l</xsl:text>
-	<xsl:if test="./ancestor-or-self::*[@xml:id='kan-Kann']">
-	  <xsl:text> kan-Kann</xsl:text>
-	</xsl:if>
-	<xsl:if test="./ancestor-or-self::*[@xml:id='kan-Latn']">
-	  <xsl:text> kan-Latn</xsl:text>
-	</xsl:if>
+	<xsl:text>tr-l</xsl:text>
       </xsl:attribute>
       <xsl:apply-templates/>
     </xsl:element>
   </xsl:template>
   <xsl:template match="tei:lg">
+    <xsl:element name="h4">
+      <xsl:text>Translation</xsl:text>
+    </xsl:element>
     <xsl:element name="div">
       <xsl:attribute name="class">
         <xsl:text>lg</xsl:text>
       </xsl:attribute>
+      <xsl:apply-templates/>
+    </xsl:element>
+    <xsl:if test="tei:note">
+      <xsl:apply-templates select="tei:note" mode="bypass"/>
+    </xsl:if>
+  </xsl:template>
+  <xsl:template match="tei:note"/>
+  <xsl:template match="tei:note" mode="bypass">
+    <xsl:element name="h4">
+      <xsl:text>Notes</xsl:text>
+    </xsl:element>
+    <xsl:element name="div">
+      <xsl:attribute name="class">
+	<xsl:text>notes</xsl:text>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </xsl:element>
+  </xsl:template>
+  <xsl:template name="tei:p">
+    <xsl:element name="p">
       <xsl:apply-templates/>
     </xsl:element>
   </xsl:template>

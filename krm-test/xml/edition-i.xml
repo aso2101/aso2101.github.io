@@ -44,9 +44,40 @@
 	  </note>
 	</lg>
 	<lg n="148" met="Campakamālā">
+	  <l>nuḍigaḷ oḍaṁbaḍal bagedavol bageyaṁ migal īyad’ onde nāḻ-</l>
+	  <l>nuḍiya beḍaṅge kannaḍada mātinoḷ ā vikaṭākṣaraṅgaḷoḷ</l>
+	  <l>toḍarade sakkadaṅgaḷa padaṁ pavaṇāgire mēlpuvettu dāṅ-</l>
+	  <l>guḍiviḍuvante nīḷdu nile pēḻvudu nītinirantara-kramaṁ</l>
+	  <note type="apparatus">
+	    <listApp>
+	      <app loc="a" type="boring">
+		<lem>bagedavol bageyaṁ</lem>
+		<rdg wit="#a">pagedavol bageyaṁ</rdg>
+		<rdg wit="#b">bagedavol bagedavol bageyaṁ</rdg>
+		<rdg wit="#c">bagevol bageyaṁ</rdg>
+	      </app>
+	      <app loc="a" type="boring">
+		<lem wit="#b #c">migal īyad’ onde</lem>
+		<rdg wit="#a">migalalaṁda</rdg>
+	      </app>
+	      <app loc="d" type="boring">
+		<lem wit="#a #b">dāṅguḍiviḍuvante</lem>
+		<rdg wit="#c">dāṅguḍiviḍidante</rdg>
+		<note>The Madras edition corrects the reading of C to the present-tense form <foreign xml:lang="kan-Latn">-viḍipante</foreign>, which is inconsistent with the <hi>Way</hi>’s use of such forms.</note>
+	      </app>
+	      <app loc="d">
+		<lem wit="#a #b">nīḷda nile</lem>
+		<rdg wit="#c">nīḷpanita</rdg>
+		<note>The Madras edition has tried to salvage the reading of C by emending it to <foreign xml:lang="kan-Latn">nīḷpanitu</foreign>, “as great as it has grown.” We prefer the reading of AB because <foreign xml:lang="kan-Latn">nile pēḻ-</foreign> is a common turn of phrase for the <hi>Way</hi>.</note>
+	      </app>
+	    </listApp>
+	  </note>
 	</lg>
 	<lg n="149" met="Campakamālā">
 	</lg>
+	<trailer n="Colophon" met="Prose">
+	  <p></p>
+	</trailer>
       </div>
     </body>
   </text>

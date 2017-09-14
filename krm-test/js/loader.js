@@ -19,8 +19,8 @@ function load_edition(chapter,verse) {
 	var thisVerseTranslit = $(q).find("div[n='"+chapter+"']").find("lg[n='"+verse+"']"),
 	    thisVerseKannada = $(r).find("div[n='"+chapter+"']").find("lg[n='"+verse+"']");
 	/* build the navigation elements */
-	var prev = $(thisVerseTranslit).prev("lg").attr("n")
-	var next = $(thisVerseTranslit).next("lg").attr("n")
+	var prev = $(thisVerseTranslit).prev("lg,trailer").attr("n")
+	var next = $(thisVerseTranslit).next("lg,trailer").attr("n")
 	if (prev != null) {
 	    var q = $('<a class="btn btn-primary btn-sm" href="index.html?c='+chapter+'&v='+prev+'" role="button"><span class="fa fa-chevron-left" style="font-size:18px;vertical-align:middle;line-height:1.5em;"></span><br/><span class="nav-label">'+prev+'</span></a></div>');
 	    $("#back-nav").append(q);
@@ -80,8 +80,10 @@ function load_manuscripts(chapter,verse,wit) {
 	    line = '';
 	if ($(thisVerse).prev().find("pb").last().attr("n")) {
 	    folio += $(thisVerse).prev().find("pb").last().attr("n"); 
-	} else if ($(thisVerse).parent().find("pb").last().attr("n")) {
-	    folio += $(thisVerse).parent().find("pb").last().attr("n");
+	    console.log("case 1");
+	} else if ($(thisVerse).parent().find("pb").attr("n")) {
+	    folio += $(thisVerse).parent().find("pb").attr("n");
+	    console.log("case 2");
 	} else {
 	    folio += "[No folio number available.]";
 	}

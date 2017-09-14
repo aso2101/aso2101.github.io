@@ -50,6 +50,11 @@
     </xsl:element>
   </xsl:template>
   <xsl:template match="tei:note[@type='apparatus']"/>
+  <xsl:template match="tei:p">
+    <xsl:element name="p">
+      <xsl:apply-templates/>
+    </xsl:element>
+  </xsl:template>
   <xsl:template match="tei:space[@type='binding-hole']">
     <xsl:element name="span">
       <xsl:attribute name="class">

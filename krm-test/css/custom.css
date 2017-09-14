@@ -12,6 +12,12 @@ body {
 .apparatus p {
   font-size:0.85em;
 }
+.translation h4 {
+  margin-top:15px;
+}
+.translation .lg {
+  margin:0;
+}
 
 /* For the manuscript sections */
 .folio,.lineation{color:gray;}
@@ -81,6 +87,9 @@ body {
 .krm-verse, .vnav {
   margin-top:15px;
 }
+.krm-verse {
+  padding-bottom:4em;
+}
 .scriptSelector, .sourceSelector {
   margin-top:10px;
 }
@@ -102,7 +111,7 @@ body {
       These are inline so that following
       <ref> elements can be inline with the
       last line of a verse. */
-.l {
+.l,.tr-l {
   display:block;
   line-height:1.5em;
   font-size:1.15em;
