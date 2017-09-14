@@ -69,10 +69,6 @@ function outline() {
 }
 
 function activateModals() {
-  $('.modal').on('shown.bs.modal',function(e){
-    var tab = e.relatedTarget.hash;
-    $('.nav-tabs a[href="' + tab + '"]').tab('show');
-  });
   $(".modal-close").on('click',function(e){
     $(this).closest('.modal').modal('toggle');
   });
@@ -85,6 +81,11 @@ function activateModals() {
       idtarget = $(this).attr("data-target");
       return $(idtarget).html();
     }
+  });
+  $(".met-btn").popover({
+    html:true,
+    template: '<div class="popover"><div class="arrow"></div><div class="popover-inner"><h3 class="popover-title" style="display:none;"></h3><div class="popover-content"><p></p></div></div></div>'
+
   });
   $(".app-note, .app-lem").on('click', function(e) {
       e.preventDefault(); return true;

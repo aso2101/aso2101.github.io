@@ -4,8 +4,10 @@ body {
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   padding-top:65px;
+  overflow-wrap: break-word;
   hyphens: auto;
 }
+a:hover{ text-decoration:none!important;}
 #scriptselector .btn {
   height: 34px;
   font-size:18px;
@@ -32,6 +34,10 @@ body {
 .l:last-child, .l:last-of-type {
   margin-bottom:10px;
 }
+
+.quote .l:last-child, .quote .l:last-of-type {
+  margin-bottom:0;
+}
 .lg .l .caesura:after {
   content: "\A\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0" !important;
   white-space:pre;
@@ -45,37 +51,28 @@ body {
   font-weight:bold;
 }
 .quote {
-  -moz-border-radius:4px;
-  border-radius:4px;
-  padding:4px;
-  letter-spacing:2px;
+  color:#025fb1!important;
 }
-
 .quote .l {
   -moz-border-radius:4px;
   border-radius:2px;
-  padding:2px;
-}
-..quote .l span {
-  display:inline;
-  -moz-border-radius:4px;
-  border-radius:4px;
   padding:2px;
 }
 .quote.block {
   padding-left:2em;
 }
 .ref {
-  color:#999;
-}
-.ref:before {
-  content:"[";
-}
-.ref:after {
-  content:"]";
+  color:#4d4d4d;
+  font-weight:bold;
 }
 .reference {
-  font-weight:bold;
+  color:#808080;
+}
+.reference:before {
+  content:" [";
+}
+.reference:after {
+  content:"]";
 }
 .foreign {
   font-style:italic;
@@ -98,9 +95,12 @@ body {
 /* for drama */
 .stage:before {
   content:"(";
+  padding:0 4px;
 }
 .stage:after {
   content:")";
+  padding:0 4px;
+  font-family:sans-serif;
 }
 .stage {
   margin-right:6px;
@@ -109,9 +109,10 @@ body {
 .stage-sp {
   display:inline;
 }
-.stage.division {
-  font-size:20px;
+.stage-division span {
+  font-size:200%!important;
 }
+.stage-division:before, .stage-division:after { content:""; }
 div.sp {
   display:block;
 }
