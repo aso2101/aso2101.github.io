@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
+    <!-- writes varnna and varnnisu- !-->
   </teiHeader>
   <text xml:lang="kan-Latn">
     <body>
@@ -31,9 +32,15 @@
 	  <l>prakaṭaṁ māḍire peḷda citrakṛtiyaṁ vyāvarnnisuttuṁ kavi</l>
 	  <l>prakaraṁśrīvijayaprabhūta<lb n="3"/>manidaṁ kaikoḷvudī māḷkeyaṁ || 150 || </l>
 	</lg>
-	<lg n="c">
-	  <l>idu paramaśrīnṛpatuṁgadevānumatam appa kavirājamārggadoḷ 
-<space type="binding-hole"/>doṣānuvarnanirnayaṁ prathama paricchedaṁ ||</l>
+	<trailer n="Colophon">
+	  <ab>idu paramaśrīnṛpatuṁgadevānumatam appa kavirājamārggadoḷ 
+<space type="binding-hole"/>doṣānuvarnanirnayaṁ prathama paricchedaṁ ||</ab>
+<ab><lb n="4"/>aṁtu prathamaparicchedagake kaṁda <space type="binding-hole"/>vr̥tta gitike dhrutaviḷaṁba sahitā 150 kaṁ maṁgaḷa mahā śrī śrī śrī <space type="binding-hole"/>śrī śrī śrī śrī śrī śrī śrī yyā <lb n="5"/>gagigodu yeraḍaneya paricchedadalli hadhimūraneya graṁtha || yeṁṭanevāliya aparārdhadalli prathamāgi haṁneraḍu graṁtha baradu āde ||</ab>
+	</trailer>
+      </div>
+      <div n="2">
+	<lg n="13">
+	  <l>nr̥pakanyakā</l>
 	</lg>
       </div>
     </body>

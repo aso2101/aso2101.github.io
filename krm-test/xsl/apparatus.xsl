@@ -78,13 +78,35 @@
 	</xsl:attribute>
 	<xsl:apply-templates/>
       </xsl:element>
+      <xsl:if test="@type='conj'">
+	<xsl:text> </xsl:text>
+	<xsl:element name="span">
+	  <xsl:attribute name="class">
+	    <xsl:text>rdg-comment</xsl:text>
+	  </xsl:attribute>
+	  <xsl:text>conj.</xsl:text>
+	  <xsl:if test="@resp">
+	    <xsl:text> </xsl:text>
+	    <xsl:value-of select="@resp"/>
+	  </xsl:if>
+	</xsl:element>
+      </xsl:if>
       <xsl:if test="@wit">
 	<xsl:text> </xsl:text>
 	<xsl:element name="span">
 	  <xsl:attribute name="class">
-	    <xsl:text>siglum</xsl:text>
+	    <xsl:text>siglum-ms</xsl:text>
 	  </xsl:attribute>
 	  <xsl:value-of select="translate(translate(translate(@wit,'abc','ABC'),'#',''),' ','')"/>
+	</xsl:element>
+      </xsl:if>
+      <xsl:if test="@src">
+	<xsl:text> </xsl:text>
+	<xsl:element name="span">
+	  <xsl:attribute name="class">
+	    <xsl:text>siglum-print</xsl:text>
+	  </xsl:attribute>
+	  <xsl:value-of select="translate(translate(@src,'#',''),' ','')"/>
 	</xsl:element>
       </xsl:if>
       <xsl:choose>
@@ -98,6 +120,6 @@
       </xsl:choose>
     </xsl:element>
   </xsl:template>
-  
+ 
 
 </xsl:stylesheet>

@@ -59,7 +59,7 @@ function load_translation(chapter,verse) {
     var txml = 'xml/translation.xml',
 	xslt = 'xsl/translation.xsl';
     $.when($.get(txml),$.get(xslt)).done(function(q,r) {
-	var thisVerseTrans = $(q).find("div[n='"+chapter+"']").find("lg[n='"+verse+"']"),
+	var thisVerseTrans = $(q).find("div[n='"+chapter+"']").find("lg[n='"+verse+"'],trailer[n='"+verse+"']"),
 	    content = transformXSLT(thisVerseTrans[0],r[0]);
 	$('#translation').append(content);
     });

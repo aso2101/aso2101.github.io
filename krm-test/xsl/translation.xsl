@@ -9,6 +9,11 @@
       <xsl:apply-templates/>
     </xsl:element>
   </xsl:template>
+  <xsl:template match="tei:foreign">
+    <xsl:element name="em">
+      <xsl:apply-templates/>
+    </xsl:element>
+  </xsl:template>
   <xsl:template match="tei:hi">
     <xsl:element name="em">
       <xsl:apply-templates/>
@@ -48,7 +53,7 @@
       <xsl:apply-templates/>
     </xsl:element>
   </xsl:template>
-  <xsl:template name="tei:p">
+  <xsl:template match="tei:p">
     <xsl:element name="p">
       <xsl:apply-templates/>
     </xsl:element>

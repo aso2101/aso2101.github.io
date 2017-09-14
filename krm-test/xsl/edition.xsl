@@ -41,6 +41,14 @@
       <xsl:apply-templates/>
     </xsl:element>
   </xsl:template>
+  <xsl:template match="tei:lb[not(parent::tei:add)]">
+    <xsl:element name="span">
+      <xsl:attribute name="class">
+	<xsl:text>lineation</xsl:text>
+      </xsl:attribute>
+      <xsl:value-of select="@n"/>
+    </xsl:element>
+  </xsl:template>
   <xsl:template match="tei:lg">
     <xsl:element name="div">
       <xsl:attribute name="class">
@@ -53,6 +61,14 @@
   <xsl:template match="tei:p">
     <xsl:element name="p">
       <xsl:apply-templates/>
+    </xsl:element>
+  </xsl:template>
+  <xsl:template match="tei:pb">
+    <xsl:element name="span">
+      <xsl:attribute name="class">
+	<xsl:text>foliation</xsl:text>
+      </xsl:attribute>
+      <xsl:value-of select="@n"/>
     </xsl:element>
   </xsl:template>
   <xsl:template match="tei:space[@type='binding-hole']">

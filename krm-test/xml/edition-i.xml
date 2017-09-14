@@ -74,9 +74,33 @@
 	  </note>
 	</lg>
 	<lg n="149" met="Campakamālā">
+	  <l>sakaḷāḷāpakaḷākaḷāpakakathitavyāvr̥ttiyoḷ kūḍi ci-</l>
+	  <l>trakaraṁbol parabhāgabhāvaviḷasadvarṇakramāvr̥ttiyaṁ</l>
+	  <l>prakaṭaṁ māḍire pēḻda citrakr̥tiyaṁ vyāvarṇisuttaṁ kavi</l>
+	  <l>prakaraṁ śrīvijayaprabhūtaman idaṁ kaikoḷvud’ ī māḻkeyaṁ</l>
+	  <note type="apparatus">
+	    <listApp>
+	      <app loc="a" type="boring">
+		<lem wit="#b #c">-kaḷākaḷāpaka-</lem>
+		<rdg wit="#a">-kaḷāpaka-</rdg>
+	      </app>
+	      <app loc="b" type="boring">
+		<lem wit="#a #c">parabhāgabhāvavilasad-</lem>
+		<rdg wit="#b">parabhāvaviḷāsad</rdg>
+	      </app>
+	      <app loc="c">
+		<lem wit="#a #c">vyāvarṇisuttaṁ</lem>
+		<rdg wit="#b">vyāvarnnisuttuṁ</rdg>
+	      </app>
+	      <app loc="d">
+		<lem wit="#a #b #c">māḻkeyaṁ</lem>
+		<rdg src="#P #M #S #K #V" type="conj">māḻkeyiṁ</rdg>
+	      </app>
+	    </listApp>
+	  </note>
 	</lg>
 	<trailer n="Colophon" met="Prose">
-	  <p></p>
+	  <ab>idu param-anr̥patuṅga-dēvānumatam appa kavirājamārgadoḷ prathama-paricchēdaṁ |</ab>
 	</trailer>
       </div>
     </body>

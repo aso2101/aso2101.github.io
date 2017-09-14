@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
+    <!-- writes ru for r̥ !-->
   </teiHeader>
   <text xml:lang="kan-Latn">
     <body>
@@ -31,6 +32,10 @@
 	  <l>prakaṭaṁmāḍirepeḷdacitrakrutiyaṁvyāvarṇṇisuttaṁkavi</l>
 	  <l>prakaraśrīvijayaprabhūtamanidaṁkaikoḷvudimāḷkeyaṁ || 150 ||</l>
 	</lg>
+	<trailer n="Colophon">
+	  <ab>gadya || yadu paramaśrīnrupatuṁgadevā<lb n="2"/>numatam appa kavirājamārggadoḷdoṣādoṣānuvarṇnananirnnayaṁ prathamaparicchedaḥ ||</ab>
+	  <ab>maṁgaḷa mahā śrī śrī śrī śrī śrī śrī śrī śrī śrī śrī śrī śrī śrī ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ rastu ||</ab>
+	</trailer>
       </div>
     </body>
   </text>
