@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Grammar | Vr̥ddhiḥ</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Grammar" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Sanskrit at the University of Chicago" />
+<meta property="og:description" content="Sanskrit at the University of Chicago" />
+<link rel="canonical" href="http://localhost:4000/vrddhi/grammar/" />
+<meta property="og:url" content="http://localhost:4000/vrddhi/grammar/" />
+<meta property="og:site_name" content="Vr̥ddhiḥ" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Grammar" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Sanskrit at the University of Chicago","headline":"Grammar","url":"http://localhost:4000/vrddhi/grammar/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/vrddhi/assets/css/main.css"/>
+  <link rel="stylesheet" href="/vrddhi/assets/css/readings.css"/>
+  <script src="https://kit.fontawesome.com/131949e24a.js" crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/vrddhi/feed.xml" title="Vr̥ddhiḥ" /></head>
+<body><nav class="navbar navbar-light navbar-expand-md sticky-top">
+  <div class="container">
+    <div class="borders"></div>
+    <a class="navbar-brand mx-2" href="/vrddhi/">
+      <img width="200px" src="/vrddhi/assets/img/logo-alt.png"/>
+    </a>
+
+    <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarContent">
+ 
+      <ul class="navbar-nav mx-4">
+	<li class="nav-item">
+	  <a class="d-flex flex-column nav-button text-center" href="/vrddhi/course/">
+	    Lessons<br/>
+	    <span class="translit">adhyayanam</span></a>
+	</li>
+	
+	<div class="mx-auto my-auto">
+	  <img width="15px" src="/vrddhi/assets/img/mathura_fleuron_01.svg"></img>
+	</div>
+	<li class="nav-item">
+	  <a class="d-flex flex-column nav-button text-center" href="/vrddhi/grammar/">
+	    Grammar<br/>
+	    <span class="translit">vyākaraṇam</span></a>
+	</li>
+	
+	<div class="mx-auto my-auto">
+	  <img width="15px" src="/vrddhi/assets/img/mathura_fleuron_01.svg"></img>
+	</div>
+	<li class="nav-item">
+	  <a class="d-flex flex-column nav-button text-center" href="/vrddhi/readings/">
+	    Readings<br/>
+	    <span class="translit">pāṭhāḥ</span></a>
+	</li>
+	
+	<div class="mx-auto my-auto">
+	  <img width="15px" src="/vrddhi/assets/img/mathura_fleuron_01.svg"></img>
+	</div>
+	<li class="nav-item">
+	  <a class="d-flex flex-column nav-button text-center" href="/vrddhi/meter/">
+	    Meters<br/>
+	    <span class="translit">chandaḥ</span></a>
+	</li>
+	
+	<div class="mx-auto my-auto">
+	  <img width="15px" src="/vrddhi/assets/img/mathura_fleuron_01.svg"></img>
+	</div>
+	<li class="nav-item">
+	  <a class="d-flex flex-column nav-button text-center" href="/vrddhi/resources/">
+	    Resources<br/>
+	    <span class="translit">upāyāḥ</span></a>
+	</li>
+	</ul><div class="dropdown mx-auto my-3" style="width:4rem;">
+  <button class="btn btn-sm btn-grey dropdown-toggle" type="button" id="transliterationButton" data-toggle="dropdown" title="Transliteration options" aria-haspopup="true" aria-expanded="false">
+    <img src="/vrddhi/assets/img/transliterate.svg" width="20px"/>
+  </button>
+  <div class="dropdown-menu dropdown-menu-right dropdown-menu-twocolumn" aria-labelledby="transliterationButton">
+    <div class="row">
+      <div class="col-md-6">
+	<a class="dropdown-item disabled" id="options-info">Transliteration options</a>
+	<a class="dropdown-item translitSelector" href="javascript:void(0);" id="translitOnlyIndic" onclick="translitOptions(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span class="translit-only-indic" data-original="vāk">vāk</span>
+	    <small><span class="text-muted">Indic text</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item translitSelector" href="javascript:void(0);" id="translitOnlyRoman" onclick="translitOptions(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <i>vāk</i>
+	    <div><small><span class="text-muted">Roman text</span></small></div>
+	  </div>
+	</a>
+	<a class="dropdown-item translitSelector" href="javascript:void(0);" id="translitRomanIndic" onclick="translitOptions(this)" >
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span><i>vāk</i> <span class="translit-only-indic" data-original="vāk">vāk</span></span>
+	    <small><span class="text-muted">Roman + Indic</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item translitSelector" href="javascript:void(0);" id="translitIndicRoman" onclick="translitOptions(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span><span class="translit-only-indic" data-original="vāk">vāk</span> <i>vāk</i></span>
+	    <small><span class="text-muted">Indic + Roman</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item translitSelector" href="javascript:void(0);" id="translitIndicRomanTooltips" onclick="translitOptions(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span style="text-decoration;text-decoration:underline dotted;"><span class="translit-only-indic" data-original="vāk">vāk</span></span>
+	    <small><span class="text-muted">Indic + Roman tooltips</span></small> 
+	  </div>
+	</a>
+	<a class="dropdown-item translitSelector" href="javascript:void(0);" id="translitRomanIndicTooltips" onclick="translitOptions(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span><span style="text-decoration;text-decoration:underline dotted;">vāk</span></span>
+	    <small><span class="text-muted">Roman (Indic tooltips)</span></small>
+	  </div>
+	</a>
+      </div>
+      <div class="col-md-6">
+	<a class="dropdown-item disabled" id="scripts-info">Indic scripts</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Deva" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span class="Deva">देवनागरी</span>
+	    <small><span class="text-muted">Dēvanāgarī</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Knda" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span class="Knda">ಕನ್ನಡ</span>
+	    <small><span class="text-muted">Kannaḍa</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Telu" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span>తెలుగు</span>
+	    <small><span class="text-muted">Telugu</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Mlym" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span>മലയാളം</span>
+	    <small><span class="text-muted">Malayāḷaṁ</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Beng" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span>বাংলা</span>
+	    <small><span class="text-muted">Bāṅlā</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Gujr" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span>ગુજરાતી</span>
+	    <small><span class="text-muted">Gujarātī</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Gran" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span class="Gran">𑌗𑍍𑌰𑌨𑍍𑌥</span>
+	    <small><span class="text-muted">Grantha</span></small>
+	  </div>
+	</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    <div class="borders"></div>
+
+  </div>
+</nav>
+<main class="page-content" aria-label="Content">
+        <section class="jumbotron text-center">
+  <div class="container">
+    <div class="d-inline-flex">
+      <div>
+	<img width="100px" src="/vrddhi/assets/img/bracketfleuron1-left.svg"></img>
+      </div>
+      <div class="d-flex flex-column mx-4">
+	<h1 class="jumbotron-heading translit">vyākaraṇam</h1>
+	<h1 class="jumbotron-heading english">Grammar</h1>
+      </div>
+      <div>
+	<img width="100px" src="/vrddhi/assets/img/bracketfleuron1-right.svg"></img>
+      </div>
+    </div>
+    <p class="mb-4"></p>
+  </div>
+</section>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <p>I have put together a <b>grammar</b> of Sanskrit, organized by topic, for use in this course. It is called <span class="translit">Adhyayanavidhiḥ</span>, which means “a way of studying” (and also the term for the “injunction to study” found in the <i>Upaniṣads</i>). The grammar can be accessed in HTML form, through the <a href="#table-of-contents">table of contents</a> below, as well as in PDF form (with Sanskrit words in <a href="/vrddhi/assets/pdf/av-iso.pdf">Roman transliteration</a> and <a href="/vrddhi/assets/pdf/av-deva.pdf">Dēvanāgarī</a>). Note that the PDF is only current as of the date shown on the first page; I will be adding to the grammar periodically, so check back for updates. </p>
+      <p>There is also a <a href="#glossary">glossary of grammatical terms</a> at the bottom of this page.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col"><a id="table-of-contents"></a>
+      <h3>Table of Contents</h3>
+      <ul id="nav-toc-main">
+   <li><a href="chapter-1">1. Phonology</a><ul>
+         <li><a href="chapter-1/index.html#speech-sounds">§1. Basic concepts</a><ul>
+               <li><a href="chapter-1/index.html#phonemes">§1.1. Phonemes</a></li>
+               <li><a href="chapter-1/index.html#features">§1.2. Features</a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-1/index.html#vowels">§2. Vowels</a><ul>
+               <li><a href="chapter-1/index.html#gradation">§2.1. Vowel gradation</a></li>
+               <li><a href="chapter-1/index.html#vowellength">§2.2. Vowel length</a></li>
+               <li><a href="chapter-1/index.html#pitch">§2.3. Vowel pitch</a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-1/index.html#consonants">§3. Consonants</a><ul>
+               <li><a href="chapter-1/index.html#occlusives">§3.1. Occlusives </a></li>
+               <li><a href="chapter-1/index.html#approximants">§3.2. Approximants </a></li>
+               <li><a href="chapter-1/index.html#fricatives">§3.3. Fricatives </a></li>
+               <li><a href="chapter-1/index.html#ayogavaha">§3.4. Dependent sounds </a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-1/index.html#phonemes">§4. Phonemes</a><ul>
+               <li><a href="chapter-1/index.html#sivasutras">§4.1. The <i>Śivasūtras</i></a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-1/index.html#syllables">§5. Syllables </a><ul>
+               <li><a href="chapter-1/index.html#weight">§5.1. Weight</a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-1/index.html#words">§6. Words </a><ul>
+               <li><a href="chapter-1/index.html#accent">§6.1. Accent </a></li>
+               <li><a href="chapter-1/index.html#vowelgradation">§6.2. Vowel gradation</a></li>
+               <li><a href="chapter-1/index.html#nasalgradation">§6.3. Vowel gradation with nasals</a></li>
+               <li><a href="chapter-1/index.html#laryngealgradation">§6.4. Vowel gradation with laryngeals</a></li>
+               <li><a href="chapter-1/index.html#samprasaranam">§6.5. <i>Saṁprasā́raṇam</i></a></li>
+               <li><a href="chapter-1/index.html#nvrddhi">§6.6. <i>Ṇ-vŕ̥ddhiḥ</i></a></li>
+               <li><a href="chapter-1/index.html#independentwords">§6.7. Independent words, enclitics, and proclitics</a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-1/index.html#sandhi">§7. Phonotactics </a><ul>
+               <li><a href="chapter-1/index.html#internal-external-sandhi">§7.1. Internal and external <i>sandhi</i></a></li>
+               <li><a href="chapter-1/index.html#permitted-finals">§7.2. Word-final sounds</a></li>
+               <li><a href="chapter-1/index.html#pausa-forms">§7.3. Utterance-final sounds</a></li>
+               <li><a href="chapter-1/index.html#external-consonant-sandhi">§7.4. External consonant <i>sandhiḥ</i></a></li>
+               <li><a href="chapter-1/index.html#visargasandhi">§7.5. <i>Visargasandhiḥ</i></a></li>
+               <li><a href="chapter-1/index.html#internalconsonantsandhi-voice">§7.6. Internal consonant <i>sandhiḥ</i>: Voice</a></li>
+               <li><a href="chapter-1/index.html#internalconsonantsandhi-aspiration">§7.7. Internal consonant <i>sandhiḥ</i>: Aspiration</a></li>
+               <li><a href="chapter-1/index.html#internalconsonantsandhi-retroflexion">§7.8. Internal consonant <i>sandhiḥ</i>: Retroflexion</a></li>
+               <li><a href="chapter-1/index.html#internalconsonantsandhi-palatals">§7.9. Internal consonant <i>sandhíḥ</i>: Depalatalization</a></li>
+               <li><a href="chapter-1/index.html#internalconsonantsandhi-nasals">§7.10. Internal consonant <i>sandhíḥ</i>: Assimilation of nasals</a></li>
+               <li><a href="chapter-1/index.html#vowelsandhi">§7.11. Combinations of vowels</a></li>
+               <li><a href="chapter-1/index.html#vowelsandhi-synhaeresis">§7.12. Combinations of vowels: synhaeresis</a></li>
+               <li><a href="chapter-1/index.html#vowelsandhi-diphthongization">§7.13. Combinations of vowels: diphthongization</a></li>
+               <li><a href="chapter-1/index.html#vowelsandhi-glideformation">§7.14. Combinations of vowels: glide formation</a></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+   <li><a href="chapter-2">2. Nominal Morphology</a><ul>
+         <li><a href="chapter-2/index.html#nominals">§8. Nominals</a><ul>
+               <li><a href="chapter-2/index.html#stemandending">§8.1. Stems and ending</a></li>
+               <li><a href="chapter-2/index.html#gender">§8.2. Gender </a></li>
+               <li><a href="chapter-2/index.html#number">§8.3. Number </a></li>
+               <li><a href="chapter-2/index.html#case">§8.4. Case </a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-2/index.html#endings">§9. Endings</a><ul>
+               <li><a href="chapter-2/index.html#strongweak">§9.1. Accent; “strong” and “weak” cases</a></li>
+               <li><a href="chapter-2/index.html#nominative">§9.2. First or nominative case </a></li>
+               <li><a href="chapter-2/index.html#accusative">§9.3. Second or accusative case </a></li>
+               <li><a href="chapter-2/index.html#instrumental">§9.4. Third or instrumental case </a></li>
+               <li><a href="chapter-2/index.html#dative">§9.5. Fourth or dative case </a></li>
+               <li><a href="chapter-2/index.html#ablative">§9.6. Fifth or ablative case </a></li>
+               <li><a href="chapter-2/index.html#genitive">§9.7. Sixth or genitive case </a></li>
+               <li><a href="chapter-2/index.html#locative">§9.8. Seventh or locative case </a></li>
+               <li><a href="chapter-2/index.html#vocative">§9.9. The vocative </a></li>
+               <li><a href="chapter-2/index.html#additional-case-forms">§9.10. The suffix <i>tasI</i></a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-2/index.html#rootnouns">§10. Root nouns</a></li>
+         <li><a href="chapter-2/index.html#ajanta">§11. Stems ending in vowels</a><ul>
+               <li><a href="chapter-2/index.html#a-stems">§11.1. Stems ending in <i>-a</i> </a></li>
+               <li><a href="chapter-2/index.html#idanta">§11.2. Stems ending in <i>-i</i> </a></li>
+               <li><a href="chapter-2/index.html#udanta">§11.3. Stems ending in <i>-u</i> </a></li>
+               <li><a href="chapter-2/index.html#aa-stems">§11.4. Stems ending in <i>-ā</i> </a></li>
+               <li><a href="chapter-2/index.html#iidanta">§11.5. Stems ending in <i>-ī</i> </a></li>
+               <li><a href="chapter-2/index.html#uudanta">§11.6. Stems ending in <i>-ū</i> </a></li>
+               <li><a href="chapter-2/index.html#r">§11.7. Stems ending in <i>-r̥</i> </a></li>
+               <li><a href="chapter-2/index.html#ej-stems">§11.8. Stems ending in diphthongs</a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-2/index.html#halanta">§12. Stems ending in consonants </a><ul>
+               <li><a href="chapter-2/index.html#s">§12.1. Stems ending in <i>-s</i></a></li>
+               <li><a href="chapter-2/index.html#n">§12.2. Stems ending in <i>-n</i></a></li>
+               <li><a href="chapter-2/index.html#t">§12.3. Stems ending in <i>-t</i> and <i>-d</i></a></li>
+               <li><a href="chapter-2/index.html#palatals">§12.4. Stems ending in palatals</a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-2/index.html#pronouns">§13. Pronouns</a><ul>
+               <li><a href="chapter-2/index.html#personal-pronouns">§13.1. Personal pronouns</a></li>
+               <li><a href="chapter-2/index.html#ta-ya-ka">§13.2. The <i>tá-</i>/<i>yá-</i>/<i>ká-</i> series</a></li>
+               <li><a href="chapter-2/index.html#idam">§13.3. The demonstrative stem <i>idám</i></a></li>
+               <li><a href="chapter-2/index.html#adas">§13.4. The demonstrative stem <i>adás</i></a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-2/index.html#numerals">§14. Numerals</a><ul>
+               <li><a href="chapter-2/index.html#cardinals">§14.1. Cardinal numbers</a></li>
+               <li><a href="chapter-2/index.html#ordinals">§14.2. Ordinals</a></li>
+               <li><a href="chapter-2/index.html#bhutasamkhya">§14.3. The <i>bhūtasaṁkhyā</i> system</a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-2/index.html#adjectives">§15. Adjectives</a><ul>
+               <li><a href="chapter-2/index.html#comparison">§15.1. Comparison of adjectives</a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-2/index.html#adverbs">§16. Adverbs</a><ul>
+               <li><a href="chapter-2/index.html#case-forms">§16.1. Regular case-forms used adverbially</a></li>
+               <li><a href="chapter-2/index.html#special-forms">§16.2. Special adverbial forms</a></li>
+               <li><a href="chapter-2/index.html#tasi">§16.3. The suffix <i>tasI</i></a></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+   <li><a href="chapter-3">3. Verbal Morphology</a><ul>
+         <li><a href="chapter-3/index.html#verbals">§17. Verbs</a><ul>
+               <li><a href="chapter-3/index.html#roots">§17.1. Verbal roots</a></li>
+               <li><a href="chapter-3/index.html#set-anit">§17.2. <i>Sēṭ</i> and <i>Aniṭ</i> roots</a></li>
+               <li><a href="chapter-3/index.html#tense-mood">§17.3. Tenses and moods</a></li>
+               <li><a href="chapter-3/index.html#lakara">§17.4. <i>lakārāḥ</i></a></li>
+               <li><a href="chapter-3/index.html#person">§17.5. Person </a></li>
+               <li><a href="chapter-3/index.html#number-verb">§17.6. Number </a></li>
+               <li><a href="chapter-3/index.html#voice">§17.7. Diathesis or voice</a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-3/index.html#tin">§18. Verbal endings </a><ul>
+               <li><a href="chapter-3/index.html#parasmaipad%C3%A1m">§18.1. <i>Parasmaipadám</i> endings</a></li>
+               <li><a href="chapter-3/index.html#atmanepadam">§18.2. <i>Ātmanēpadám</i> endings</a></li>
+               <li><a href="chapter-3/index.html#lin-endings">§18.3. The optative suffix</a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-3/index.html#augment">§19. The past-tense augment</a></li>
+         <li><a href="chapter-3/index.html#present-system">§20. The present system</a><ul>
+               <li><a href="chapter-3/index.html#bhvadi">§20.1. The first class </a></li>
+               <li><a href="chapter-3/index.html#adadi">§20.2. The second class </a></li>
+               <li><a href="chapter-3/index.html#hvadi">§20.3. The third class </a></li>
+               <li><a href="chapter-3/index.html#divadi">§20.4. The fourth class </a></li>
+               <li><a href="chapter-3/index.html#svadi">§20.5. The fifth class </a></li>
+               <li><a href="chapter-3/index.html#tudadi">§20.6. The sixth class </a></li>
+               <li><a href="chapter-3/index.html#rudhadi">§20.7. The seventh class </a></li>
+               <li><a href="chapter-3/index.html#tanadi">§20.8. The eighth class </a></li>
+               <li><a href="chapter-3/index.html#kryadi">§20.9. The ninth class </a></li>
+               <li><a href="chapter-3/index.html#curadi">§20.10. The tenth class </a></li>
+               <li><a href="chapter-3/index.html#yaK">§20.11. The passive/impersonal of the present system </a></li>
+               <li><a href="chapter-3/index.html#satr-1">§20.12. The present participle</a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-3/index.html#perfect">§21. The perfect system</a><ul>
+               <li><a href="chapter-3/index.html#lit-reduplication">§21.1. Reduplication</a></li>
+               <li><a href="chapter-3/index.html#lit-endings">§21.2. Endings</a></li>
+               <li><a href="chapter-3/index.html#">§21.3. Vowel gradation</a></li>
+               <li><a href="chapter-3/index.html#weak-stem-perfect">§21.4. The weak stem</a></li>
+               <li><a href="chapter-3/index.html#strong-stem-perfect">§21.5. The strong stem</a></li>
+               <li><a href="chapter-3/index.html#perfect-paradigms">§21.6. Paradigms</a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-3/index.html#aorist">§22. The aorist systems</a><ul>
+               <li><a href="chapter-3/index.html#sic">§22.1. The sigmatic aorists</a></li>
+               <li><a href="chapter-3/index.html#ksa">§22.2. The <i>sa</i>-aorist </a></li>
+               <li><a href="chapter-3/index.html#root-aorist">§22.3. The root aorist</a></li>
+               <li><a href="chapter-3/index.html#an">§22.4. The thematic aorist </a></li>
+               <li><a href="chapter-3/index.html#caN">§22.5. The reduplicated aorist </a></li>
+               <li><a href="chapter-3/index.html#cin">§22.6. The passive aorist </a></li>
+               <li><a href="chapter-3/index.html#injunctive">§22.7. The injunctive</a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-3/index.html#future">§23. The futures</a><ul>
+               <li><a href="chapter-3/index.html#lrt">§23.1. The future </a></li>
+               <li><a href="chapter-3/index.html#lut">§23.2. The periphrastic future </a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-3/index.html#secondary">§24. Secondary verbs </a><ul>
+               <li><a href="chapter-3/index.html#causative">§24.1. The causative</a></li>
+               <li><a href="chapter-3/index.html#desiderative">§24.2. The desiderative </a></li>
+               <li><a href="chapter-3/index.html#intensive">§24.3. The intensive</a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-3/index.html#denominative">§25. Denominal verbs</a><ul>
+               <li><a href="chapter-3/index.html#cvi">§25.1. Compounded verbs </a></li>
+               <li><a href="chapter-3/index.html#namadhatu">§25.2. Denominative verbs </a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-3/index.html#gati">§26. Verbal prefixes </a><ul>
+               <li><a href="chapter-3/index.html#upasarga">§26.1. Preverbs </a></li>
+               <li><a href="chapter-3/index.html#other-prefixes">§26.2. Other verbal prefixes</a></li>
+               <li><a href="chapter-3/index.html#cvi">§26.3. “Honorary prefixes” </a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-3/index.html#infinitive">§27. The infinitive</a></li>
+         <li><a href="chapter-3/index.html#converbs">§28. The converb</a><ul>
+               <li><a href="chapter-3/index.html#ktva">§28.1. <i>-tvā́</i> </a></li>
+               <li><a href="chapter-3/index.html#lyap">§28.2. <i>-ya</i> </a></li>
+               <li><a href="chapter-3/index.html#namul">§28.3. <i>-am</i> </a></li>
+               <li><a href="chapter-3/index.html#converb-negation">§28.4. Negating the converb</a></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+   <li><a href="chapter-4">4. Indeclinables</a><ul>
+         <li><a href="chapter-4/index.html#">§29. Particles</a><ul>
+               <li><a href="chapter-4/index.html#api">§29.1. <i>ápi</i></a></li>
+               <li><a href="chapter-4/index.html#iva">§29.2. <i>iva</i></a></li>
+               <li><a href="chapter-4/index.html#eva">§29.3. <i>ēvá</i></a></li>
+               <li><a href="chapter-4/index.html#ca">§29.4. <i>ca</i></a></li>
+               <li><a href="chapter-4/index.html#tavat">§29.5. <i>tā́vat</i></a></li>
+               <li><a href="chapter-4/index.html#tu">§29.6. <i>tu</i></a></li>
+               <li><a href="chapter-4/index.html#na">§29.7. <i>na</i></a></li>
+               <li><a href="chapter-4/index.html#punar">§29.8. <i>púnar</i></a></li>
+               <li><a href="chapter-4/index.html#ma">§29.9. <i>mā́</i></a></li>
+               <li><a href="chapter-4/index.html#va">§29.10. <i>vā</i></a></li>
+               <li><a href="chapter-4/index.html#sma">§29.11. <i>sma</i></a></li>
+               <li><a href="chapter-4/index.html#h%C4%93">§29.12. <i>hē</i></a></li>
+               <li><a href="chapter-4/index.html#r%C4%93">§29.13. <i>rē</i></a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-4/index.html#adpositions">§30. Adpositions </a><ul>
+               <li><a href="chapter-4/index.html#alam">§30.1. <i>álam</i></a></li>
+               <li><a href="chapter-4/index.html#ang">§30.2. <i>ā́</i></a></li>
+               <li><a href="chapter-4/index.html#prati">§30.3. <i>práti</i></a></li>
+               <li><a href="chapter-4/index.html#saha">§30.4. <i>sahá</i></a></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+   <li><a href="chapter-5">5. Derivational Suffixes</a><ul>
+         <li><a href="chapter-5/index.html#">§31. Derivation</a></li>
+         <li><a href="chapter-5/index.html#">§32. Primary derivational suffixes </a></li>
+         <li><a href="chapter-5/index.html#nistha">§33. Past verbal adjectives </a><ul>
+               <li><a href="chapter-5/index.html#kta">§33.1. The past passive participle </a></li>
+               <li><a href="chapter-5/index.html#ktavatu">§33.2. The past active participle </a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-5/index.html#krtya">§34. Future verbal adjectives</a><ul>
+               <li><a href="chapter-5/index.html#tavya">§34.1. <i>tavya</i> and <i>tavyaT</i></a></li>
+               <li><a href="chapter-5/index.html#nyat">§34.2. <i>yaT</i> and <i>ṆyaT</i></a></li>
+               <li><a href="chapter-5/index.html#kyap">§34.3. <i>KyaP</i></a></li>
+               <li><a href="chapter-5/index.html#aniyar">§34.4. <i>anīyaR</i></a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-5/index.html#agentnouns">§35. Agent nouns</a><ul>
+               <li><a href="chapter-5/index.html#nini">§35.1. <i>ṆinI</i></a></li>
+               <li><a href="chapter-5/index.html#nvul">§35.2. <i>ṆvuL</i></a></li>
+               <li><a href="chapter-5/index.html#lyu">§35.3. <i>Lyu</i></a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-5/index.html#action-nouns">§36. Action nouns</a><ul>
+               <li><a href="chapter-5/index.html#ktin">§36.1. <i>KtiN</i></a></li>
+               <li><a href="chapter-5/index.html#lyut">§36.2. <i>LyuṬ</i></a></li>
+               <li><a href="chapter-5/index.html#ghan">§36.3. <i>GHaÑ</i></a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-5/index.html#taddhita">§37. Secondary derivational suffixes </a></li>
+         <li><a href="chapter-5/index.html#striipratyaya">§38. Feminine stem forming suffixes </a></li>
+         <li><a href="chapter-5/index.html#abstract-nouns">§39. Abstract nouns</a></li>
+         <li><a href="chapter-5/index.html#possessive-adjectives">§40. Possessives</a><ul>
+               <li><a href="chapter-5/index.html#ini">§40.1. <i>iṇI</i></a></li>
+               <li><a href="chapter-5/index.html#matup">§40.2. <i>matUP</i> and <i>vatUP</i></a></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+   <li><a href="chapter-6">6. Syntax</a><ul>
+         <li><a href="chapter-6/index.html#">§41. The sentence</a><ul>
+               <li><a href="chapter-6/index.html#nominal-sentences">§41.1. Nominal sentences</a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-6/index.html#karaka">§42. Semantic roles </a></li>
+         <li><a href="chapter-6/index.html#case-usage">§43. Case usages</a><ul>
+               <li><a href="chapter-6/index.html#nominative-use">§43.1. The nominative </a></li>
+               <li><a href="chapter-6/index.html#accusative-use">§43.2. The accusative </a></li>
+               <li><a href="chapter-6/index.html#instrumental-use">§43.3. The instrumental </a></li>
+               <li><a href="chapter-6/index.html#dative-use">§43.4. The dative </a></li>
+               <li><a href="chapter-6/index.html#ablative-use">§43.5. The ablative </a></li>
+               <li><a href="chapter-6/index.html#genitive-use">§43.6. The genitive </a></li>
+               <li><a href="chapter-6/index.html#locative-use">§43.7. The locative </a></li>
+               <li><a href="chapter-6/index.html#vocative-use">§43.8. The vocative </a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-6/index.html#">§44. The agentive, patientive, and impersonal constructions </a></li>
+         <li><a href="chapter-6/index.html#subordination">§45. Subordinate clauses</a><ul>
+               <li><a href="chapter-6/index.html#restrictive-relative-clauses">§45.1. Restrictive relative clauses</a></li>
+               <li><a href="chapter-6/index.html#distributive-relative-clauses">§45.2. Distributive relative clauses</a></li>
+               <li><a href="chapter-6/index.html#multiple-relativizers">§45.3. Multiple relativizers</a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-6/index.html#complementation">§46. Complement clauses</a></li>
+         <li><a href="chapter-6/index.html#syntax-participles">§47. The syntax of participles</a></li>
+         <li><a href="chapter-6/index.html#absolute">§48. Absolute constructions</a></li>
+      </ul>
+   </li>
+   <li><a href="chapter-7">7. Nominal composition</a><ul>
+         <li><a href="chapter-7/index.html#compounds-introduction">§49. Introduction</a></li>
+         <li><a href="chapter-7/index.html#endocentric">§50. Endocentric compounds</a><ul>
+               <li><a href="chapter-7/index.html#vibhaktitatpurusa">§50.1. Case compounds</a></li>
+               <li><a href="chapter-7/index.html#karmadharaya">§50.2. Coreferential compounds</a></li>
+               <li><a href="chapter-7/index.html#upapada">§50.3. Governing compounds</a></li>
+               <li><a href="chapter-7/index.html#avyayibhava">§50.4. Adpositional compounds</a></li>
+            </ul>
+         </li>
+         <li><a href="chapter-7/index.html#dvandva">§51. Coordinative compounds </a></li>
+         <li><a href="chapter-7/index.html#bahuvrihi">§52. Exocentric compounds </a></li>
+         <li><a href="chapter-7/index.html#samasanta">§53. Compound-final suffixes </a></li>
+      </ul>
+   </li>
+</ul>
+    </div>
+  </div>
+
+  <div class="row mb-5">
+    <div class="col"><a id="glossary"></a>
+      <h3>Grammatical Terms</h3>
+      <p>This is a list of some of the grammatical terms you’ll probably encounter in this course. I highly recommend Steve Collins’ <a href="https://canvas.uchicago.edu/courses/30879/files/folder/Supplemental%20materials?preview=4010899" target="_blank">Appendix</a> of <b>English Grammatical Terms</b> in his Pali Grammar.</p>
+      
+      <div class="border-bottom mb-4">
+	<h4>General</h4>
+          
+	  <p>These are general terms which apply to various aspects of Sanskrit grammar.</p>
+	  
+	  
+	  
+	  <p class="h6">
+	    <a id="angam"></a><b><span class="translit">aṅgam</span> = base</b>
+	  </p>
+	  <p class="ml-4">
+	    That to which an <a href='#pratyayah'>affix</a> is added. A base can be nominal (see <a href='#pratipadikam'>nominal stem</a>) or verbal. This is a synonym of <a href='#prakrtih'>prakr̥tiḥ</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="bahuvacanam-n"></a><b><span class="translit">bahuvacanam</span> = plural</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="dvivacanam-n"></a><b><span class="translit">dvivacanam</span> = dual</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="nipatah"></a><b><span class="translit">nipātaḥ</span> = particle</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="prakrtih"></a><b><span class="translit">prakr̥tiḥ</span> = base</b>
+	  </p>
+	  <p class="ml-4">
+	    That to which an <a href='#pratyayah'>affix</a> is added. A base can be nominal (see <a href='#pratipadikam'>nominal stem</a>) or verbal. This is a synonym of <a href='#angam'>aṅgam</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="pratyayah"></a><b><span class="translit">pratyayaḥ</span> = affix</b>
+	  </p>
+	  <p class="ml-4">
+	    That which is added to <a href='#prakrtih'>base</a>. Typically an affix follows its base, and hence it can be described as a suffix.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="samanadhikaranah"></a><b><span class="translit">samānādhikaraṇaḥ</span> = coreferential</b>
+	  </p>
+	  <p class="ml-4">
+	    Literally “having the same substrate.” Two linguistic forms are coreferential if they identify the same entity. See also <a href='#vyadhikaranah'>non-coreferential</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="samkhya"></a><b><span class="translit">saṅkhyā</span> = number</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="vyadhikaranah"></a><b><span class="translit">vyadhikaraṇaḥ</span> = non-coreferential</b>
+	  </p>
+	  <p class="ml-4">
+	    The opposite of <a href='#samanadhikaranah'>coreferential</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="ekavacanam-n"></a><b><span class="translit">ēkavacanam</span> = singular</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+      </div>
+      
+      <div class="border-bottom mb-4">
+	<h4>Phonology</h4>
+          
+	  
+	  
+	  
+	  
+	  <p class="h6">
+	    <a id="ac"></a><b><span class="translit">a<span class='anu'>C</span></span> = vowel</b>
+	  </p>
+	  <p class="ml-4">
+	    Pāṇini’s abbreviation for <a href='#svarah'>vowels</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="aghosa"></a><b><span class="translit">aghōṣaḥ</span> = voiceless</b>
+	  </p>
+	  <p class="ml-4">
+	    A phoneme that is pronounced without <a href='#ghosah'>voicing</a>. This includes half of the <a href='#sparsah'>stop</a> consonants, and all of the <a href='#usman'>sibilants</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="alpapranah"></a><b><span class="translit">alpaprāṇaḥ</span> = unaspirated</b>
+	  </p>
+	  <p class="ml-4">
+	    Literally “with small <a href='#pranah'>aspiration</a>.” Half of the <a href='#sparsa'>stop</a> consonants are unaspirated.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="antahsthah"></a><b><span class="translit">antaḥsthaḥ</span> = semivowel</b>
+	  </p>
+	  <p class="ml-4">
+	    Literally “standing between [vowels and consonants].” A sound that has the articulatory features of a vowel but does not stand in the nucleus of a <a href='#aksarah'>syllable</a>. See also: <a href='#ik'>y<span class='pron'>a</span><span class='anu'>Ṇ</span></a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="anudattah"></a><b><span class="translit">anudāttaḥ</span> = unaccented</b>
+	  </p>
+	  <p class="ml-4">
+	    In the Indian tradition, any vowel in a word that is not associated with either a rising <a href='#svarah-1'>pitch accent</a> (<a href='#udattah'>udātta</a>) or a rising and falling accent (<a href='#svaritah'>svaritaḥ</a>); in modern terms, the entire syllable is probably to be described as unaccented.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="ghosavat"></a><b><span class="translit">ghōṣavān</span> = voiced</b>
+	  </p>
+	  <p class="ml-4">
+	    A phoneme that is pronounced with <a href='#ghosah'>voicing</a>. This includes all <a href='#svarah'>vowels</a>, all <a href='#antahsthah'>semivowels</a>, all <a href='#anunasikah'>nasals</a>, and half of the <a href='#sparsah'>stop</a> consonants, as well as <i>h</i>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="ghosah"></a><b><span class="translit">ghōṣaḥ</span> = voicing</b>
+	  </p>
+	  <p class="ml-4">
+	    Vibration of the vocal cords, which is either present (<a href='#ghosavat'>voiced</a>) or absent (<a href='#aghosah'>unvoiced</a>) in a phoneme.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="hal"></a><b><span class="translit">h<span class='pron'>a</span><span class='anu'>L</span></span> = consonant</b>
+	  </p>
+	  <p class="ml-4">
+	    Pāṇini’s abbreviation for a <a href='#vyanjanah'>consonant</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="mahapranah"></a><b><span class="translit">mahāprāṇaḥ</span> = aspirated</b>
+	  </p>
+	  <p class="ml-4">
+	    Literally “with large <a href='#pranah'>aspiration</a>.” Half of the <a href='#sparsa'>stop</a> consonants are aspirated.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="pranah"></a><b><span class="translit">prāṇaḥ</span> = aspiration</b>
+	  </p>
+	  <p class="ml-4">
+	    An exhalation of breath that accompanies the pronunciation of sound. <a href='#sparsah'>Stop</a> consonants are either <a href='#alpapranah'>unaspirated</a> or <a href='#mahapranah'>aspirated</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="sparsah"></a><b><span class="translit">sparśaḥ</span> = stop</b>
+	  </p>
+	  <p class="ml-4">
+	    Also called “occlusive.” A sound wherein the flow of air is completely occluded by the <a href='#sthanam'>organs of articulation</a>. All stops are <a href='#vyanjanah'>consonants</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="svarah-1"></a><b><span class="translit">svaraḥ</span> = accent</b>
+	  </p>
+	  <p class="ml-4">
+	    Sanskrit words generally have one syllable of accentual prominence, which is linked in the Indian grammatical tradition to a vowel. The accented vowel, which has a high pitch in the R̥gvēdic recitation tradition, is called <a href='#udattah'>udātta</a>; unaccented vowels are called <a href='#anudattah'>anudatta</a>. See also <a href='#svaritah'>svarita</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="svarah"></a><b><span class="translit">svaraḥ</span> = vowel</b>
+	  </p>
+	  <p class="ml-4">
+	    A sound that is pronounced with a completely unobstructed flow of air, which can form the nuclear of a <a href='#aksarah'>syllable</a>. See also: <a href='#ac'>a-C</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="svaritah"></a><b><span class="translit">svaritaḥ</span> = circumflex</b>
+	  </p>
+	  <p class="ml-4">
+	    An accent that results from the combination of an <a href='#udattah'>accented</a> and <a href='#anudattah'>unaccented</a> vowel in <a href='#sandhih'>sandhi</a>. It is usually pronounced with a rising and falling tone.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="udattah"></a><b><span class="translit">udāttaḥ</span> = accented</b>
+	  </p>
+	  <p class="ml-4">
+	    In the Indian tradition, the vowel with which a rising <a href='#svarah-1'>pitch accent</a> is associated; in modern terms, the entire syllable is probably to be described as accented.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="visargah"></a><b><span class="translit">visargaḥ</span> = visarga</b>
+	  </p>
+	  <p class="ml-4">
+	    A voiceless, placeless, aspiration, written <i>ḥ</i>, which is of the allophones of <i>s</i> and <i>r</i> at the end of a word. Also called <i>visarjanīyaḥ</i>. See also: <a href='#upadhmaniya'>upadhmānīyaḥ</a> and <a href='#jihvamuliyah'>jihvāmūlīyaḥ</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="vyanjanah"></a><b><span class="translit">vyañjanaḥ</span> = consonant</b>
+	  </p>
+	  <p class="ml-4">
+	    A sound that cannot form the nucleus of <a href='#aksarah'>syllable</a>, and therefore requires the accompaniment of a <a href='#svarah'>vowel</a> in order to be produced. Hence the name: “that which manifests [a vowel sound].” See also: <a href='#hal'>h<span class='pron'>a</span><span class='anu'>L</span></a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="yan"></a><b><span class="translit">y<span class='pron'>a</span><span class='anu'>Ṇ</span></span> = semivowel</b>
+	  </p>
+	  <p class="ml-4">
+	    Pāṇini’s abbreviation for a <span class='#antahsthah'>semivowel</a>.
+	  </p>
+	  
+      </div>
+      
+      <div class="border-bottom mb-4">
+	<h4>Nouns</h4>
+          
+	  <p>Nominal forms are typically called <i>nāmāni</i>, or, following Pāṇini’s terminology, <i>sU-P</i>, “[forms that terminate in one of] the declensional endings.” This section will also cover most indeclinables (<a href='#avyayam'>avyayāni</a>).
+	  
+	  
+	  
+	  <p class="h6">
+	    <a id="avyayam"></a><b><span class="translit">avyayam</span> = indeclinable</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="caturthi"></a><b><span class="translit">caturthī (vibhaktiḥ)</span> = dative case</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="dvitiya"></a><b><span class="translit">dvitīyā (vibhaktiḥ)</span> = accusative case</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="ghi"></a><b><span class="translit">ghi</span> = <i>i</i>- or <i>u</i>-stem</b>
+	  </p>
+	  <p class="ml-4">
+	    Pāṇini’s technical term for a <a href='#pratipadikam'>nominal stem</a> ending in a short <i>i</i> or <i>u</i>, which triggers special endings.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="isthan"></a><b><span class="translit">iṣṭhaN</span> = superlative</b>
+	  </p>
+	  <p class="ml-4">
+	    The suffix <i>iṣṭha-</i>, used to form the superlative grade of certain adjectives (see also <a ref='#tamap'>tamaP</a>).
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="krt"></a><b><span class="translit">kr̥t (pratyayaḥ)</span> = primary derivational suffix</b>
+	  </p>
+	  <p class="ml-4">
+	    A suffix added to a <a href='#dhatu'>verbal root</a> to form a nominal stem.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="matup"></a><b><span class="translit">matUP</span> = Possessive suffix</b>
+	  </p>
+	  <p class="ml-4">
+	    The general name for nominal suffixes that indicate the <i>possessor</i> of the base noun. These suffixes include <i>mat</i>, <i>vat</i>, <i>in</i>, and so on.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="nadi"></a><b><span class="translit">nadī</span> = <i>ī</i>- and <i>ū</i>-stems</b>
+	  </p>
+	  <p class="ml-4">
+	    A technical term used by Pāṇini for <a href='#pratipadikam'>nominal stem</a> that ends in <i>ī</i> or <i>ū</i>, as well as some case-forms of feminine stems in <i>i</i> or <i>u</i>. This class largely coincides with feminine stems built using <a href='#stripratyayah'>feminine suffixes</a>, and hence it can be characterized as a set of ‘derivative’ stems. Membership in this class of stems triggers special endings.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="napumsaka"></a><b><span class="translit">napuṁsakam</span> = neuter</b>
+	  </p>
+	  <p class="ml-4">
+	    Also <i>napuṁsakaliṅgam</i>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="pancami"></a><b><span class="translit">pañcamī (vibhaktiḥ)</span> = ablative case</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="prathama"></a><b><span class="translit">prathamā (vibhaktiḥ)</span> = nominative case</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="pratipadikam"></a><b><span class="translit">prātipadikam</span> = nominal stem</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="pums"></a><b><span class="translit">puṁs</span> = masculine</b>
+	  </p>
+	  <p class="ml-4">
+	    Also <i>puṁliṅgam</i>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="sup"></a><b><span class="translit">s<span class='pron'>u</span><span class='anu'>P</span></span> = noun</b>
+	  </p>
+	  <p class="ml-4">
+	    Literally, “[that which terminates in] one of the declensional endings.”
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="saptami"></a><b><span class="translit">saptamī (vibhaktiḥ)</span> = locative case</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="sarvanama"></a><b><span class="translit">sarvanāma</span> = pronoun</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="sambuddhih"></a><b><span class="translit">saṁbuddhiḥ</span> = vocative</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="sambodhanam"></a><b><span class="translit">saṁbōdhanam</span> = vocative</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="stri"></a><b><span class="translit">strī</span> = feminine</b>
+	  </p>
+	  <p class="ml-4">
+	    Also <i>strīliṅgam</i>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="stripratyayah"></a><b><span class="translit">strīpratyayaḥ</span> = feminine suffix</b>
+	  </p>
+	  <p class="ml-4">
+	    Any one of a number of suffixes added onto nominal stems (<a href='#taddhita'>taddhitāḥ</a>) which primary serve to form a feminine stem.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="taddhita"></a><b><span class="translit">taddhitaḥ (pratyayaḥ)</span> = secondary derivational suffix</b>
+	  </p>
+	  <p class="ml-4">
+	    A suffix added to an existing <a href='#pratipadika'>nominal stem</a> that forms a new nominal stem.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="tamap"></a><b><span class="translit">tamaP</span> = comparative</b>
+	  </p>
+	  <p class="ml-4">
+	    The suffix <i>tama-</i>, used to form the superlative grade of adjectives (see also <a ref='#isthan'>iṣṭhaN</a>).
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="tarap"></a><b><span class="translit">taraP</span> = comparative</b>
+	  </p>
+	  <p class="ml-4">
+	    The suffix <i>tara-</i>, used to form the comparative grade of adjectives (see also <a ref='#iyas'>īyas</a>).
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="trtiya"></a><b><span class="translit">tr̥tīyā (vibhaktiḥ)</span> = instrumental case</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="vibhakti"></a><b><span class="translit">vibhaktiḥ</span> = case suffix</b>
+	  </p>
+	  <p class="ml-4">
+	    An inflectional ending used in nominal forms (thus also called a declensional ending) which primarily expresses the grammatical category of case.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="sasthi"></a><b><span class="translit">ṣaṣṭhī (vibhaktiḥ)</span> = genitive case</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+      </div>
+      
+      <div class="border-bottom mb-4">
+	<h4>Verbs</h4>
+          
+	  <p>Verbal forms are typically called <i>ākhyātāni</i>, or, following Pāṇini’s terminology, <i>ti-Ṅ</i>, “[forms that terminate in one of] the finite verbal endings. The category of verbal forms is, however, larger than that of <i>finite</i> verbal forms. This section will therefore also include primary verbal derivatives that are, despite being non-finite, often used as the verbal predicate of a sentence.</p>
+	  
+	  
+	  
+	  <p class="h6">
+	    <a id="kta"></a><b><span class="translit">Kta</span> = past absolutive participle</b>
+	  </p>
+	  <p class="ml-4">
+	    A verbal adjective formed by the affixation of <i>tá</i> to a verbal root in the zero grade. The alignment pattern of this participle is absolutive: generally, it describes the <a href='#kartr'>agent</a> of an <a href='#akarmakam'>intransitive</a> verb, or the <a href='#karma'>patient</a> of a <a href='#sakarmakam'>transitive</a> verb. It can be used either attributively or predicately.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="ktavatu"></a><b><span class="translit">KtavatU</span> = past active participle</b>
+	  </p>
+	  <p class="ml-4">
+	    A verbal adjective formed by the affixation of <i>távat</i> to a verbal root in the zero grade. This form always refers to the <a href='#kartr'>agent</a> of a <a href='#sakarmakam'>transitive</a> verb, hence it is active. It can be used either attributively or predicately.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="ktva"></a><b><span class="translit">Ktvā</span> = converb</b>
+	  </p>
+	  <p class="ml-4">
+	    The suffix <i>tvā</i> added to the verbal root. The main form of the converb. See also <a href='#lyap'>LyaP</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="kvasu"></a><b><span class="translit">KvasU</span> = perfect active participle</b>
+	  </p>
+	  <p class="ml-4">
+	    The suffix <i>vas</i>, used to form the perfect active participle.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="lyap"></a><b><span class="translit">LyaP</span> = converb</b>
+	  </p>
+	  <p class="ml-4">
+	    The suffix <i>ya</i> added to the verbal root, which is the form of the converb used when the verb has a prefix. See also <a href='#ktva'>Ktvā</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="dhatuh"></a><b><span class="translit">dhātuḥ</span> = verbal root</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="krtya"></a><b><span class="translit">kr̥tyaḥ</span> = potential absolutive participle</b>
+	  </p>
+	  <p class="ml-4">
+	    A verbal adjective formed by the affixation of one of a number of suffixes, all of which express the notion of futurity, potentiality, or obligation. These suffixes all take absolutive alignment: that is, they describe the <a href='#kartr'>agent</a> of an <a href='#akarmakam'>intransitive</a> verb, or the <a href='#karma'>patient</a> of a <a href='#sakarmakam'>transitive</a> verb. They can be used either attributively or predicately. Some examples of such suffixes include: <a href='#aniyar'>anīyaR</a>, <a href='#nyat'>ṆyaT</a> and <a href='#yat'>yaT</a>, <a href='#kyap'>KyaP</a>, <a href='#tavya'>tavya</a> and <a href='#tavyat'>tavyaT</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="lakarah"></a><b><span class="translit">lakāraḥ</span> = tense-aspect-mood</b>
+	  </p>
+	  <p class="ml-4">
+	    Pāṇini uses forms beginning with the sound <i>l</i> to represent conjugational systems, which we would call combinations of tense, mood, and aspect (or <a href='https://en.wikipedia.org/wiki/Tense%E2%80%93aspect%E2%80%93mood'>TAM</a>). The TAM systems that Pāṇini defines are: <a href='#lat'>laṭ</a>, <a href='#lan'>laṅ</a>, <a href='#lun'>luṅ</a>, <a href='#lit'>liṭ</a>, <a href='#lot'>lōṭ</a>, <a href='#lrt'>lr̥ṭ</a>, <a href='#lin'>liṅ</a>, <a href='#let'>lēṭ</a>, <a href='#lut'>luṭ</a>, and <a href='#lrn'>lr̥ṅ</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="lan"></a><b><span class="translit">laṅ</span> = imperfect indicative</b>
+	  </p>
+	  <p class="ml-4">
+	    The <a href='#lakarah'>lakāraḥ</a> for the imperfect indicative. It refers to time in the recent past.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="lat"></a><b><span class="translit">laṭ</span> = present indicative</b>
+	  </p>
+	  <p class="ml-4">
+	    The <a href='#lakarah'>lakāraḥ</a> for the present indicative. It refers to present time.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="lin"></a><b><span class="translit">liṅ</span> = present optative</b>
+	  </p>
+	  <p class="ml-4">
+	    The <a href='#lakarah'>lakāraḥ</a> for the optative, which is almost always formed from the present stem in classical Sanskrit. It is the primary <i>irrealis</i> form, with the senses of obligation, permission, potentiality, and counterfactuality.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="lit"></a><b><span class="translit">liṭ</span> = perfect indicative</b>
+	  </p>
+	  <p class="ml-4">
+	    The <a href='#lakarah'>lakāraḥ</a> for the perfect indicative. It refers to time in the past, usually in the distant past, beyond the speaker’s own experience.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="lun"></a><b><span class="translit">luṅ</span> = aorist indicative</b>
+	  </p>
+	  <p class="ml-4">
+	    The <a href='#lakarah'>lakāraḥ</a> for the aorist indicative. It refers to time in the past, without further specification.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="madhyamapurusah"></a><b><span class="translit">madhyamapuruṣaḥ</span> = second person</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="nistha"></a><b><span class="translit">niṣṭhā</span> = past participles</b>
+	  </p>
+	  <p class="ml-4">
+	    A term that covers both <a href='#kta'>Kta</a> and <a href='#ktavatu'>KtavatU</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="namadhatu"></a><b><span class="translit">nāmadhātuḥ</span> = denominative</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="prathamapurusah"></a><b><span class="translit">prathamapuruṣaḥ</span> = third person</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="tin"></a><b><span class="translit">ti<span class='anu'>Ṅ</span></span> = finite verb</b>
+	  </p>
+	  <p class="ml-4">
+	    A form that terminates in a finite verbal ending, which expresses the categories of tense and mood (combined into one of the <a href='#lakarah'>lakārāḥ</a>) as well as <a href='#purusah'>person</a> and <a href='#sankhya-v'>number</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="tumun"></a><b><span class="translit">tumUN</span> = infinitive</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="upasargah"></a><b><span class="translit">upasargaḥ</span> = preverb</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="uttamapurusah"></a><b><span class="translit">uttamapuruṣaḥ</span> = first person</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="vikaranah"></a><b><span class="translit">vikaraṇaḥ</span> = present stem formant</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="yak"></a><b><span class="translit">yaK</span> = present passive</b>
+	  </p>
+	  <p class="ml-4">
+	    The suffix <i>ya</i>, added to the verbal root to form a present stem that is always used passively.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="satr"></a><b><span class="translit">ŚatR̥</span> = present <i>parasmaipadam</i> participles</b>
+	  </p>
+	  <p class="ml-4">
+	    The suffix <i>at</i>, used to form <i>parasmaipadam</i> participles to verbs, using the present stem. See also <a ref='#sanac'>ŚānaC</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="sanac"></a><b><span class="translit">ŚānaC</span> = present <i>ātmanēpadam</i> participles</b>
+	  </p>
+	  <p class="ml-4">
+	    The suffix <i>(m)āna</i>, used to form <i>ātmanēpadam</i> participles to verbs, using the present stem. See also <a ref='#satr'>ŚatR̥</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="nic"></a><b><span class="translit">ṆiC</span> = causative</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+      </div>
+      
+      <div class="border-bottom mb-4">
+	<h4>Compounds</h4>
+          
+	  <p>Compounds refer to two nominal forms (<a href='#sup'>s<span class='pron'>u</span><span class='anu'>P</span></a>) combined into a single form.</p>
+	  
+	  
+	  
+	  <p class="h6">
+	    <a id="bahuvrihih"></a><b><span class="translit">bahuvrīhiḥ</span> = exocentric compound</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="dvandvah"></a><b><span class="translit">dvandvaḥ</span> = copulative compound</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="karmadharayah"></a><b><span class="translit">karmadhārayaḥ</span> = coreferential endocentric compound</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="tatpurusah"></a><b><span class="translit">tatpuruṣaḥ</span> = endocentric compound</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="upapadatatpurusah"></a><b><span class="translit">upapadatatpuruṣaḥ</span> = subordinate-word endocentric compound</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="vibhaktitatpurusah"></a><b><span class="translit">vibhaktitatpuruṣaḥ</span> = case-relation endocentric compound</b>
+	  </p>
+	  <p class="ml-4">
+	    
+	  </p>
+	  
+      </div>
+      
+      <div class="border-bottom mb-4">
+	<h4>Syntax</h4>
+          
+	  
+	  
+	  
+	  
+	  <p class="h6">
+	    <a id="akarmakah"></a><b><span class="translit">akarmakaḥ</span> = intransitive</b>
+	  </p>
+	  <p class="ml-4">
+	    Describes a verbal root that takes a single core argument, which is generally called the <a href='#kartr'>agent</a>, although the agent may often be better characterized as an ‘experiencer’ or ‘undergoer.’ Such verbs cannot take an accusative object.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="dvikarmakah"></a><b><span class="translit">dvikarmakaḥ</span> = ditransitive</b>
+	  </p>
+	  <p class="ml-4">
+	    Describes a verbal root that can take <i>three</i> core arguments: one <a href='#kartr'>agent</a> and two <a href='#karma'>patients</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="karanam"></a><b><span class="translit">karaṇam</span> = instrument</b>
+	  </p>
+	  <p class="ml-4">
+	    One of the <a href='#karakam'>participant roles</a>: the one by means of which the action of the verb is brought about.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="karma"></a><b><span class="translit">karma</span> = patient</b>
+	  </p>
+	  <p class="ml-4">
+	    One of the <a href='#karakam'>participant roles</a>: the one which is most affected by the action of the verb.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="karmaniprayogah"></a><b><span class="translit">karmaṇi prayōgaḥ</span> = patientive construction</b>
+	  </p>
+	  <p class="ml-4">
+	    A construction wherein the verbal predicate (whether represented by a finite verb or not) expresses the <a href='#kartr'>patient</a> of the verbal action.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="kartariprayogah"></a><b><span class="translit">kartari prayōgaḥ</span> = agentive construction</b>
+	  </p>
+	  <p class="ml-4">
+	    A construction wherein the verbal predicate (whether represented by a finite verb or not) expresses the <a href='#kartr'>agent</a> of the verbal action.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="kartr"></a><b><span class="translit">kartr̥</span> = agent</b>
+	  </p>
+	  <p class="ml-4">
+	    One of the <a href='#karakam'>participant roles</a>: the one which carries out the action of the verb.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="karakam"></a><b><span class="translit">kārakam</span> = participant role</b>
+	  </p>
+	  <p class="ml-4">
+	    Every action involves a number of participants which are spoken of in terms of these abstract semantic categories: they include <a href='#kartr'>agent</a>, <a href='#karma'>patient</a>, <a href='#karanam'>instrument</a>, <a href='#sampradanam'>recipient</a>, etc. These abstract categories are mapped onto nominal and verbal forms morphologically and syntactically.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="prayojakakartr"></a><b><span class="translit">prayōjakakartr̥</span> = impelling agent</b>
+	  </p>
+	  <p class="ml-4">
+	    In a causative construction, the agent who causes the <a href='#prayojyakartr'>impelled agent</a> to perform the verbal action.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="prayojyakakartr"></a><b><span class="translit">prayōjyakakartr̥</span> = impelled agent</b>
+	  </p>
+	  <p class="ml-4">
+	    In a causative construction, the agent who is caused to perform the verbal action by the <a href='#prayojakakartr'>impelling agent</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="sakarmakah"></a><b><span class="translit">sakarmakaḥ</span> = transitive</b>
+	  </p>
+	  <p class="ml-4">
+	    Describes a verbal root which can take a <a href='#karma'>patient</a> as one of its core arguments, either as the accusative object in the <a href='#kartariprayogah'>agentive construction</a> or as the nominative subject in the <a href='#karmaniprayogah'>patentive construction</a>.
+	  </p>
+	  
+	  <p class="h6">
+	    <a id="sampradanam"></a><b><span class="translit">saṁpradānam</span> = recipient</b>
+	  </p>
+	  <p class="ml-4">
+	    One of the <a href='#karakam'>participant roles</a>: the one which is receives or benefits from the action of the verb.
+	  </p>
+	  
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+    </main><footer class="site-footer">
+  <data class="u-url" href="/vrddhi/"></data>
+
+  <div class="container">
+    <div class="d-flex align-items-stretch justify-content-between" style="flex: 0 0 100%;">
+      <div class="borders"></div>
+      <div class="row flex-fill">
+	<div class="col-md-6 text-right">
+	  <p>made with <a href="https://jekyllrb.com/">jekyll</a></p>
+	  <p>all content released on a <a href="https://creativecommons.org/licenses/by/4.0/">cc by-4.0</a> license</p>
+	</div>
+	<div class="col-md-6 text-left">
+	  <p>designed and maintained by <a href="https://salc.uchicago.edu/andrew-ollett">andrew ollett</a></p>
+	  <p><a href="https://salc.uchicago.edu/">south asian languages and civilizations</a>,<br/>
+	    <a href="https://www.uchicago.edu">university of chicago</a></p>
+	</div>
+      </div>
+      <div class="borders"></div>
+    </div>
+  </div>
+</footer>
+<script src="/vrddhi/assets/js/sanscript.js"></script>
+    <script src="/vrddhi/assets/js/script-noreload.js"></script>
+    <script src="/vrddhi/assets/js/audio.min.js"></script>
+    <script src="/vrddhi/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/vrddhi/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="/vrddhi/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/vrddhi/assets/js/initialization-tools.js"></script>
+    <script>
+      $(document).ready(function(){
+	  setTransliterationOptions();
+	  setScriptMenu();
+          transliterate();
+      });
+    </script>
+  </body>
+
+</html>

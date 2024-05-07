@@ -1,0 +1,26 @@
+Word (ISO 15919),Meaning,Notes,Class,Stems,Gender,Number,Case,Person,Padam,Root,Preverbs,Tense-Mood,Class,Word (Dēvanāgarī),Anki Tags
+09,uktáḥ,said,"The past passive participle of √<span class=""translit"">vac</span> “say”",adj,"uktá-, uktā́-",m,sg,1,,,,,,,उक्तः,lesson-09 adjectives::participles::past-passive-participles
+09,satatam,"constantly, always, continuously",,adv,,,,,,,,,,,सततम्,lesson-09 adverbs
+09,purṓhitaḥ,a sacrificial priest,,noun,purṓhita-,m,sg,1,,,,,,,पुरोहितः,lesson-09 nouns
+09,yajñáḥ,sacrifice,,noun,yajñá-,m,sg,1,,,,,,,यज्ञम्,lesson-09 nouns
+09,páraḥ,other,"This is a pronominal form and is inflected like <span class=""translit"">sárvaḥ</span>.",pron,"pára-, parā́-",m,sg,1,,,,,,,परः,lesson-09 pronouns
+09,áparaḥ,"another, additional, else","This is a pronominal form and is inflected like <span class=""translit"">sárvaḥ</span>.",pron,"ápara-, áparā-",m,sg,1,,,,,,,अपरः,lesson-09 pronouns
+09,sváḥ,one’s own; oneself,"More often used as a pronominal adjective meaning “one’s own”; sometimes used as a reflexive pronoun (“oneself”). It is inflected pronominally, like <span class=""translit"">sárvaḥ</span>.",pron,"svá-, svā́-",m,sg,1,,,,,,,स्वः,lesson-09 pronouns
+09,rṓcatē,he/she/it is pleasing,"Note the usage with a <i>dative</i>: <span class=""translit"">tasmai rōcatē</span> “it pleases <i>him</i>”",verb,,,sg,,3rd,atmane,ruc,,laṭ,bhvadi,रोचते,lesson-09 verbs::class-01
+09,sáṅgacchatē,come together; unite; agree,,verb,,,sg,,3rd,atmane,gam,sam,laṭ,bhvadi,सङ्गच्छते,lesson-09 verbs::class-01
+09,lábhatē,take; obtain; get,,verb,,,sg,,3rd,atmane,labh,,laṭ,bhvadi,लभते,lesson-09 verbs::class-01
+09,ávagacchati,understand; apprehend,,verb,,,sg,,3rd,parasmai,gam,ava,laṭ,bhvadi,अवगच्छते,lesson-09 verbs::class-01
+09,yájati,he/she/it sacrifices,"Note that this verb is <span class=""translit"">ubhayapadi</span>, taking <span class=""translit"">ātmanēpadam</span> endings when the action benefits the agent, and <span class=""translit"">parasmaipadam</span> endings otherwise.",verb,,,sg,,3rd,ubhaya,yaj,,laṭ,bhvadi,यजति,lesson-09 verbs::class-01
+09,pácati,he/she/it cooks,"Note that this verb is <span class=""translit"">ubhayapadi</span>, taking <span class=""translit"">ātmanēpadam</span> endings when the action benefits the agent, and <span class=""translit"">parasmaipadam</span> endings otherwise.",verb,,,sg,,3rd,ubhaya,pac,,laṭ,bhvadi,पचति,lesson-09 verbs::class-01
+09,ā́gacchati,he/she/it comes,,verb,,,sg,,3rd,parasmai,gam,ā,laṭ,bhvadi,आगच्छति,lesson-09 verbs::class-01
+09,ánubhavati,"he/she/it experiences, feels",,verb,,,sg,,3rd,parasmai,bhū,anu,laṭ,bhvadi,अनुभवति,lesson-09 verbs::class-01
+09,ī́kṣatē,he/she/it sees,,verb,,,sg,,3rd,atmane,īkṣ,,laṭ,bhvadi,ईक्षते,lesson-09 verbs::class-01
+09,ápēkṣatē,"he/she/it expects, needs, waits for",,verb,,,sg,,3rd,atmane,īkṣ,apa,laṭ,bhvadi,अपेक्षते,lesson-09 verbs::class-01
+09,yátatē,"he/she/it tries, strives",,verb,,,sg,,3rd,atmane,yat,,laṭ,bhvadi,यतते,lesson-09 verbs::class-01
+09,rámatē,he/she/it enjoys,"In the <span class=""translit"">ātmanēpadam</span>, it means to “enjoy” (usually sexually), with a complement in the instrumental (less often locative); in the <span class=""translit"">parasmaipadam</span>, it generally means to “wait” or “stay.”",verb,,,sg,,3rd,ubhaya,ram,,laṭ,bhvadi,रमते,lesson-09 verbs::class-01
+09,úparamatē,"he/she/it stops, ceases, dies","The thing from which one “ceases” is put in the ablative (<span class=""translit"">pañcamī</span>).",verb,,,sg,,3rd,atmane,ram,upa,laṭ,bhvadi,उपरमते,lesson-09 verbs::class-01
+09,śaṅkatē,"he/she/it suspects, doubts",,verb,,,sg,,3rd,atmane,śaṅk,,laṭ,bhvadi,शङ्कते,lesson-09 verbs::class-01
+09,mányatē,he/she/it thinks,,verb,,,sg,,3rd,atmane,man,,laṭ,divadi,मन्यते,lesson-09 verbs::class-06
+09,úpapadyatē,"he/she/it makes sense, stands to reason, is possible",,verb,,,sg,,3rd,atmane,pad,upa,laṭ,divadi,उपपद्यते,lesson-09 verbs::class-06
+09,sámpadyatē,"he/she/it succeeds, turns out well",,verb,,,sg,,3rd,atmane,pad,sam,laṭ,divadi,सम्पद्यते,lesson-09 verbs::class-06
+09,ā́padyatē,"he/she/it occurs suddenly or unexpectedly, falls into trouble, turns out poorly",,verb,,,sg,,3rd,atmane,pad,ā,laṭ,divadi,आपद्यते,lesson-09 verbs::class-06

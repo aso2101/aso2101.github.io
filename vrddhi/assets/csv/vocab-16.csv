@@ -1,0 +1,24 @@
+Word (ISO 15919),Meaning,Notes,Class,Stems,Gender,Number,Case,Person,Padam,Root,Preverbs,Tense-Mood,Class,Word (Dēvanāgarī),Anki Tags
+16,pū́rvaḥ,"earlier, prior, previous, eastern","Contrary to <span class=""translit"">aparaḥ</span>.",adj,"pū́rva-, pū́rvā-",m,sg,,,,,,,,पूर्वः,lesson-16 adjectives
+16,prāk,before,An adposition that takes the ablative case.,indecl,,,,,,,,,,,प्राक्,lesson-16 adpositions
+16,rā́jā,king,,noun,rā́jan-,m,sg,,,,,,,,राजा,lesson-16 nouns
+16,nā́ma,name,,noun,nā́man-,n,sg,,,,,,,,नाम,lesson-16 nouns
+16,ātmā́,"self, soul",Note that this word can also be used as a reflexive pronoun (= English “himself” or “herself”),noun,ātmán-,m,sg,,,,,,,,आत्म,lesson-16 nouns
+16,jánma,birth,,noun,jánman-,n,sg,,,,,,,,जन्म,lesson-16 nouns
+16,yúvā,youth,See the lesson for the full paradigm.,noun,yúvan-,m,sg,,,,,,,,युवा,lesson-16 nouns
+16,śvā́,dog,See the lesson for the full paradigm.,noun,śván-,m,sg,,,,,,,,श्वा,lesson-16 nouns
+16,kárma,"action, deed, act, <i>karma</i>",,noun,kárman-,n,sg,,,,,,,,कर्म,lesson-16 nouns
+16,phalam,"fruit, result, outcome",,noun,phalam,n,sg,,,,,,,,फलम्,lesson-16 nouns
+16,dadhā́ti,"he/she/it places, puts",,verb,,,sg,,3rd,ubhaya,dhā,,laṭ,hvadi,दधाति,lesson-16 verbs::class-03
+16,krīṇā́ti,he/she/it buys,Note that this verb can be used in both <i>pada</i>s.,verb,,,sg,,3rd,parasmai,krī,,laṭ,kryadi,क्रीणाति,lesson-16 verbs::class-09
+16,víkrīṇītē,he/she/it sells,,verb,,,sg,,3rd,atmane,krī,vi,laṭ,kryadi,विक्रीणीते,lesson-16 verbs::class-09
+16,jānā́ti,he/she/it knows,,verb,,,sg,,3rd,ubhaya,jñā,,laṭ,kryadi,जानाति,lesson-16 verbs::class-09
+16,bhuṅktḗ,"he/she/it eats, enjoys, consumes",,verb,,,sg,,3rd,atmane,bhuj,,laṭ,rudhadi,भुङ्क्ते,lesson-16 verbs::class-07
+16,práyuṅktē,he/she/it uses,,verb,,,sg,,3rd,atmane,yuj,pra,laṭ,rudhadi,प्रयुङ्क्ते,lesson-16 verbs::class-07
+16,āpnṓti,he/she/it attains,,verb,,,sg,,3rd,ubhaya,āp,,laṭ,svadi,आप्नोति,lesson-16 verbs::class-05
+16,ávacinōti,"he/she/it picks, gathers",,verb,,,sg,,3rd,ubhaya,ci,ava,laṭ,svadi,अवचिनोति,lesson-16 verbs::class-05
+16,śr̥ṇṓti,he/she/it hears,,verb,,,sg,,3rd,parasmai,śru,,laṭ,svadi,शृणोति,lesson-16 verbs::class-05
+16,śaknṓti,he/she/it is able,Takes an infinite complement.,verb,,,sg,,3rd,parasmai,śak,,laṭ,svadi,शक्नोति,lesson-16 verbs::class-05
+16,prā́pnōti,he/she/it reaches,,verb,,,sg,,3rd,parasmai,āp,pra,laṭ,svadi,प्राप्नोति,lesson-16 verbs::class-05
+16,karṓti,"he/she/it makes, does",,verb,,,sg,,3rd,ubhaya,kr̥,,laṭ,tanadi,करोति,lesson-16 verbs::class-08
+16,tanṓti,"he/she/it stretches, makes",Note that this verb can be used in both <i>pada</i>s.,verb,,,sg,,3rd,ubhaya,tan,,laṭ,tanadi,तनोति,lesson-16 verbs::class-08

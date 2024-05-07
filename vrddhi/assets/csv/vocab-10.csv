@@ -1,0 +1,19 @@
+Word (ISO 15919),Meaning,Notes,Class,Stems,Gender,Number,Case,Person,Padam,Root,Preverbs,Tense-Mood,Class,Word (Dēvanāgarī),Anki Tags
+10,samarthaḥ,"capable, powerful, possible","Used either with an infinitive or a locative (of “reference,” <span class=""translit"">viṣaya-saptamī</span>).",adj,"samartha-, samarthā-",m,sg,1,,,,,,,समर्थः,lesson-10 adjectives
+10,śakyaḥ,"capable, possible","Generally <span class=""translit"">śakya-</span> is used when the accompanying infinitive has a <i>passive</i> sense (e.g., <span class=""translit"">vaktum&nbsp;· śakyam</span>, “able <i>to be said</i>”), in contrast to <span class=""translit"">vaktum&nbsp;· samarthaḥ</span> “able <i>to say</i>.”",adj,"śakya-, śakyā-",m,sg,1,,,,,,,शक्यः,lesson-10 adjectives
+10,nirdiṣṭaḥ,pointed out,"The past passive participle of <span class=""translit"">niḥ</span>-√<span class=""translit"">diś</span>",adj,"nirdiṣṭa-, nirdiṣṭā-",m,sg,1,,,,,,,निर्दिष्टः,lesson-10 adjectives::participles::past-passive-participles
+10,práti,"toward, regarding",Takes the accusative.,adp,,,,,,,,,,,प्रति,lesson-10 adpositions
+10,ēvám,in this way,"This is the more proximate version of <span class=""translit"">tathā</span> (“in that way, thusly”)",adv,,,,,,,,,,,एवम्,lesson-10 adverbs
+10,sahá,with,Takes the instrumental case.,indecl,,,,,,,,,,,सह,lesson-10 adpositions
+10,álam,"capable, sufficient, enough",An indeclinable word that construes either with an instrumental (enough <i>with</i>...) or an infinitive (capable <i>of</i>...).,indecl,,,,,,,,,,,अलम्,lesson-10 adpositions
+10,ā́sanam,seat,,noun,ā́sana-,n,sg,1,,,,,,,आसनम्,lesson-10 nouns
+10,tu,"but, however, by contrast",This word always comes in the <i>second</i> position in the sentence or clause.,particle,,,,,,,,,,,तु,lesson-10 participles
+10,prēkṣatē,he/she/it observes,,verb,,,sg,,3rd,atmane,īkṣ,pra,laṭ,bhvadi,प्रेक्षते,lesson-10 verbs::class-01
+10,vyavaharati,"he/she/it deals [in or with], transacts, behaves",,verb,,,sg,,3rd,parasmai,hr̥,"vi, ava",laṭ,bhvadi,व्यवहरति,lesson-10 verbs::class-01
+10,viharati,"he/she/it wanders, walks",,verb,,,sg,,3rd,parasmai,hr̥,vi,laṭ,bhvadi,विहरति,lesson-10 verbs::class-01
+10,vyāharati,"he/she/it speaks, converses","Often with <span class=""translit"">saha</span> “with” + instrumental case",verb,,,sg,,3rd,parasmai,hr̥,"vi, ā",laṭ,bhvadi,व्याहरति,lesson-10 verbs::class-01
+10,arhati,"he/she/it deserves, can, ought to",,verb,,,sg,,3rd,parasmai,arh,,laṭ,bhvadi,अर्हति,lesson-10 verbs::class-01
+10,prēṣayati,he/she/it sends,"This verb is technically a causative verb of <span class=""translit"">pra</span>-√<span class=""translit"">iṣ</span>.",verb,,,sg,,3rd,parasmai,iṣ,pra,laṭ,curadi,प्रेषयति,lesson-10 verbs::class-10
+10,viṣīdati,"he/she/it is exhausted, despondent, depressed","Note that this verb (√<span class=""translit"">sad</span>) becomes <span class=""translit"">sīd</span> in the present system.",verb,,,sg,,3rd,parasmai,sad,vi,laṭ,tudadi,विषीदति,lesson-10 verbs::class-06
+10,niṣīdati,he/she/it sits,"Note that this verb (√<span class=""translit"">sad</span>) becomes <span class=""translit"">sīd</span> in the present system.",verb,,,sg,,3rd,parasmai,sad,ni,laṭ,tudadi,निषीदति,lesson-10 verbs::class-06
+10,nirdiśati,he/she/it points out,,verb,,,sg,,3rd,parasmai,diś,nir,laṭ,tudadi,निर्दिशति,lesson-10 verbs::class-06

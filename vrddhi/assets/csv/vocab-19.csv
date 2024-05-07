@@ -1,0 +1,13 @@
+Word (ISO 15919),Meaning,Notes,Class,Stems,Gender,Number,Case,Person,Padam,Root,Preverbs,Tense-Mood,Class,Word (Dēvanāgarī),Anki Tags
+19,priyaḥ,"pleasing, beloved",,adj,"priya-, priyā-",m,sg,1,,,,,,,प्रियः,lesson-19 adjectives
+19,hitaḥ,"beneficial, suitable, agreeable (usually with dat. = “for”)",,adj,"hita-, hitā-",m,sg,1,,,,,,,हितः,lesson-19 adjectives
+19,vat,(a suffix meaning “like”),,indecl,,,,,,,,,,,वत्,lesson-19 suffixes
+19,amātyaḥ,"royal minister, adviser",,noun,amātya-,m,sg,1,,,,,,,अमात्यः,lesson-19 nouns
+19,prátibhāti,"he/she/it shines, appears",,verb,,,sg,,3rd,parasmai,bhā,prati,laṭ,adadi,प्रतिभाति,lesson-19 verbs::class-02
+19,áiti,he/she/it comes,,verb,,,sg,,3rd,parasmai,i,ā,laṭ,adadi,ऐति,lesson-19 verbs::class-02
+19,ā́carati,"he/she/it behaves, conducts oneself",,verb,,,sg,,3rd,parasmai,car,ā,laṭ,bhvadi,आचरति,lesson-19 verbs::class-01
+19,jáyati,he/she/it conquers,,verb,,,sg,,3rd,parasmai,ji,,laṭ,bhvadi,जयति,lesson-19 verbs::class-01
+19,jī́vati,"he/she/it lives (i.e., is alive)",,verb,,,sg,,3rd,parasmai,jīv,,laṭ,bhvadi,जीवति,lesson-19 verbs::class-01
+19,vándatē,he/she/it greets,,verb,,,sg,,3rd,atmane,vand,,laṭ,bhvadi,वन्दते,lesson-19 verbs::class-01
+19,tyájati,"he/she/it gives up, abandons",,verb,,,sg,,3rd,parasmai,tyaj,,laṭ,bhvadi,त्यजति,lesson-19 verbs::class-01
+19,vártatē,he/she/it exists,,verb,,,sg,,3rd,atmane,vr̥t,,laṭ,bhvadi,वर्तते,lesson-19 verbs::class-01

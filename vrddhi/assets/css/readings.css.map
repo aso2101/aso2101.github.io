@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "readings.css",
+	"sources": [
+		"readings.scss"
+	],
+	"sourcesContent": [
+		".card-reading {\n    .card-header {\n\tpadding: 0 0.5rem;\n    }\n}\n\n.gloss { \n    color:#999; \n    font-weight:normal!important;\n    &:before { \n\tcontent:\"[\"; \n\tpadding:0 3px;\n    }\n    &:after { \n\tcontent:\"]\"; \n\tpadding:0 3px;\n    }\n}\n.custom-checkbox {\n    margin-left:0.5rem;\n    .custom-control-label {\n\tpadding-top:0.35rem;\n    }\n    .custom-control-input:checked~.custom-control-label::before {\n\tbackground-color: red!important;\n    }\n    .custom-control-input:focus~.custom-control-label::before {\n\tbox-shadow:none !important;\n    }\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AACI,aADS,CACT,YAAY,CAAC,EAChB,OAAO,EAAE,QAAQ,GACb;;AAGL,AAAA,MAAM,CAAC,EACH,KAAK,EAAC,IAAI,EACV,WAAW,EAAC,MAAM,CAAA,UAAU,GAS/B;;AAXD,AAGI,MAHE,CAGA,MAAM,CAAC,EACZ,OAAO,EAAC,GAAG,EACX,OAAO,EAAC,KAAK,GACT;;AANL,AAOI,MAPE,CAOA,KAAK,CAAC,EACX,OAAO,EAAC,GAAG,EACX,OAAO,EAAC,KAAK,GACT;;AAEL,AAAA,gBAAgB,CAAC,EACb,WAAW,EAAC,MAAM,GAUrB;;AAXD,AAEI,gBAFY,CAEZ,qBAAqB,CAAC,EACzB,WAAW,EAAC,OAAO,GACf;;AAJL,AAKI,gBALY,CAKZ,qBAAqB,CAAC,OAAO,GAAC,qBAAqB,EAAE,MAAM,CAAC,EAC/D,gBAAgB,EAAE,GAAG,CAAA,UAAU,GAC3B;;AAPL,AAQI,gBARY,CAQZ,qBAAqB,CAAC,KAAK,GAAC,qBAAqB,EAAE,MAAM,CAAC,EAC7D,UAAU,EAAC,eAAe,GACtB"
+}

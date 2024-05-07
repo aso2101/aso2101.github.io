@@ -1,0 +1,24 @@
+Word (ISO 15919),Meaning,Notes,Class,Stems,Gender,Number,Case,Person,Padam,Root,Preverbs,Tense-Mood,Class,Word (Dēvanāgarī),Anki Tags
+05,punaḥ,again; however,"Note that the visargaḥ represents an original <i>r</i> (<span class=""translit"">punar</span>).",adv,,,,,,,,,,,पुनः,lesson-05 adverbs
+05,lēkhaḥ,"letter, written document",,noun,lēkha-,m,sg,1,,,,,,,लेखः,lesson-05 nouns
+05,pustakam,"manuscript, book",,noun,pustaka-,n,sg,1,,,,,,,पुस्तकम्,lesson-05 nouns
+05,kāvyam,poem,,noun,kāvya-,n,sg,1,,,,,,,काव्यम्,lesson-05 nouns
+05,bhávati,he/she/it becomes,,verb,,,sg,,3rd,parasmai,bhū,,laṭ,bhvadi,भवति,lesson-05 verbs::class-01
+05,náyati,he/she/it leads,,verb,,,sg,,3rd,parasmai,nī,,laṭ,bhvadi,नयति,lesson-05 verbs::class-01
+05,gácchati,he/she/it goes,"Note that this present stem is formed by the addition of <span class=""translit"">ccha-</span> rather than simply <span class=""translit"">a</span>.",verb,,,sg,,3rd,parasmai,gam,,laṭ,tudadi,गच्छति,lesson-05 verbs::class-01
+05,siñcáti,he/she/it sprinkles,Note that this present stem is formed with an additional nasal before the last consonant of the root.,verb,,,sg,,3rd,parasmai,sic,,laṭ,bhvadi,सिञ्चति,lesson-05 verbs::class-01
+05,páṭhati,"he/she/it recites, reads",,verb,,,sg,,3rd,parasmai,paṭh,,laṭ,bhvadi,पठति,lesson-05 verbs::class-01
+05,hárati,he/she/it takes away,,verb,,,sg,,3rd,parasmai,hr̥,,laṭ,bhvadi,हरति,lesson-05 verbs::class-01
+05,cōráyati,he/she/it steals,,verb,,,sg,,3rd,parasmai,cur,,laṭ,curadi,चोरयति,lesson-05 verbs::class-10
+05,gaṇáyati,he/she/it counts,,verb,,,sg,,3rd,parasmai,gaṇ,,laṭ,curadi,गणयति,lesson-05 verbs::class-10
+05,katháyati,"he/she/it relates, tells (a story), speaks",,verb,,,sg,,3rd,parasmai,kath,,laṭ,curadi,कथयति,lesson-05 verbs::class-10
+05,racáyati,he/she/it composes,,verb,,,sg,,3rd,parasmai,rac,,laṭ,curadi,रचयति,lesson-05 verbs::class-10
+05,dī́vyati,he/she/it gambles,,verb,,,sg,,3rd,parasmai,div,,laṭ,divadi,दीव्यति,lesson-05 verbs::class-04
+05,tuṣyáti,he/she/it is pleased,"Intransitive, but often takes an instrumental complement (""pleased <i>with</i> ....”).",verb,,,sg,,3rd,parasmai,tuṣ,,laṭ,divadi,तुष्यति,lesson-05 verbs::class-04
+05,páśyati,he/she/it sees,"This root, √<span class=""translit"">paś</span>, is only used in the present system. In all other forms, the root √<span class=""translit"">dr̥ś</span> is used.",verb,,,sg,,3rd,parasmai,paś,,laṭ,divadi,पश्यति,lesson-05 verbs::class-04
+05,tudáti,he/she/it strikes,,verb,,,sg,,3rd,parasmai,tud,,laṭ,tudadi,तुदति,lesson-05 verbs::class-06
+05,kṣipáti,he/she/it throws,,verb,,,sg,,3rd,parasmai,kṣip,,laṭ,tudadi,क्षिपति,lesson-05 verbs::class-06
+05,spr̥śáti,he/she/it touches,,verb,,,sg,,3rd,parasmai,spr̥ś,,laṭ,tudadi,स्पृषति,lesson-05 verbs::class-06
+05,iccháti,he/she/it wants,"Note that this present stem is formed by the addition of <span class=""translit"">cchá-</span> rather than simply <span class=""translit"">á</span>.",verb,,,sg,,3rd,parasmai,iṣ,,laṭ,tudadi,इच्छति,lesson-05 verbs::class-06
+05,pr̥ccháti,he/she/it asks,"Note that this present stem is formed by the addition of <span class=""translit"">cchá-</span> rather than simply <span class=""translit"">á</span>.",verb,,,sg,,3rd,parasmai,prach,,laṭ,tudadi,पृच्छति,lesson-05 verbs::class-06
+05,likháti,he/she/it writes,,verb,,,sg,,3rd,parasmai,likh,,laṭ,tudadi,लिखति,lesson-05 verbs::class-06

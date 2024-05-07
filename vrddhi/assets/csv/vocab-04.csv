@@ -1,0 +1,24 @@
+Word (ISO 15919),Meaning,Notes,Class,Stems,Gender,Number,Case,Person,Padam,Root,Preverbs,Tense-Mood,Class,Word (Dēvanāgarī),Anki Tags
+04,jitáḥ,"conquered, defeated","<span class=""translit"">Ktáḥ</span> form from √<span class=""translit"">ji</span> “conquer” (transitive)",adj,"jitá-, jitā́-",m,sg,1,,,,,,,जितः,lesson-04 adjectives::participles::past-passive-participles
+04,kr̥táḥ,done,"<span class=""translit"">Ktáḥ</span> form from √<span class=""translit"">kr̥</span> “do, make” (transitive)",adj,"kr̥tá-, kr̥tā́-",m,sg,1,,,,,,,कृतः,lesson-04 adjectives::participles::past-passive-participles
+04,dattáḥ,given,"<span class=""translit"">Ktáḥ</span> form from √<span class=""translit"">dā</span> “give” (transitive)",adj,"dattá-, dattā́-",m,sg,1,,,,,,,दत्तः,lesson-04 adjectives::participles::past-passive-participles
+04,śrutáḥ,heard,"<span class=""translit"">Ktáḥ</span> form from √<span class=""translit"">śru</span> “hear” (transitive)",adj,"śrutá-, śrutā́-",m,sg,1,,,,,,,श्रुतः,lesson-04 adjectives::participles::past-passive-participles
+04,nītáḥ,led,"<span class=""translit"">Ktáḥ</span> form from √<span class=""translit"">nī</span> “lead” (transitive)",adj,"nītá-, nītā́-",m,sg,1,,,,,,,नृीतः,lesson-04 adjectives::participles::past-passive-participles
+04,smr̥táḥ,remembered,"<span class=""translit"">Ktáḥ</span> form from √<span class=""translit"">smr̥</span> “remember” (transitive)",adj,"smr̥tá-, smr̥tā́-",m,sg,1,,,,,,,स्मृतः,lesson-04 adjectives::participles::past-passive-participles
+04,gatáḥ,gone,"<span class=""translit"">Ktáḥ</span> form from √<span class=""translit"">gam</span> “go” (considered transitive)",adj,"gatá-, gatā́-",m,sg,1,,,,,,,गतः,lesson-04 adjectives::participles::past-passive-participles
+04,dr̥ṣṭáḥ,seen,"<span class=""translit"">Ktáḥ</span> form from √<span class=""translit"">dr̥ś</span> “see” (transitive)",adj,"dr̥ṣṭá-, dr̥ṣṭā́-",m,sg,1,,,,,,,दृष्टः,lesson-04 adjectives::participles::past-passive-participles
+04,spr̥ṣṭáḥ,touched,"<span class=""translit"">Ktáḥ</span> form from √<span class=""translit"">spr̥ś</span> “touch”",adj,"spr̥ṣṭá-, spr̥ṣṭā́-",m,sg,1,,,,,,,स्पृष्टः,lesson-04 adjectives::participles::past-passive-participles
+04,sthitáḥ,stood,"<span class=""translit"">Ktáḥ</span> form from √<span class=""translit"">sthā</span> “stand” (intransitive)",adj,"sthitá-, sthitā́-",m,sg,1,,,,,,,स्थितः,lesson-04 adjectives::participles::past-passive-participles
+04,kṣiptáḥ,tossed,"<span class=""translit"">Ktáḥ</span> form from √<span class=""translit"">kṣip</span> “toss” (transitive)",adj,"kṣiptá-, kṣiptā́-",m,sg,1,,,,,,,क्षिप्तः,lesson-04 adjectives::participles::past-passive-participles
+04,racitáḥ,composed,"<span class=""translit"">Ktáḥ</span> form from √<span class=""translit"">rac</span> “compose” (transitive)",adj,"racitá-, racitā́-",m,sg,1,,,,,,,रचितः,lesson-04 adjectives::participles::past-passive-participles
+04,baddháḥ,"tied, bound","<span class=""translit"">Ktáḥ</span> form from √<span class=""translit"">bandh</span> “tie, bind” (transitive)",adj,"baddhá-, baddhā́-",m,sg,1,,,,,,,बद्धः,lesson-04 adjectives::participles::past-passive-participles
+04,ihá,here,,adv,,,,,,,,,,,इह,lesson-04 adverbs
+04,ná,not,,adv,,,,,,,,,,,न,lesson-04 particles
+04,kútra,where?,"Usually used in the sense of “where to?” (German <i>wohin</i>), as opposed to <span class=""translit"">kvá</span> “where?” (German <i>wo</i>).",adv,,,,,,,,,,,कुत्र,lesson-04 adverbs
+04,kvá,where?,"Usually used in the sense of “where?” (German <i>wo</i>), as opposed to <span class=""translit"">kútra</span> “where to?” (German <i>wohin</i>).",adv,,,,,,,,,,,क्व,lesson-04 adverbs::interrogative
+04,adyá,today,Cf. Latin <i>ho-die</i>.,adv,,,,,,,,,,,अद्य,lesson-04 adverbs
+04,kēvalam,"only, just",,adv,,,,,,,,,,,केवलम्,lesson-04 adverbs
+04,ēvá,[exclusive particle],,particle,,,,,,,,,,,एव,lesson-04 particles
+04,ápi,[inclusive particle],,particle,,,,,,,,,,,अपि,lesson-04 particles
+04,ca,[conjunctive particle],,particle,,,,,,,,,,,च,lesson-04 particles
+04,vā,[disjunctive particle],,particle,,,,,,,,,,,वा,lesson-04 particles

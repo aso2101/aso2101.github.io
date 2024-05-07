@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/* Roman-script fonts */
+@font-face { font-family: "IndUni-H"; src: url("../fonts/IndUni-H-Regular.otf") format("opentype"); }
+
+@font-face { font-family: "IndUni-H"; src: url("../fonts/IndUni-H-Bold.otf") format("opentype"); font-weight: bold; }
+
+@font-face { font-family: "IndUni-H"; src: url("../fonts/IndUni-H-Oblique.otf") format("opentype"); font-style: italic; }
+
+@font-face { font-family: "IndUni-H"; src: url("../fonts/IndUni-H-BoldOblique.otf") format("opentype"); font-style: italic; font-weight: bold; }
+
+@font-face { font-family: 'IndUni-T'; src: url("../fonts/IndUni-T-Roman.otf") format("opentype"); }
+
+@font-face { font-family: "IndUni-T"; src: url("../fonts/IndUni-T-Bold.otf") format("opentype"); font-weight: bold; }
+
+@font-face { font-family: "IndUni-T"; src: url("../fonts/IndUni-T-Italic.otf") format("opentype"); font-style: italic; }
+
+@font-face { font-family: "IndUni-T"; src: url("../fonts/IndUni-T-BoldItalic.otf") format("opentype"); font-style: italic; font-weight: bold; }
+
+/* Alegreya Sans SC for headings */
+@font-face { font-family: "Alegreya Sans SC"; src: url("../fonts/AlegreyaSansSC-Bold.ttf") format("opentype"); font-weight: 700; }
+
+@font-face { font-family: "Alegreya Sans SC"; src: url("../fonts/AlegreyaSansSC-ExtraBold.ttf") format("opentype"); font-weight: 800; }
+
+@font-face { font-family: "Alegreya Sans SC"; src: url("../fonts/AlegreyaSansSC-Black.ttf") format("opentype"); font-weight: 900; }
+
+/* fleurons */
+@font-face { font-family: "Printers Ornaments"; src: url("../fonts/printorn.ttf") format("truetype"); }
+
+/* Devanagari */
+@font-face { font-family: "Adishila"; src: url("../fonts/AdishilaLetterpress.ttf") format("truetype"); font-weight: 400; }
+
+@font-face { font-family: "Adishila"; src: url("../fonts/AdishilaLetterpressItalic.ttf") format("truetype"); font-style: italic; font-weight: 400; }
+
+@font-face { font-family: "Adishila"; src: url("../fonts/AdishilaLetterpressBoldItalic.ttf") format("truetype"); font-style: italic; font-weight: 700; }
+
+@font-face { font-family: "Adishila"; src: url("../fonts/AdishilaLetterpressBold.ttf") format("truetype"); font-weight: 700; }
+
+@font-face { font-family: "Adishila"; src: url("../fonts/AdishilaLetterpressHeavy.ttf") format("truetype"); font-weight: 900; }
+
+@font-face { font-family: "Adishila"; src: url("../fonts/AdishilaLetterpressHeavyItalic.ttf") format("truetype"); font-weight: 900; font-style: italic; }
+
+/* Kannada */
+@font-face { font-family: "Kedage"; src: url("../fonts/Kedage-n.ttf") format("truetype"); }
+
+@font-face { font-family: "Kedage"; src: url("../fonts/Kedage-n.ttf") format("truetype"); font-style: italic; }
+
+@font-face { font-family: "Kedage"; src: url("../fonts/Kedage-b.ttf") format("truetype"); font-weight: bold; }
+
+@font-face { font-family: "Kedage"; src: url("../fonts/Kedage-t.ttf") format("truetype"); font-weight: bold; font-style: italic; }
+
+/* Grantha */
+@font-face { font-family: "Noto Sans Grantha Regular"; src: url("../fonts/NotoSansGrantha-Regular.ttf") format("truetype"); }
+
+/* greek */
+@font-face { font-family: "GFS Porson"; src: url(../fonts/GFSPorson.otf); }
+
+/* kannada */
+@font-face { font-family: "Lohit Kannada"; src: url(../fonts/Lohit-Kannada.ttf); }
+
+/* tamil */
+@font-face { font-family: "Meera Inimai"; src: url(../fonts/MeeraInimai-Regular.ttf); }
+
+/* for small caps */
+@font-face { font-family: "EB Garamond"; src: url(../fonts/EBGaramond12-Regular.otf); }
+
+@font-face { font-family: "EB Garamond"; src: url(../fonts/EBGaramond12-Italic.otf); font-style: italic; }
+
+@font-face { font-family: "Vollkorn SC"; src: url("../fonts/VollkornSC-Bold.ttf"); font-weight: bold; }
+
+/* custom vars */
+/* Bootstrap theme colors*/
+main { line-height: 1.5rem; }
+
+/* the table of contents on the main page */
+.nav-sep-fleuron:before { content: "i"; color: rgba(0, 0, 0, 0.5); padding: 0 0.5rem; font-size: 100%; font-family: "Printers Ornaments"; }
+
+/* the table of contents sidebar on the chapter pages */
+#toc { top: 90px; }
+
+.contents-heading { font-family: "EB Garamond"; font-variant: small-caps; letter-spacing: 2px; }
+
+#tocnav { margin: 0; padding: 0; }
+
+#tocnav .nav-link.chap { padding: 0.25rem 1rem !important; color: rgba(0, 0, 0, 0.9); text-decoration: none; font-family: "EB Garamond"; font-variant: small-caps; text-transform: lowercase; }
+
+#tocnav .nav-link.active { border-left: 2px solid #563c7d; background: none; color: black; font-weight: bold; border-radius: 0; }
+
+#tocnav .nav-link:hover { color: rgba(0, 0, 0, 0.5); }
+
+#tocnav .nav-link:not(.active) + nav { display: none; }
+
+#tocnav .nav-link.sect { color: rgba(0, 0, 0, 0.9); font-family: "IndUni-T"; padding: 0.25rem 1rem 0.25rem 1.5rem; line-height: 1rem; font-size: 90%; width: 239px; }
+
+#tocnav .nav-link.sect:hover { color: rgba(0, 0, 0, 0.5); }
+
+#tocnav .nav-link.sect.active { border-left: 2px solid #563c7d; color: black; }
+
+/* for the third (subsection-level) */
+#tocnav nav .nav-link:not(.active) + nav { display: none; }
+
+#tocnav .nav-link.subsect { color: rgba(0, 0, 0, 0.9); font-family: "IndUni-T"; padding: 0.25rem 1rem 0.25rem 2.5rem; font-size: 80%; line-height: 1rem; width: 239px; }
+
+#tocnav .nav-link.subsect:hover { color: rgba(0, 0, 0, 0.5); }
+
+#tocnav .nav-link.subsect.active { border-left: 2px solid #563c7d; color: black; }
+
+.note { font-size: 90%; background-image: url("/vrddhi/assets/img/mathura_fleuron_01.svg"); background-size: 25px 25px; background-repeat: no-repeat; background-position: 0 5px; padding-left: 33px !important; padding-top: 7.5px; padding-bottom: 7.5px; display: block; min-height: 30px; }
+
+.section-heading { color: #b02121; }
+
+.av-subsection .subsection-heading { display: inline-block; float: left; font-weight: bold; margin: 0.3rem 0.5rem 2rem 0.3rem; padding: 0.5rem 0.75rem; letter-spacing: 0.75px; line-height: 1.25rem; flex-wrap: wrap; width: auto; max-width: 20rem; border: 1px solid #2b0909; border-radius: 4px; background-color: #fffaeb; }
+
+.av-subsection .subsection-heading .subsection-number:after { content: "\00a0"; }
+
+.av-subsection .subsection-heading .subsection-title:after { content: ".\00a0"; }
+
+.parens::before { content: "("; }
+
+.parens::after { content: ")"; }
+
+.parens { font-weight: normal; }
+
+.gray span { color: #777; }
+
+.squarebrackets::before { content: "["; font-style: normal; }
+
+.squarebrackets::after { content: "]"; font-style: normal; }
+
+.phonemic, .phonetic, .graphemic { letter-spacing: 1px; padding-top: 0.25rem; background-color: #fffaed; }
+
+.phonemic:before { content: "/"; }
+
+.phonemic:after { content: "/"; }
+
+.phonetic:before { content: "["; }
+
+.phonetic:after { content: "]"; }
+
+.graphemic:before { content: "⟨"; }
+
+.graphemic:after { content: "⟩"; }
+
+span.featural { font-variant: small-caps; }
+
+span.featural:before { content: "["; }
+
+span.featural:after { content: "]"; }
+
+.root:before { content: "√"; }
+
+.symbol { font-style: normal; }
+
+.reconstructed:before { content: "*"; }
+
+.reconstructed { font-style: italic; }
+
+.root.set .san-Latn:after { content: "i"; font-size: 60%; vertical-align: super; }
+
+/* For examples */
+.examples { display: block; margin-bottom: 1rem; min-width: 75%; }
+
+.examples li ul.indenting { display: block; }
+
+.examples li .ex-note { display: block; margin-left: 0.5rem; padding: 0.25rem 0.25rem 0.25rem 2rem; text-indent: -1.5rem; font-size: 90%; background: none; }
+
+.examples li .ex-note:before { position: relative; left: -1rem; width: 1.5rem; font-size: 120%; content: "→"; color: #777; }
+
+.examples li .nonref-reference { float: right; display: inline-block; font-size: 90%; margin-left: 3rem; }
+
+.examples li .nonref-reference:before { content: "("; }
+
+.examples li .nonref-reference:after { content: ")"; }
+
+.example .elabel { padding-bottom: 10px; }
+
+.example .example li { padding-left: 3.5rem; }
+
+*[id]:before { display: block; position: relative; content: " "; margin-top: -148px; height: 148px; visibility: hidden; pointer-events: none; }
+
+.table thead tr { font-weight: bold; background-color: rgba(0, 0, 0, 0.075) !important; }
+
+.table tr:nth-child(even), .table tr:nth-child(odd) { background-color: #f7f7f7; }
+
+.table .phonemic, .table .graphemic, .table .phonetic { background: none; }
+
+.sentence { display: block; }
+
+.chapter-number, .chapter-title-eng { font-family: "Alegreya Sans SC"; text-transform: lowercase; }
+
+.chapter-number { font-size: 1.5rem; }
+
+.chapter-title-eng { font-weight: 800; font-size: 3rem; }
+
+/*# sourceMappingURL=textbook.css.map */

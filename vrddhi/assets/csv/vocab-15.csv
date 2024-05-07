@@ -1,0 +1,19 @@
+Word (ISO 15919),Meaning,Notes,Class,Stems,Gender,Number,Case,Person,Padam,Root,Preverbs,Tense-Mood,Class,Word (Dēvanāgarī),Anki Tags
+15,idānīm,now,,adv,,,,,,,,,,,इदानीम्,lesson-15 adverbs
+15,prāsādaḥ,palace,,noun,prāsāda-,m,sg,1,,,,,,,प्रासादः,lesson-15 nouns
+15,siṁhaḥ,lion,,noun,siṁha-,m,sg,1,,,,,,,सिंहः,lesson-15 nouns
+15,vittam,"money, wealth",,noun,vitta-,n,sg,1,,,,,,,वित्तम्,lesson-15 nouns
+15,ānandáḥ,"joy, bliss, delight",,noun,ānandá-,m,sg,1,,,,,,,आनन्दः,lesson-15 nouns
+15,divasaḥ,day,,noun,divasa-,m,sg,1,,,,,,,दिवसः,lesson-15 nouns
+15,rātriḥ,night,,noun,rātri-,f,sg,1,,,,,,,रात्रिः,lesson-15 nouns
+15,hí,for (conjunction),"Standardly appears as the <i>second</i> word in its respective sentence, introducing a cause or reason.",particle,,,,,,,,,,,हि,lesson-15 particles
+15,smárati,he/she/it remembers,Takes either an accusative or a genitive (esp. with people),verb,,,sg,,3rd,parasmai,smr̥,,laṭ,bhvadi,स्मरति,lesson-15 verbs::class-01
+15,ārabhatē,he/she/it begins,Usually used with an infinitive.,verb,,,sg,,3rd,atmane,rabh,ā,laṭ,bhvadi,आरभते,lesson-15 verbs::class-01
+15,ā́dattē,he/she/it takes,,verb,,,sg,,3rd,atmane,dā,ā,laṭ,hvadi,आदत्ते,lesson-15 verbs::class-03
+15,dádāti,he/she/it gives,,verb,,,sg,,3rd,parasmai,dā,,laṭ,hvadi,ददाति,lesson-15 verbs::class-03
+15,vídhattē,"he/she/it establishes, lays down, creates",,verb,,,sg,,3rd,atmane,dhā,vi,laṭ,hvadi,विधत्ते,lesson-15 verbs::class-03
+15,juhṓti,he/she/it makes an offering,"Note that this verb is <span class=""translit"">ubhayapadi</span>, depending on whether the result of the action accrues to the agent or not.",verb,,,sg,,3rd,ubhaya,hu,,laṭ,hvadi,जुहोति,lesson-15 verbs::class-03
+15,bibhḗti,he/she/it fears,Note that this verb takes an <i>ablative</i> referring to that of which one is afraid.,verb,,,sg,,3rd,parasmai,bhī,,laṭ,hvadi,बिभेति,lesson-15 verbs::class-03
+15,bíbharti,"he/she/it carries, bears",,verb,,,sg,,3rd,parasmai,bhr̥,,laṭ,hvadi,बिभर्ति,lesson-15 verbs::class-03
+15,jáhāti,he/she/it abandons,,verb,,,sg,,3rd,parasmai,hā,,laṭ,hvadi,जहाति,lesson-15 verbs::class-03
+15,práviśati,he/she/it enters,,verb,,,sg,,3rd,parasmai,viś,pra,laṭ,tudadi,प्रविशति,lesson-15 verbs::class-06

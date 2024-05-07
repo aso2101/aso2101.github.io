@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Meters | Vr̥ddhiḥ</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Meters" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Sanskrit at the University of Chicago" />
+<meta property="og:description" content="Sanskrit at the University of Chicago" />
+<link rel="canonical" href="http://localhost:4000/vrddhi/meter/" />
+<meta property="og:url" content="http://localhost:4000/vrddhi/meter/" />
+<meta property="og:site_name" content="Vr̥ddhiḥ" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Meters" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Sanskrit at the University of Chicago","headline":"Meters","url":"http://localhost:4000/vrddhi/meter/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/vrddhi/assets/css/main.css"/>
+  <link rel="stylesheet" href="/vrddhi/assets/css/readings.css"/>
+  <script src="https://kit.fontawesome.com/131949e24a.js" crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/vrddhi/feed.xml" title="Vr̥ddhiḥ" /></head>
+<body><nav class="navbar navbar-light navbar-expand-md sticky-top">
+  <div class="container">
+    <div class="borders"></div>
+    <a class="navbar-brand mx-2" href="/vrddhi/">
+      <img width="200px" src="/vrddhi/assets/img/logo-alt.png"/>
+    </a>
+
+    <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarContent">
+ 
+      <ul class="navbar-nav mx-4">
+	<li class="nav-item">
+	  <a class="d-flex flex-column nav-button text-center" href="/vrddhi/course/">
+	    Lessons<br/>
+	    <span class="translit">adhyayanam</span></a>
+	</li>
+	
+	<div class="mx-auto my-auto">
+	  <img width="15px" src="/vrddhi/assets/img/mathura_fleuron_01.svg"></img>
+	</div>
+	<li class="nav-item">
+	  <a class="d-flex flex-column nav-button text-center" href="/vrddhi/grammar/">
+	    Grammar<br/>
+	    <span class="translit">vyākaraṇam</span></a>
+	</li>
+	
+	<div class="mx-auto my-auto">
+	  <img width="15px" src="/vrddhi/assets/img/mathura_fleuron_01.svg"></img>
+	</div>
+	<li class="nav-item">
+	  <a class="d-flex flex-column nav-button text-center" href="/vrddhi/readings/">
+	    Readings<br/>
+	    <span class="translit">pāṭhāḥ</span></a>
+	</li>
+	
+	<div class="mx-auto my-auto">
+	  <img width="15px" src="/vrddhi/assets/img/mathura_fleuron_01.svg"></img>
+	</div>
+	<li class="nav-item">
+	  <a class="d-flex flex-column nav-button text-center" href="/vrddhi/meter/">
+	    Meters<br/>
+	    <span class="translit">chandaḥ</span></a>
+	</li>
+	
+	<div class="mx-auto my-auto">
+	  <img width="15px" src="/vrddhi/assets/img/mathura_fleuron_01.svg"></img>
+	</div>
+	<li class="nav-item">
+	  <a class="d-flex flex-column nav-button text-center" href="/vrddhi/resources/">
+	    Resources<br/>
+	    <span class="translit">upāyāḥ</span></a>
+	</li>
+	</ul><div class="dropdown mx-auto my-3" style="width:4rem;">
+  <button class="btn btn-sm btn-grey dropdown-toggle" type="button" id="transliterationButton" data-toggle="dropdown" title="Transliteration options" aria-haspopup="true" aria-expanded="false">
+    <img src="/vrddhi/assets/img/transliterate.svg" width="20px"/>
+  </button>
+  <div class="dropdown-menu dropdown-menu-right dropdown-menu-twocolumn" aria-labelledby="transliterationButton">
+    <div class="row">
+      <div class="col-md-6">
+	<a class="dropdown-item disabled" id="options-info">Transliteration options</a>
+	<a class="dropdown-item translitSelector" href="javascript:void(0);" id="translitOnlyIndic" onclick="translitOptions(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span class="translit-only-indic" data-original="vāk">vāk</span>
+	    <small><span class="text-muted">Indic text</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item translitSelector" href="javascript:void(0);" id="translitOnlyRoman" onclick="translitOptions(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <i>vāk</i>
+	    <div><small><span class="text-muted">Roman text</span></small></div>
+	  </div>
+	</a>
+	<a class="dropdown-item translitSelector" href="javascript:void(0);" id="translitRomanIndic" onclick="translitOptions(this)" >
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span><i>vāk</i> <span class="translit-only-indic" data-original="vāk">vāk</span></span>
+	    <small><span class="text-muted">Roman + Indic</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item translitSelector" href="javascript:void(0);" id="translitIndicRoman" onclick="translitOptions(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span><span class="translit-only-indic" data-original="vāk">vāk</span> <i>vāk</i></span>
+	    <small><span class="text-muted">Indic + Roman</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item translitSelector" href="javascript:void(0);" id="translitIndicRomanTooltips" onclick="translitOptions(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span style="text-decoration;text-decoration:underline dotted;"><span class="translit-only-indic" data-original="vāk">vāk</span></span>
+	    <small><span class="text-muted">Indic + Roman tooltips</span></small> 
+	  </div>
+	</a>
+	<a class="dropdown-item translitSelector" href="javascript:void(0);" id="translitRomanIndicTooltips" onclick="translitOptions(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span><span style="text-decoration;text-decoration:underline dotted;">vāk</span></span>
+	    <small><span class="text-muted">Roman (Indic tooltips)</span></small>
+	  </div>
+	</a>
+      </div>
+      <div class="col-md-6">
+	<a class="dropdown-item disabled" id="scripts-info">Indic scripts</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Deva" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span class="Deva">देवनागरी</span>
+	    <small><span class="text-muted">Dēvanāgarī</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Knda" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span class="Knda">ಕನ್ನಡ</span>
+	    <small><span class="text-muted">Kannaḍa</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Telu" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span>తెలుగు</span>
+	    <small><span class="text-muted">Telugu</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Mlym" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span>മലയാളം</span>
+	    <small><span class="text-muted">Malayāḷaṁ</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Beng" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span>বাংলা</span>
+	    <small><span class="text-muted">Bāṅlā</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Gujr" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span>ગુજરાતી</span>
+	    <small><span class="text-muted">Gujarātī</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Gran" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span class="Gran">𑌗𑍍𑌰𑌨𑍍𑌥</span>
+	    <small><span class="text-muted">Grantha</span></small>
+	  </div>
+	</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    <div class="borders"></div>
+
+  </div>
+</nav>
+<main class="page-content" aria-label="Content">
+        <div class="container">
+  <div class="row">
+    <div class="col-md-3 meter-toc">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="text-center mb-2 mt-3">
+  <h4><a href="/vrddhi/meter"><span class="translit">chandōrṇavaḥ</span></a></h4>
+</div>
+
+<ul class="list-group">
+  <li class="list-group-item slideToggleTrigger">
+    <h5 class="translit"><b>vr̥ttāni</b></h5>
+    <div class="float-right text-right toggleIcon"><i class="fas fa-compress-arrows-alt"></i></div>    
+  </li>
+  <li class="list-group-item slideToggleTarget">
+    <p class="description">Syllable-counting meters</p>
+    <ul>
+      <li><span class="translit">Anuṣṭup</span> (8 &times; 4)
+        <ul>
+          <li><a href="/vrddhi/meter/anustubh.html" class="translit">ślōkaḥ</a></li>
+	</ul>
+      </li>
+      <li><span class="translit">Triṣṭup</span> (11 &times; 4)
+      <ul>
+	
+	<li><a href="/vrddhi/meter/upajati" class="translit">Indravajrā/Upēndravajrā (Upajātiḥ)</a></li>
+	
+	<li><a href="/vrddhi/meter/shalini" class="translit">Śālinī</a></li>
+	
+	<li><a href="/vrddhi/meter/rathoddhata" class="translit">Rathōddhatā</a></li>
+	
+	<li><a href="/vrddhi/meter/svagata" class="translit">Svāgatā</a></li>
+	
+      </ul>
+      </li>
+      <li><span class="translit">Jagatī</span> (12 &times; 4)
+      <ul>
+	
+	<li><a href="/vrddhi/meter/vamshastha" class="translit">Vaṁśastham</a></li>
+	
+	<li><a href="/vrddhi/meter/drutavilambita" class="translit">Drutavilambitam</a></li>
+	
+      </ul>
+      </li>
+      <li><span class="translit">Atijagatī</span> (13 &times; 4)
+      <ul>
+	
+	<li><a href="/vrddhi/meter/praharsini" class="translit">Praharṣiṇī</a></li>
+	
+	<li><a href="/vrddhi/meter/manjubhasini" class="translit">Mañjubhāṣiṇī</a></li>
+	
+      </ul>
+      </li>
+      <li><span class="translit">Śakvarī</span> (14 &times; 4)
+      <ul>
+	
+	<li><a href="/vrddhi/meter/vasantatilaka" class="translit">Vasantatilakam</a></li>
+	
+      </ul>
+      </li>
+      <li><span class="translit">Atiśakvarī</span> (15 &times; 4)
+      <ul>
+	
+	<li><a href="/vrddhi/meter/malini" class="translit">Mālinī</a></li>
+	
+      </ul>
+      </li>
+      <li><span class="translit">Aṣṭiḥ</span> (16 &times; 4)
+	<ul>
+	  
+	</ul>
+      </li>
+      <li><span class="translit">Atyaṣṭiḥ</span> (17 &times; 4)
+      <ul>
+	
+	<li><a href="/vrddhi/meter/prthvi" class="translit">Pr̥thvī</a></li>
+	
+	<li><a href="/vrddhi/meter/mandakranta" class="translit">Mandākrāntā</a></li>
+	
+	<li><a href="/vrddhi/meter/sardulavikridita" class="translit">Śārdūlavikrīḍitam</a></li>
+	
+	<li><a href="/vrddhi/meter/sikharini" class="translit">Śikhariṇī</a></li>
+	
+	<li><a href="/vrddhi/meter/harini" class="translit">Hariṇī</a></li>
+	
+      </ul>
+      </li>
+      <li><span class="translit">Atidhr̥tiḥ</span> (19 &times; 4)
+      <ul>
+	
+      </ul>
+      </li>
+      <li><span class="translit">Kr̥tiḥ</span> (20 &times; 4)
+      <ul>
+	
+	<li><a href="/vrddhi/meter/utpalamalika" class="translit">Utpalamālikā</a></li>
+	
+	<li><a href="/vrddhi/meter/mattebhavikridita" class="translit">Mattēbhavikrīḍitam</a></li>
+	
+      </ul>
+      </li>
+      <li><span class="translit">Prakr̥tiḥ</span> (21 &times; 4)
+      <ul>
+	
+	<li><a href="/vrddhi/meter/sragdhara" class="translit">Sragdharā</a></li>
+	
+      </ul>
+      </li>
+    </ul>
+  </li>
+  <li class="list-group-item last">
+  </li>
+</ul>
+
+<ul class="list-group mb-5">
+  <li class="list-group-item slideToggleTrigger">
+    <h5 class="translit"><b>jātayaḥ</b></h5>
+    <div class="float-right text-right toggleIcon"><i class="fas fa-compress-arrows-alt"></i></div>    
+  </li>
+  <li class="list-group-item slideToggleTarget">
+    <p class="description">Mora-counting meters</p>
+    <ul>
+      <li><a href="/vrddhi/meter/arya.html" class="translit">Āryā/Gāhā</a></li>
+      <li><a href="/vrddhi/meter/aryagiti.html" class="translit">Āryāgītiḥ/Khandaaṁ</a></li>
+      <li><a href="/vrddhi/meter/vaitaliya.html" class="translit">Vaitālīyam–Aupacchandasikam</a></li>
+    </ul>
+  </li>
+  <li class="list-group-item last">
+  </li>
+</ul>
+
+    </div>
+    <div class="col-md-9">
+      <section class="jumbotron jumbotron-neutral text-center">
+	<div class="d-inline-flex">
+	  <div>
+	    <img width="100px" src="/vrddhi/assets/img/bracketfleuron1-left.svg"></img>
+	  </div>
+	  <div class="d-flex flex-column">
+	    <h1 class="jumbotron-heading translit mx-4">chandōrṇavaḥ</h1>
+	    <h1 class="jumbotron-heading english">meters</h1>
+	    <p class="lead">A guide to Sanskrit and Prakrit meters</p>
+	  </div>
+	  <div>
+	    <img width="100px" src="/vrddhi/assets/img/bracketfleuron1-right.svg"></img>
+	  </div>
+	</div>
+      </section>
+      <div class="row mt-4">
+	<div class="col">
+	  <p>These pages collect information (descriptions, definitions, examples) of the various meters that are used in Sanskrit and Prakrit literature.</p>
+	  <p>For <b>identifying</b> the meter of a verse (or any chunk of text with verses in it...) I highly recommend Shreevatsa’s <a href="https://sanskritmetres.appspot.com/">Metre identification tool</a>.</p>
+	  <a id="principles"></a><h2>Principles</h2>
+	  <p>This section discusses some of the basic concepts and principles involved in Sanskrit and Prakrit meter. You might find <a href="../prakrit/resources/basic_principles.mp4">this video</a> (and the associated <a href="../prakrit/resources/basic_principles.pdf">slides</a>), which I prepared for a Prakrit seminar, to be useful.</p>
+	  <p>The basic division between <span class="translit">vr̥ttāni</span> and <span class="translit">jātayaḥ</span> in the metrical repertoires of Sanskrit and Prakrit corresponds to the underlying <b>principles</b> of versification. The first class, <span class="translit">vr̥ttam</span>, refers to meters that count <b>syllables</b> (<span class="translit">akṣarāṇi</span>, <span class="translit">varṇāḥ</span>). The second class, <span class="translit">jātiḥ</span>, refers to meters that count <b>moras</b> (<span class="translit">mātrāḥ</span>).</p>
+
+	  <a id="syllables"></a><h5>Syllables</h5>
+	  <p>The <b>syllable</b> is phonological unit. In Sanskrit it is called <span class="translit">akṣaram</span> or <span class="translit">varṇaḥ</span>. Some scholars — not me — would not like to conflate the ancient concepts associated with these words with the concept of the syllable as defined by modern linguistics. For my purposes, they are functionally identical.</p>
+	  <p>A syllable consists of a single vowel (<span class="translit">svaraḥ</span>). It <b>optionally</b> has one or more consonants (<span class="translit">vyañjanam</span>) before this vowel, and one or more consonants after it. Therefore, using C for any consonant and V for any vowel, the structure of a syllable is C*VC* (i.e., zero or more consonants, followed by a vowel, followed by zero or more consonants).</p>
+	  <p>A string of sounds is <b>syllabified</b>, or parsed into syllables, according to the following rules, where a period (.) represents a boundary between syllables. Note that in Sanskrit and Prakrit, syllabification generally takes place <b>across word boundaries</b>.</p>
+	  <ul>
+	    <li>Each vowel goes into its own syllable.</li>
+	    <ul>
+	      <li><i>ia</i> “thus” (Prakrit) = <i>i.a</i></li>
+	    </ul>
+	    <li>A single consonant between two vowels is preferentially taken with the <b>following</b> vowel.</li>
+	    <ul>
+	      <li><i>ēkē</i> “some” = <i>ē.kē</i></li>
+	      <li><i>itō</i> “this way” = <i>i.tō</i></li>
+	    </ul>
+	    <li>When a conjunct consonant (i.e., two or more consonants) occurs between two vowels, the <b>first</b> usually goes with the preceding vowel, and the <b>last</b> usually goes with the following vowel.</li>
+	    <ul>
+	      <li><i>arthaḥ</i> “wealth” = <i>ar.thaḥ</i></li>
+	      <li><i>astam</i> “setting” = <i>as.tam</i></li>
+	      <li><i>jihvā</i> “tongue” = <i>jih.vā</i></li>
+	    </ul>
+	    <li><b>Note:</b> Although the principles of <a href="https://en.wikipedia.org/wiki/Sonority_hierarchy">sonority</a> would usually require conjunct consonants of <i>increasing sonority</i> (for example, <i>tr</i>, <i>pr</i>, <i>ty</i>) to be syllabified together with the following vowel, they are effectively ambisyllabic in Sanskrit, and the less sonorous consonant is usually doubled at least in pronunciation, if not in writing:</li>
+	    <ul>
+	      <li><i>viprō</i> “brahmin” = <i>vip.prō</i></li>
+	      <li><i>atyantam</i> “too much” = <i>at.tyan.tam</i></li>
+	    </ul>
+	    <li><b>Note:</b> It is useful to know that the letters called <span class="translit">ayōgavāhāḥ</span> in Sanskrit — namely, <span class="translit">anusvāraḥ</span>, <span class="translit">visargaḥ</span>, and their substitutes — must always come at the <b>end</b> of a syllable.</li>
+	    <ul>
+	      <li><i>saṁsāraḥ</i> = <i>saṁ.sā.raḥ</i></li>
+	      <li><i>duḥsahaḥ</i> = <i>duḥ.sa.haḥ</i></li>
+	    </ul>
+	  </ul>
+	  <p>There is no conventional sign for the syllable as such in premodern metrical texts. When necessary, I represent it with the sign σ.</p>
+
+	  <a id="moras"></a><h5>Moras and weight</h5>
+	  <p>The <b>mora</b> (<a href="https://en.wikipedia.org/wiki/Mora_(linguistics)" target="_blank">Wikipedia</a>) is a unit of phonological structure “below” that of the syllable, in that a syllable contains at least one mora. Intuitively, a mora represents the amount of time that it takes to pronounce something: hence a syllable with more moras is longer, or to use the terminology of both Sanskrit grammar and modern linguistics, “heavier” than a syllable with fewer moras.</p>
+	  <p>In Sanskrit and Prakrit, moras are assigned to <b>vowels</b> and also to the consonants that follow them within a syllable, which are called <b>coda consonants</b>. Consonants at the beginning of a syllable do not contribute any moras. Hence, in the word <span class="translit">prāṁśuḥ</span>, which is syllabified as <i>prāṁ.śuḥ</i>, the consonants <i>p</i>, <i>r</i>, and <i>ś</i> have no moras associated with them. But the consononants <i>ṁ</i> and <i>ḥ</i> do. Each <b>coda consonant</b> is assigned <b>one</b> mora. Among vowels, the short vowels (<i>a</i>, <i>i</i>, <i>u</i>, <i>r̥</i> and <i>l̥</i> ) are each associated with one mora, and the long vowels (<i>ā</i>, <i>ī</i>, <i>ū</i>, <i>r̥̄</i>, <i>l̥̄</i>, as well as <i>ē</i> and <i>ō</i>) are each associated with two moras. Technically the long diphthongs (<i>ai</i> and <i>au</i>) are associated with three moras.</p>
+	  <p>Metrical writers in South Asia did not use a symbol for the mora, but in these pages I will represent a single mora with the sign μ.</p>
+	  <p>For the purposes of versification, a syllable containing a single mora is considered <b>light</b>, and a syllable containing two or more moras is considered <b>heavy</b>. The distinction between light and heavy syllables is of paramount importance for all Sanskrit and Prakrit meters, which regulate not just the number of syllables, but this quality, which is called <b>weight</b>. In these pages, I have represented a light syllable with the sign । (<span class="translit">r̥juḥ</span>, a straight line), and a heavy syllable with the sign ऽ (<span class="translit">vakraḥ</span>, a crooked line), in accordance with the longstanding convention in South Asia.</p>
+
+	  <a id="syllables"></a><h5>Groups</h5>
+	  <p>Prakrit meters — including those that have been borrowed into Sanskrit — are typically regulated by “groups” (<span class="translit">gaṇāḥ</span>). These are groups of syllables whose total number of moras adds up to a certain number, usually four (hence they are more specifically called <span class="translit">caturmātrāḥ gaṇāḥ</span>, “groups with four moras each”).</p>
+	  <p>For <b>parsing</b> syllables into groups, simply count the number of moras each syllable has, <b>stopping after the maximum of two moras per syllable has been reached</b>. (In Prakrit there simply are no syllables that have more than two moras; in Sanskrit, however, so-called “superheavy” syllables, with three or more moras, pattern with heavy syllables.) Once you reach the required number of moras, you have a group.</p>
+	  <p>Hence, where the square brackets represent the boundaries between groups, <i>pasuvaïṇō rōsāruṇapaḍimāsaṅkantagōrimuhaandaṁ</i> would be parsed as follows:</p>
+	  <div class="text-center">
+	    <span>[<i class="px-1">pa.su.va.i</i>][<i class="px-1">ṇō rō</i>][<i  class="px-1">sā.ru.ṇa</i>][<i class="px-1">pa.ḍi.mā</i>][<i class="px-1">saṅ.kan</i>][<i class="px-1">ta.gō.ri</i>][<i class="px-1">mu.ha.an</i>][<i class="px-1">daṁ</i>]</span>
+	  </div>
+
+	  <a id="caesura"></a><h5>Caesura</h5>
+	  <p>A <b>caesura</b>  (<span class="translit">yatiḥ</span>) is a place in the metrical pattern where a word-boundary is expected or required. A “word boundary” is where one word ends and another begins. The position of a caesura is usually specified with reference to syllables in the case of syllable-counting meters (e.g., “after the seventh syllables”), or with reference to groups in the case of mora-counting meters (e.g. “after the third group”). Generally word boundaries coincide with syllable boundaries (i.e., the end of a word coincides with the end of a syllable), but word boundaries that are “hidden” in the sense of being affected by <i>sandhi</i> are generally considered to fulfill the requirement of a caesura. Word boundaries within compound words also count for this purpose.</p>
+	  <div class="text-center mt-5 mb-2">
+	    <img src="/vrddhi/assets/img/manuscript_fleuron_2.svg" width="200px"></img>
+	  </div>
+	</div>
+      </div>
+
+      <div class="row mt-4">
+	<div class="col">
+	  <a id="sources"></a><h2>Sources</h2>
+	  <p>There were a number of overlapping traditions of metrical analysis in premodern India, and they used slightly different sets of technical terminology and conventions for describing metrical forms. Metrical writers also used the so-called <a href="#bhutasankhya"><b>bhūtasaṅkhyā</b></a> system, according to which numbers were named by objects that were known to come in sets of that number.</p>
+
+	  <a id="pingala"></a><h5>Piṅgala’s <i>Chandaḥsūtram</i></h5>
+	  <p>The <span class="translit">Chandaḥsūtram</span> is one of the earliest texts devoted to the analysis of metrical forms. It was probably compiled in the first or second century of the common era. It was known to <b>Śabara</b>, who perhaps wrote in the fifth century. It was also known to the author of some fragmentary texts which were found in Turfan and edited by Dieter Schlingloff. Those fragments are probably not later than about 500 CE. The <span class="translit">Chandaḥsūtram</span> is ascribed to Piṅgala, who was, at least by the time of Halāyudha in the ninth century, thought to be a Nāga.</p>
+	  <p>Piṅgala describes both Vedic and “secular” (<span class="translit">laukikam</span>) meters, and also specifies a few combinatorial procedures (<span class="translit">pratyayāḥ</span>) for finding out information about particular categories of meters. His textbook is by far the most influential, and has been commented on a number of times:</p>
+	  <ul>
+	    <li>the <span class="translit">Mr̥tasañjīvanī</span> (“what brings the dead back to life”) of <b>Halāyudha</b>, written in the 970s or 980s, when the poet was under the patronage of the Pāramāra king <b>Muñja</b> who ruled from Dhārā in present-day Madhya Pradesh;</li>
+	    <li>the <span class="translit">Chandōvicitibhāṣyam</span> (“commentary on the repertoire of meters”) of <b>Yādavaprakāśa</b>, one of the teachers of Rāmānuja, written in the late tenth or early eleventh century in Tamil Nadu.</li>
+	  </ul>
+	  <h6>The triplet system</h6>
+	  <p>Piṅgala invented a system of “triplets” (<span class="translit">trikāṇi</span>), wherein one could represent a metrical pattern, consisting of a certain sequence of light syllables (।) and heavy syllables (ऽ), in an abbreviated form. In this system there are eight letters, each of which stands for a unique combination of three syllables. They can be memorized with the following mnemonic:</p>
+	  
+	  <div class="text-center mb-3">
+	    <span class="translit">yamātārājabhānasalagā</span>
+	  </div>
+
+	  <p>If we take each letter in that mnemonic and look at its own weight, in addition to the weight of the two following syllables, we arrive at the following set of equivalences:</p>
+
+	  <div class="text-center m-5">
+	    <table class="table">
+	      <thead>
+		<tr>
+		  <th>Sign</th>
+		  <th>Expansion</th>
+		</tr>
+	      </thead>
+	      <tbody>
+		<tr>
+		  <th><span class="translit">ya</span></th>
+		  <td>।ऽऽ</td>
+		</tr>
+		<tr>
+		  <th><span class="translit">ma</span></th>
+		  <td>ऽऽऽ</td>
+		</tr>
+		<tr>
+		  <th><span class="translit">ta</span></th>
+		  <td>ऽऽ।</td>
+		</tr>
+		<tr>
+		  <th><span class="translit">ja</span></th>
+		  <td>।ऽ।</td>
+		</tr>
+		<tr>
+		  <th><span class="translit">bha</span></th>
+		  <td>ऽ।।</td>
+		</tr>
+		<tr>
+		  <th><span class="translit">na</span></th>
+		  <td>।।।</td>
+		</tr>
+		<tr>
+		  <th><span class="translit">sa</span></th>
+		  <td>।।ऽ</td>
+		</tr>
+	      </tbody>
+	    </table>
+	  </div>
+	  <p>The letters <span class="translit">la</span> and <span class="translit">ga</span> stand for a single light (<span class="translit">laghu</span>) and a single heavy (<span class="translit">guru</span>) syllable, respectively.</p>
+	  <p>Although these triplets were invented by <b>Piṅgala</b>, many subsequent authors, such as <b>Jayadēva</b>, <b>Jayakīrti</b>, <b>Hēmacandra</b>, <b>Ratnākaraśānti</b>, and <b>Kēdārabhaṭṭa</b>, use them in their definitions.</p>
+
+	  <a id="ratnamanjusa"></a><h5>The <i>Ratnamañjūṣā</i> and <i>Jānāśrayī</i></h5>
+	  <p>The <span class="translit">Ratnamañjūṣā</span> (“Chest of Jewels”) is more recent than Piṅgala’s <span class="translit">Chandaḥsūtram</span>, but still very old; perhaps it dates to the fourth or fifth century. It was compiled by a Jain monk who did not leave us his name. The <span class="translit">Jānāśrayī Chandōvicitiḥ</span> (“Janāśraya’s Repertoire of Meters”) is named for one of the Viṣṇukuṇḍin kings, who typically took the title Janāśraya; this would place it around the early seventh century. I discuss them together because they use similar conventions.</p>
+	  <p>The <span class="translit">Ratnamañjūṣā</span> and <span class="translit">Jānāśrayī</span> use a slightly different system of triplets than Piṅgala. Rather than only using consonants, both <b>vowels</b> and <b>consonants</b> can stand for a particular triplet. This allows the authors to define meters in an even briefer fashion. The author of the <span class="translit">Jānāśrayī</span> has also included a number of abbreviations for sequences of two syllables and four syllables:</p>
+
+	  <div class="text-center m-5">
+	    <table class="table">
+	      <thead>
+		<tr>
+		  <th>Signs (<i>Ratnamañjūṣā</i>)</th>
+		  <th>Signs (<i>Jānāśrayī</i>)</th>
+		  <th>Expansion</th>
+		</tr>
+	      </thead>
+	      <tbody>
+		<tr>
+		  <td></td>
+		  <td><span class="translit">s</span></td>
+		  <td>ऽऽ</td>
+		</tr>
+		<tr>
+		  <td></td>
+		  <td><span class="translit">j</span></td>
+		  <td>।ऽ</td>
+		</tr>
+		<tr>
+		  <td></td>
+		  <td><span class="translit">p</span></td>
+		  <td>ऽ।</td>
+		</tr>
+		<tr>
+		  <td></td>
+		  <td><span class="translit">r</span></td>
+		  <td>।।</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">k</span>, <span class="translit">ā</span></td>
+		  <td><span class="translit">g</span>, <span class="translit">ū</span></td>
+		  <td>ऽऽऽ</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">c</span>, <span class="translit">ē</span></td>
+		  <td><span class="translit">ṅ</span>, <span class="translit">r̥</span></td>
+		  <td>।ऽऽ</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">t</span>, <span class="translit">au</span></td>
+		  <td><span class="translit">ś</span>, <span class="translit">ī</span></td>
+		  <td>ऽ।ऽ</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">p</span>, <span class="translit">ī</span></td>
+		  <td><span class="translit">l</span>, <span class="translit">u</span></td>
+		  <td>।।ऽ</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">ś</span>, <span class="translit">a</span></td>
+		  <td><span class="translit">b</span>, <span class="translit">ē</span></td>
+		  <td>ऽऽ।</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">ṣ</span>, <span class="translit">u</span></td>
+		  <td><span class="translit">k</span>, <span class="translit">i</span></td>
+		  <td>।ऽ।</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">s</span>, <span class="translit">r̥</span></td>
+		  <td><span class="translit">t</span>, <span class="translit">ā</span></td>
+		  <td>ऽ।।</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">h</span>, <span class="translit">i</span></td>
+		  <td><span class="translit">m</span>, <span class="translit">a</span></td>
+		  <td>।।।</td>
+		</tr>
+		<tr>
+		  <td></td>
+		  <td><span class="translit">d</span></td>
+		  <td>।।।।</td>
+		</tr>
+		<tr>
+		  <td></td>
+		  <td><span class="translit">y</span></td>
+		  <td>।।।ऽ</td>
+		</tr>
+		<tr>
+		  <td></td>
+		  <td><span class="translit">ṣ</span></td>
+		  <td>ऽ।ऽऽ</td>
+		</tr>
+		<tr>
+		  <td></td>
+		  <td><span class="translit">ṭ</span></td>
+		  <td>ऽ।ऽ।ऽ</td>
+		</tr>
+		<tr>
+		  <td></td>
+		  <td><span class="translit">ñ</span></td>
+		  <td>ऽ।।ऽऽ</td>
+		</tr>
+		<tr>
+		  <td></td>
+		  <td><span class="translit">ṇ</span></td>
+		  <td>।।।।।।</td>
+		</tr>
+	      </tbody>
+	    </table>
+	  </div>
+
+	  <p>In addition to these new triplets, the authors of the <span class="translit">Ratnamañjūṣā</span> and the <span class="translit">Jānāśraī</span> also refer to the <a href="#caesura">caesura</a> in a particular way: rather than using the <a href="#bhutasankhya"><i>bhūtasaṅkhyā</i></a> system, as other authors did, he names the syllable after which the caesura occurs according to the following convention:</p>
+	  <div class="text-center m-5">
+	    <table class="table">
+	      <thead>
+		<tr>
+		  <th>Symbol (<i>Ratnamañjūṣā</i>)</th>
+		  <th>Symbol (<i>Jānāśrayī</i>)</th>
+		  <th>Syllable position</th>
+		</tr>
+	      </thead>
+	      <tbody>
+		<tr>
+		  <td><span class="translit">da</span></td>
+		  <td><span class="translit">na</span></td>
+		  <td>1</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">dā</span></td>
+		  <td><span class="translit">nā</span></td>
+		  <td>2</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">di</span></td>
+		  <td><span class="translit">ni</span></td>
+		  <td>3</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">dī</span></td>
+		  <td><span class="translit">nī</span></td>
+		  <td>4</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">du</span></td>
+		  <td><span class="translit">nu</span></td>
+		  <td>5</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">dū</span></td>
+		  <td><span class="translit">nū</span></td>
+		  <td>6</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">dr̥</span></td>
+		  <td><span class="translit">nr̥</span></td>
+		  <td>7</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">dr̥̄</span></td>
+		  <td><span class="translit">nr̥̄</span></td>
+		  <td>8</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">dl̥</span></td>
+		  <td><span class="translit">nl̥</span></td>
+		  <td>9</td>
+		</tr>
+		<tr> 
+		  <td><span class="translit">dl̥̄</span></td>
+		  <td><span class="translit">nl̥̄</span></td>
+		  <td>10</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">dē</span></td>
+		  <td><span class="translit">nē</span></td>
+		  <td>11</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">dai</span></td>
+		  <td><span class="translit">nai</span></td>
+		  <td>12</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">dō</span></td>
+		  <td><span class="translit">nō</span></td>
+		  <td>13</td>
+		</tr>
+		<tr>
+		  <td><span class="translit">dau</span></td>
+		  <td><span class="translit">nau</span></td>
+		  <td>14</td>
+		</tr>
+	      </tbody>
+	    </table>
+	  </div>
+	  
+	  <a id="bhutasankhya"></a><h5>The <i>bhūtasaṅkhyā</i> system</h5>
+	  <p>Sanskrit authors will often refer to a <b>number</b> by a <b>thing</b> that is commonly imagined to come in sets of that number. Hence “eyes” or “hands” can be used for the number 2. Many of these conventions, however, depend on a bit of cultural knowledge. One has to know that there are said to be seven “family” mountains (<i>kulagiri-</i>) in order to understand that expressions meaning “mountain” can express the number 7. This system is called <i>bhūtasaṅkhyā</i>, “entity-numerals,” i.e., using entities as numerals.</p>
+	  <p>Peter Szanto has posted an extremely useful <a href="https://tibetica.blogspot.com/2008/02/bhtasakhy.html">list</a> of the terms used in this system, based on B.V. Subharayappa and K.V. Sarma, <i>Indian Astronomy, A Sourcebook</i> (Bombay: Nehru Centre, 1985), Appendix V. See also the <a href="https://en.wikipedia.org/wiki/Bhutasamkhya_system" target="_blank">Wikipedia article</a>.</p>
+	  <table class="table mx-3 bhutasamkhya">
+	    <tr>
+	      <th rowspan="2" class="align-middle px-3">0</th>
+	      <td>Words for <b>sky</b>: <span class="translit">anantaḥ</span>, <span class="translit">antarikṣam</span>, <span class="translit">abhram</span>, <span class="translit">ambaram</span>, <span class="translit">ākāśaḥ</span>, <span class="translit">khaḥ</span>, <span class="translit">gaganam</span>, <span class="translit">jaladharapathaḥ</span>, <span class="translit">nabhaḥ</span>, <span class="translit">pūrṇaḥ</span>, <span class="translit">randhram</span>, <span class="translit">viyat</span>, <span class="translit">viṣṇupadam</span>, <span class="translit">vyōma</span></td>
+	    </tr>
+	    <tr>
+	      <td>Others: <span class="translit">binduḥ</span>, <span class="translit">śūnyam</span></td>
+	    </tr>
+	    <tr>
+	      <th rowspan="3" class="align-middle px-3">1</th>
+	      <td>Words for <b>earth</b>: <span class="translit">ilā</span>, <span class="translit">urvarā</span>, <span class="translit">kuḥ</span>, <span class="translit">kṣitiḥ</span>, <span class="translit">kṣmā</span>, <span class="translit">gauḥ</span>, <span class="translit">jagatī</span>, <span class="translit">dharaṇi</span>, <span class="translit">dharā</span>, <span class="translit">bhūḥ</span>, <span class="translit">mahī</span>,  <span class="translit">vasudhā</span>, <span class="translit">vasundharā</span></td>
+	    </tr>
+	    <tr>
+	      <td>Words for <b>moon</b>: <span class="translit">abjaḥ</span>, <span class="translit">ādiḥ</span>, <span class="translit">induḥ</span>, <span class="translit">kalādhara</span>, <span class="translit">kṣapākaraḥ</span>, <span class="translit">candraḥ</span>, <span class="translit">nāyakaḥ</span>, <span class="translit">pr̥thvī</span>, <span class="translit">prālēyāṁśuḥ</span>, <span class="translit">mr̥gāṅkaḥ</span>, <span class="translit">rajanīkaraḥ</span>,<span class="translit">vidhuḥ</span>, <span class="translit">śaśadharaḥ</span>, <span class="translit">śaśāṅkaḥ</span>, <span class="translit">śaśī</span>, <span class="translit">śītakaraḥ</span>, <span class="translit">śītaraśmiḥ</span>, <span class="translit">śītāṁśuḥ</span>, <span class="translit">śvētaḥ</span>, <span class="translit">sudhāṁśuḥ</span>, <span class="translit">sōmaḥ</span>>, <span class="translit">himakaraḥ</span>, <span class="translit">himaguḥ</span>, <span class="translit">himāṁśuḥ</span></td>
+	    </tr>
+	    <tr>
+	      <td>Others: <span class="translit">tanuḥ</span> “body,” <span class="translit">rūpam</span> “form,” <span class="translit">pitāmahaḥ</span> “Brahmā,” <span class="translit">nāyakaḥ</span> “leader”</td>
+	    </tr>
+	    <tr>
+	      <th rowspan="10" class="align-middle px-3">2</th>
+	      <td>Words for <b>eye</b>: <span class="translit">akṣi</span>, <span class="translit">ambakam</span>, <span class="translit">īkṣaṇam</span>, <span class="translit">cakṣu</span>, <span class="translit">dr̥ṣṭiḥ</span>, <span class="translit">nayaḥ</span>, <span class="translit">nayanam</span>, <span class="translit">nētram</span>, <span class="translit">lōcanam</span></td>
+	    </tr>
+	    <tr><td>Words for <b>hand</b> or <b>arm</b>: <span class="translit">karaḥ</span>, <span class="translit">bāhuḥ</span>, <span class="translit">bhujaḥ</span></td></tr>
+	    <tr><td>Words for <b>lips</b>: <span class="translit">ōṣṭhaḥ</span></td></tr>
+	    <tr><td>Words for <b>ears</b>: <span class="translit">karṇaḥ</span></td></tr>
+	    <tr><td>Words for <b>breasts</b>: <span class="translit">kucaḥ</span></td></tr>
+	    <tr><td>Words for <b>legs</b>, <b>thighs</b>, or <b>ankles</b>: <span class="translit">gulphaḥ</span>, <span class="translit">jaṅghā</span>, <span class="translit">jānu</span>, <span class="translit">bhujaḥ</span></td></tr>
+	    <tr><td>Words for <b>fortnights</b>: <span class="translit">pakṣaḥ</span></td></tr>
+	    <tr><td>Words for a <b>half-year</b>: <span class="translit">ayanam</span></td></tr>
+	    <tr><td>Words for a <b>pair</b>: <span class="translit">dvandvam</span>, <span class="translit">dvayam</span>, <span class="translit">yamaḥ</span>, <span class="translit">yamalaḥ</span>, <span class="translit">yugalam</span>, <span class="translit">yugmam</span></td></tr>
+	    <tr><td>Words for the <b>Aśvins</b>: <span class="translit">aśvī</span>, <span class="translit">dasraḥ</span>, <span class="translit">nāsatyaḥ</span></td></tr>
+	    <!-- also kuṭumba, ravicandrau, raviputra !-->
+	    <tr>
+	      <th rowspan="8" class="align-middle px-3">3</th>
+	      <td>Words for <b>fire</b>: <span class="translit">agniḥ</span>, <span class="translit">analaḥ</span>, <span class="translit">kālaḥ</span>, <span class="translit">kr̥śānuḥ</span>, <span class="translit">jvalanaḥ</span>, <span class="translit">tapanaḥ</span>,  <span class="translit">dahanaḥ</span>, <span class="translit">pāvakaḥ</span>, <span class="translit">vaiśvānaraḥ</span>, <span class="translit">vahniḥ</span> , <span class="translit">śikhī</span>, <span class="translit">hutabhuk</span> <span class="translit">hutāśaḥ</span>, <span class="translit">hutāśanaḥ</span>, <span class="translit">hōtr̥</span></td>
+	    </tr>
+	    <tr><td>Words for <b>worlds</b>: <span class="translit">trijagat</span>, <span class="translit">bhuvanam</span>, <span class="translit">lōkaḥ</span></td></tr>
+	    <tr><td>Words for the <b>times</b> (past, present, and future): <span class="translit">kālaḥ</span>, <span class="translit">trikālaḥ</span>, <span class="translit">trigataḥ</span></td></tr>
+	    <tr><td>Words for the <b>properties</b>: <span class="translit">guṇaḥ</span>, <span class="translit">triguṇah</span></td></tr>
+	    <tr><td>Words for <b>Śiva’s eyes</b>: <span class="translit">trinētram</span>, <span class="translit">haranētram</span></td></tr>
+	    <tr><td>Words for <b>cities</b> that Śiva destroyed: <span class="translit">puram</span></td></tr>
+	    <tr><td>The word <b>jewel</b> (<span class="translit">ratnam</span>) in Buddhist writings.</td></tr>
+	    <tr><td>The name <b>Rāma</b> (<span class="translit">rāmaḥ</span>), i.e., Balarāma, Rāmacandra, and Paraśurāma.</td></tr>
+	    <!-- also gṛha, sahodarāḥ !-->
+	    <tr>
+	      <th rowspan="5" class="align-middle px-3">4</th>
+	      <td>Words for <b>ocean</b>: <span class="translit">abdhiḥ</span>, <span class="translit">ambudhiḥ</span>, <span class="translit">ambhōdhaḥ</span>, <span class="translit">ambhōdhiḥ</span>, <span class="translit">ambhōnidhiḥ</span>, <span class="translit">arṇavaḥ</span>, <span class="translit">udadhiḥ</span>, <span class="translit">jalam</span>, <span class="translit">jaladhiḥ</span>, <span class="translit">jalanidhiḥ</span>, <span class="translit">payōdhiḥ</span>, <span class="translit">payōnidhiḥ</span>, <span class="translit">praṇimnagēśaḥ</span>, bandhu, <span class="translit">lavaṇōdaḥ</span>, <span class="translit">varṇa</span>, <span class="translit">vāridhiḥ</span>, <span class="translit">viṣanidhiḥ</span>, <span class="translit">samudraḥ</span>, <span class="translit">salilākaraḥ</span>, <span class="translit">sāgaraḥ</span></td>
+	    </tr>
+	    <tr><td>Words for the <b>Vedas</b>: <span class="translit">vēdaḥ</span>, <span class="translit">śrutiḥ</span></td></tr>
+	    <tr><td>Words for the <b>yugas</b>: <span class="translit">yugaḥ</span></td></tr>
+	    <tr><td>Words for the four <b>varṇas</b> or <b>āśramas</b>: <span class="translit">varṇaḥ</span>, <span class="translit">āśramaḥ</span></td></tr>
+	    <tr><td>Words for the <b>kaṣāyas</b> among Jain authors (<span class="translit">kaṣāyaḥ</span>).</td></tr>
+	    <!-- āya, kṛta, koṣṭha, gati, kendra, gati, caraṇa, ghana, sukha !-->
+	    <tr>
+	      <th rowspan="5" class="align-middle px-3">5</th>
+	      <td>Words for <b>arrow</b>: <span class="translit">iṣu</span>, <span class="translit">bāṇaḥ</span>, <span class="translit">śaraḥ</span>, <span class="translit">śastram</span>, <span class="translit">sāyakaḥ</span></td>
+	    </tr>
+	    <tr><td>Words for the <b>breaths</b>: <span class="translit">pavanaḥ</span>, <span class="translit">prāṇaḥ</span></td></tr>
+	    <tr><td>Words for the <b>elements</b>: <span class="translit">tattvam</span>, <span class="translit">bhāvaḥ</span>, <span class="translit">bhūtam</span>, <span class="translit">mahābhūtam</span></td></tr>
+	    <tr><td>Words for the <b>sense faculties</b> and their <b>objects</b>: <span class="translit">akṣaḥ</span>, <span class="translit">arthaḥ</span>, <span class="translit">indriyaḥ</span>, <span class="translit">karaṇīyam</span>, <span class="translit">viṣayaḥ</span></td></tr>
+	    <tr><td>The five <b>Pāṇḍava</b> brothers (<span class="translit">pāṇḍavaḥ</span>).</td></tr>
+	    <!-- also parva, rāga, ratna, vrata !-->
+	    <tr>
+	      <th rowspan="5" class="align-middle px-3">6</th>
+	      <td>Words for <b>systems of knowledge</b>: <span class="translit">aṅgam</span>, <span class="translit">tarkaḥ</span>, <span class="translit">darśanam</span>, <span class="translit">śāstram</span></td>
+	    </tr>
+	    <tr><td>Words for <b>season</b>: <span class="translit">r̥tuḥ</span></td></tr>
+	    <tr><td>Words for <b>kāraka</b>: <span class="translit">kārakam</span></td></tr>
+	    <tr><td>Words for <b>flavor</b>: <span class="translit">rasaḥ</span></td></tr>
+	    <tr><td>Words for the <b>faces of Skanda</b>: <span class="translit">kumāravadanam</span>, <span class="translit">ṣaṇmukham</span></td></tr>
+	    <!--ṣaṇmukha, lekhya, māsārdha, ari, kāya, dravya, rāga !-->
+	    <tr>
+	      <th rowspan="9" class="align-middle px-3">7</th>
+	      <td>Words for <b>horse</b>: <span class="translit">aśvaḥ</span>, <span class="translit">turagaḥ</span>, <span class="translit">vājiḥ</span>, <span class="translit">hayaḥ</span></td>
+	    </tr>
+	    <tr><td>Words for <b>mountain</b>: <span class="translit">agaḥ</span>, <span class="translit">acalaḥ</span>, <span class="translit">adriḥ</span>, <span class="translit">giriḥ</span>, <span class="translit">nagaḥ</span>, <span class="translit">parvataḥ</span>, <span class="translit">bhūbhr̥t</span>, <span class="translit">śailaḥ</span></td></tr>
+	    <tr><td>Words for <b>sage</b>: <span class="translit">r̥ṣiḥ</span>, <span class="translit">muniḥ</span>, <span class="translit">yatiḥ</span></td></tr>
+	    <tr><td>Words for <b>day of the week</b>: <span class="translit">vāraḥ</span></td></tr>
+	    <tr><td>Words for <b>notes in a scale</b>: <span class="translit">svaraḥ</span></td></tr>
+	    <tr><td>Words for <b>Ursus Major</b>: <span class="translit">atriḥ</span></td></tr>
+	    <tr><td>Words for the <b>Mātr̥kā</b>: <span class="translit">mātr̥kā</span></td></tr>
+	    <tr><td>Words for <b>bodily fluids</b>: <span class="translit">dhātuḥ</span></td></tr>
+	    <tr><td>Words for <b>planet</b>: <span class="translit">grahaḥ</span></td></tr>
+	    <!-- also kalatra, graha !-->
+	    <tr>
+	      <th rowspan="8" class="align-middle px-3">8</th>
+	      <td>Words for <b>elephant</b>: <span class="translit">ibhaḥ</span>, <span class="translit">kuñjaraḥ</span>, <span class="translit">gajaḥ</span>, <span class="translit">dantī</span>, <span class="translit">diggajaḥ</span>, <span class="translit">dviradaḥ</span>, <span class="translit">nāgaḥ</span>, <span class="translit">puṣkarī</span>, <span class="translit">bhūtiḥ</span>, <span class="translit">mātaṅgaḥ</span>, <span class="translit">sindhuraḥ</span>, <span class="translit">hastī</span></td>
+	    </tr>
+	    <tr><td>Words for <b>serpent</b>: <span class="translit">ahiḥ</span>, <span class="translit">takṣaḥ</span>, <span class="translit">sarpaḥ</span></td></tr>
+	    <tr><td>Words for the <b>directions</b>: <span class="translit">dik</span></td></tr>
+	    <tr><td>Words for the <b>continents</b>: <span class="translit">dvīpaḥ</span></td></tr>
+	    <tr><td>Words for the <b>Vasus</b>: <span class="translit">vasuḥ</span></td></tr>
+	    <tr><td>Words for the eight <b>siddhis</b>: <span class="translit">siddhiḥ</span></td></tr>
+	    <tr><td>Words for the eight <b>maṅgalas</b>: <span class="translit">maṅgalam</span></td></tr>
+	    <tr><td><span class="translit">anuṣṭup</span></td></tr>
+	    <!-- anīka, karma, tanu, mati, dhī durita, mada !-->
+	    <tr>
+	      <th class="align-middle px-3" rowspan="1">9</th>
+	      <td><span class="translit">aṅkaḥ</span>, <span class="translit">anilāhvaḥ</span>, <span class="translit">upēndraḥ</span>, <span class="translit">kēśavaḥ</span>, <span class="translit">gīḥ</span>, <span class="translit">gauḥ</span>, <span class="translit">grahaḥ</span>, <span class="translit">chidram</span>, <span class="translit">tārkṣyadhvajaḥ</span>, <span class="translit">durgā</span>, <span class="translit">dvāram</span>, <span class="translit">nandaḥ</span>, <span class="translit">nidhiḥ</span>, <span class="translit">padārthaḥ</span>, <span class="translit">randhram</span>, <span class="translit">labdham</span>, <span class="translit">labdhiḥ</span></td>
+	    </tr>
+	    <tr>
+	      <th class="align-middle px-3" rowspan="1">10</th>
+	      <td><span class="translit">avatāraḥ</span>, <span class="translit">aṅgulī</span>, <span class="translit">āśā</span>, <span class="translit">kakubh</span>, <span class="translit">karman</span>, <span class="translit">dik</span>, <span class="translit">diśā</span>, <span class="translit">paṅktiḥ</span>, <span class="translit">rāvaṇaśira</span></td>
+	    </tr>
+	    <tr>
+	      <th class="align-middle px-3" rowspan="1">11</th>
+	      <td>Words for <b>Śiva</b>: <span class="translit">akṣauhiṇī</span>, <span class="translit">īśaḥ</span>, <span class="translit">īśvaraḥ</span>, <span class="translit">bhargaḥ</span>, <span class="translit">bhavaḥ</span>, <span class="translit">mahādēvaḥ</span>, <span class="translit">mr̥ḍaḥ</span>, <span class="translit">rudraḥ</span>, <span class="translit">śaṅkaraḥ</span>, <span class="translit">śivaḥ</span>, <span class="translit">śūlī</span>, <span class="translit">svargēśaḥ</span>, <span class="translit">haraḥ</span></td>
+	    </tr>
+	    <tr>
+	      <th class="align-middle px-3" rowspan="1">12</th>
+	      <td>Words for <b>sun</b>: <span class="translit">arkaḥ</span>, <span class="translit">ādityaḥ</span>, <span class="translit">inaḥ</span>, <span class="translit">tīkṣṇāṁśuḥ</span>, <span class="translit">dinanāthaḥ</span>, <span class="translit">dinapaḥ</span>, <span class="translit">divākaraḥ</span>, <span class="translit">dyumaṇiḥ</span>, <span class="translit">bhānuḥ</span>, <span class="translit">bhāskaraḥ</span>, <span class="translit">maṇḍalam</span>, <span class="translit">mārtaṇḍaḥ</span>, <span class="translit">māsaḥ</span>, <span class="translit">raviḥ</span>, <span class="translit">rāśiḥ</span>, <span class="translit">vyayaḥ</span>, <span class="translit">sūryaḥ</span></td>
+	    </tr>
+	    <tr>
+	      <th class="align-middle px-3" rowspan="1">13</th>
+	      <td><span class="translit">aghōṣaḥ</span>, <span class="translit">atijagatī</span>, <span class="translit">karaṇam</span>, <span class="translit">kāmaḥ</span>, <span class="translit">viśvē</span>, <span class="translit">viśvēdēvāḥ</span></td>
+	    </tr>
+	    <tr>
+	      <th class="align-middle px-3" rowspan="2">14</th>
+	      <td>Words for <b>Indra</b>: <span class="translit">indraḥ</span>, <span class="translit">manuḥ</span>, <span class="translit">śakraḥ</span>, <span class="translit">śarvaḥ</span></td>
+	    </tr>
+	    <tr>
+	      <td><span class="translit">lōkaḥ</span>, <span class="translit">vidyā</span></td>
+	    </tr>
+	  </table>
+	  <div class="text-center mt-5 mb-2">
+	    <img src="/vrddhi/assets/img/manuscript_fleuron_3.svg" width="200px"></img>
+	  </div>
+	</div>
+      </div>
+
+      <div class="row mt-4">
+	<div class="col">
+	  <a id="about"></a><h2>About</h2>
+	  <p>This website was put together by <b>Andrew Ollett</b>. Most of the examples are recited by Vidvān <b>H. V. Nagaraja Rao</b>. I have used materials with permission from a few other sources, who are credited as appropriate:</p>
+	  <ul>
+	    <li><b>Gil Ben Herut</b> recorded <b>H. V. Nagaraja Rao</b> reciting a number of meters in 2005 or 2006. These recordings have been circulating in various forms for a while. For these verses, I have sometimes used the translations that <b>Blake Wentworth</b> drew up, and sometimes my own translations.</li>
+	    <li><b>Nathan Levine</b> recorded <b>H. V. Nagaraja Rao</b> reciting another set of meters in 2018. <b>Anusha Rao</b> uploaded these recordings to <a href="https://archive.org/details/sanskritmeters_201810/" target="_blank">archive.org</a>. The translations of these verses are usually my own, although I have used published translations where available.</li>
+	  </ul>
+	  <p>This site uses the amazing <a href="https://github.com/sanskrit/sanscript" target="_blank">Sanscript</a> library for transliteration.</p>
+	  <div class="d-flex justify-content-start align-items-center mb-5">
+	    <div class="text-center px-4">
+	      <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode"><img class="img-fluid" src="/vrddhi/assets/img/Cc.logo.circle.svg" alt="cc-nc-nd"></img></a>
+	    </div>
+	    <div>
+	      <p class="mb-0">All of the content on this site is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">CC-BY-NC-ND 4.0</a> license. This means that if you use it, you <b>must</b> attribute it to this site (or the original sources noted above), and you are <b>prohibited</b> from using any of this content for commercial purposes.</p>
+	    </div>
+	  </div>
+	</div>
+      </div>
+    </div><!-- col !-->
+  </div><!-- row !-->
+</div><!-- container !-->
+
+    </main><footer class="site-footer">
+  <data class="u-url" href="/vrddhi/"></data>
+
+  <div class="container">
+    <div class="d-flex align-items-stretch justify-content-between" style="flex: 0 0 100%;">
+      <div class="borders"></div>
+      <div class="row flex-fill">
+	<div class="col-md-6 text-right">
+	  <p>made with <a href="https://jekyllrb.com/">jekyll</a></p>
+	  <p>all content released on a <a href="https://creativecommons.org/licenses/by/4.0/">cc by-4.0</a> license</p>
+	</div>
+	<div class="col-md-6 text-left">
+	  <p>designed and maintained by <a href="https://salc.uchicago.edu/andrew-ollett">andrew ollett</a></p>
+	  <p><a href="https://salc.uchicago.edu/">south asian languages and civilizations</a>,<br/>
+	    <a href="https://www.uchicago.edu">university of chicago</a></p>
+	</div>
+      </div>
+      <div class="borders"></div>
+    </div>
+  </div>
+</footer>
+<script src="/vrddhi/assets/js/sanscript.js"></script>
+    <script src="/vrddhi/assets/js/script-noreload.js"></script>
+    <script src="/vrddhi/assets/js/audio.min.js"></script>
+    <script src="/vrddhi/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/vrddhi/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="/vrddhi/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/vrddhi/assets/js/initialization-tools.js"></script>
+    <script>
+      $(document).ready(function(){
+	  setTransliterationOptions();
+	  setScriptMenu();
+          transliterate();
+      });
+    </script>
+  </body>
+
+</html>

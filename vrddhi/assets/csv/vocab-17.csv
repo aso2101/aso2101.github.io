@@ -1,0 +1,18 @@
+Word (ISO 15919),Meaning,Notes,Class,Stems,Gender,Number,Case,Person,Padam,Root,Preverbs,Tense-Mood,Class,Word (Dēvanāgarī),Anki Tags
+17,kartŕ̥,"doer, agent",,adj,"kartŕ̥-, kártrī́-",n,sg,,,,,,,,कर्तृ,lesson-17 nouns
+17,paramáḥ,"highest, utmost",,adj,"paramá-, paramā́-",m,sg,,,,,,,,परमः,lesson-17 pronouns
+17,prā́taḥ,at dawn; in the morning,"Note that the final sound is <i>r</i>, not <i>s</i>.",adv,,,,,,,,,,,प्रातः,lesson-17 adverbs
+17,śváḥ,tomorrow,,adv,,,,,,,,,,,श्वः,lesson-17 adverbs
+17,sāyám,at evening,,adv,,,,,,,,,,,सायम्,lesson-17 adverbs
+17,nágaram,city,,noun,nágara-,n,sg,,,,,,,,नगरम्,lesson-17 nouns
+17,grā́maḥ,village,,noun,grā́ma-,m,sg,,,,,,,,ग्रामः,lesson-17 nouns
+17,pitā́,father,,noun,pitŕ̥-,m,sg,,,,,,,,पिता,lesson-17 nouns
+17,mā́tā,mother,,noun,mā́tr̥-,f,sg,,,,,,,,माता,lesson-17 nouns
+17,bhrā́tā,brother,,noun,bhrā́tr̥-,m,sg,,,,,,,,भ्राता,lesson-17 nouns
+17,svásā,sister,,noun,svásr̥-,f,sg,,,,,,,,श्वसा,lesson-17 nouns
+17,putráḥ,son; child,,noun,putrá-,m,sg,,,,,,,,पुत्रः,lesson-17 nouns
+17,putrī́,daughter,,noun,putrī́-,f,sg,,,,,,,,पुत्री,lesson-17 nouns
+17,śā́sti,"he/she/it disciplines, teaches, punishes, rules",,verb,,,sg,,3rd,parasmai,śās,,laṭ,adadi,शास्ति,lesson-17 verbs::class-02
+17,rákṣati,"he/she/it saves, protects, defends",,verb,,,sg,,3rd,parasmai,rakṣ,,laṭ,bhvadi,रक्षति,lesson-17 verbs::class-01
+17,jāyatē,be born; be produced; arise,"This is a fourth class verb, but has the irregular stem <span class=""translit"">jāya-</span> in the present.",verb,,,sg,,3rd,atmane,jan,,laṭ,divadi,जायते,lesson-17 verbs::class-04
+17,bhinátti,he/she/it breaks,,verb,,,sg,,3rd,parasmai,bhid,,laṭ,rudhadi,भिनत्ति,lesson-17 verbs::class-07

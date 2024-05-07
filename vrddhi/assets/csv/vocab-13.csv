@@ -1,0 +1,17 @@
+Word (ISO 15919),Meaning,Notes,Class,Stems,Gender,Number,Case,Person,Padam,Root,Preverbs,Tense-Mood,Class,Word (Dēvanāgarī),Anki Tags
+13,kaṣṭaḥ,"bad, wrong, difficult, painful","Often used as an interjection: <span class=""translit"">kaṣṭam</span> = “damnit!”",adj,kaṣṭa-,m,sg,1,,,,,,,कष्टः,lesson-13 adjectives
+13,mahā́n,"big, great, large","Inflected like the pronoun <span class=""translit"">bhavān</span>.",adj,"mahát-, mahátī-",m,sg,1,,,,,,,महान्,lesson-13 adjectives
+13,dhánam,"wealth, property",,noun,dhána-,n,sg,1,,,,,,,धनम्,lesson-13 nouns
+13,párvataḥ,mountain,,noun,párvata-,m,sg,1,,,,,,,पर्वतः,lesson-13 nouns
+13,dhūmáḥ,smoke,,noun,dhūmá-,m,sg,1,,,,,,,धूमः,lesson-13 nouns
+13,mahānasam,kitchen,,noun,mahānasa-,n,sg,1,,,,,,,महानसम्,lesson-13 nouns
+13,ḗdhaḥ,"fuel, kindling, fire",,noun,ḗdha-,m,sg,1,,,,,,,एधः,lesson-13 nouns
+13,kāṣṭhám,"log, wood, stick",,noun,kāṣṭhá-,n,sg,1,,,,,,,काष्ठम्,lesson-13 nouns
+13,ādiḥ,beginning,"Often used at the end of a <span class=""translit"">bahuvrīhiḥ</span> compound to refer to things “beginning with” the prior member(s) of the compound, hence “and so on,” “et cetera.”",noun,ādi-,m,sg,1,,,,,,,आदिः,lesson-13 nouns
+13,ántaḥ,"end, limit, boundary",,noun,ánta-,m,sg,1,,,,,,,अन्तः,lesson-13 nouns
+13,dagdháḥ,"burnt, burned","The past passive participle of <span class=""translit"">dah</span> “burn.”",noun,"dagdhá-, dagdhā́-",m,sg,1,,,,,,,दग्धः,lesson-13 adjectives::participles::past-passive-participles
+13,bhávān,"sir, madam (a polite pronoun)","This can also be used in more respectful variants by prefixing <span class=""translit"">atra</span> or <span class=""translit"">tatra</span>.",pron,"bhávat-, bhávatī-",m,sg,1,,,,,,,भवान्,lesson-13 pronouns
+13,ahám,I,Consult the materials in lesson 13 for the full paradigm of this pronoun.,pron,asmad-,,sg,1,,,,,,,अहम्,lesson-13 pronouns::personal-pronouns
+13,tvám,you,Consult the materials in lesson 13 for the full paradigm of this pronoun.,pron,yuṣmad-,,sg,1,,,,,,,त्वम्,lesson-13 pronouns::personal-pronouns
+13,jválati,he/she/it blazes,This verb is generally intransitive.,verb,,,sg,,3rd,parasmai,jval,,laṭ,bhvadi,ज्वलति,lesson-13 verbs::class-01
+13,dáhati,he/she/it burns,This verb is generally transitive.,verb,,,sg,,3rd,parasmai,dah,,laṭ,bhvadi,दहति,lesson-13 verbs::class-01

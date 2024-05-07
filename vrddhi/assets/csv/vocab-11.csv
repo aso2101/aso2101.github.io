@@ -1,0 +1,22 @@
+Word (ISO 15919),Meaning,Notes,Class,Stems,Gender,Number,Case,Person,Padam,Root,Preverbs,Tense-Mood,Class,Word (Dēvanāgarī),Anki Tags
+11,gurúḥ,"(as an adjective) heavy, serious; (as a noun) elder, teacher",,adj,"gurú-, gurvī́-",m,sg,1,,,,,,,गुरुः,lesson-11 adjectives
+11,bahúḥ,"much, many",,adj,"bahú-, bahvī́-",m,sg,1,,,,,,,बहुः,lesson-11 adjectives
+11,satyáḥ,"true, real","This is an adjective, but when used as a noun (in the neuter gender) it means “truth.”",adj,"satyá-, satyā́-",m,sg,1,,,,,,,सत्यः,lesson-11 adjectives
+11,ánr̥taḥ,"untrue, false",,adj,"ánr̥ta-, ánr̥tā-",m,sg,1,,,,,,,अनृतः,lesson-11 adjectives
+11,laghúḥ,"light, short, small",,adj,laghú-,m,sg,1,,,,,,,लघुः,lesson-11 adjectives
+11,yadyapi,"even if, although","Introduces a subordinate clause; a combination of <span class=""translit"">yadi</span> and <span class=""translit"">api</span>, i.e., “even if.”",adv,,,,,,,,,,,यद्यपि,lesson-11 adverbs::relative
+11,tathāpi,"even so, nevertheless","Correlative form of <span class=""translit"">yadyapi</span>; a combination of <span class=""translit"">tathā</span> and <span class=""translit"">api</span>, i.e., “even so.”",adv,,,,,,,,,,,तथापि,lesson-11 adverbs
+11,agníḥ,fire,,noun,agní-,m,sg,1,,,,,,,अग्निः,lesson-11 nouns
+11,matíḥ,"thinking, mind","A verbal noun from √<span class=""translit"">man</span> “think.”",noun,matí-,f,sg,1,,,,,,,मतिः,lesson-11 nouns
+11,gátiḥ,"course, movement, going","A verbal noun from √<span class=""translit"">gam</span> “go.”",noun,gáti-,f,sg,1,,,,,,,गतिः,lesson-11 nouns
+11,vástu,thing,,noun,vástu-,n,sg,1,,,,,,,वस्तु,lesson-11 nouns
+11,buddhiḥ,"intelligence, thought, idea","A verbal noun from √<span class=""translit"">budh</span> “be aware.”",noun,buddhi-,f,sg,1,,,,,,,बुद्धिः,lesson-11 nouns
+11,śáktiḥ,"power, ability, capacity","A verbal noun from √<span class=""translit"">śak</span> “be able.”",noun,śákti-,f,sg,1,,,,,,,शक्तिः,lesson-11 nouns
+11,upadēśaḥ,"advice, instruction",,noun,upadēśa-,m,sg,1,,,,,,,उपदेशः,lesson-11 nouns
+11,áśru,tears,,noun,áśru-,n,sg,1,,,,,,,अश्रु,lesson-11 nouns
+11,kavíḥ,poet,"Note that the present stem is formed with an infixed nasal (<span class=""translit"">muñcá-</span>).",noun,kaví-,m,sg,,,,,,,,कविः,lesson-11 nouns
+11,hētúḥ,"cause, reason",,noun,hētú-,m,sg,1,,,,,,,हेतुः,lesson-11 nouns
+11,vádati,he/she/it speaks,,verb,,,sg,,3rd,parasmai,vad,,laṭ,bhvadi,वदति,lesson-11 verbs::class-01
+11,cintáyati,"he/she/it thinks about, considers, reflects on",,verb,,,sg,,3rd,parasmai,cint,,laṭ,curadi,चिन्तयति,lesson-11 verbs::class-10
+11,upadiśati,"he/she/it advises, instructs",,verb,,,sg,,3rd,parasmai,diś,upa,laṭ,tudadi,उपदिशति,lesson-11 verbs::class-06
+11,muñcáti,"he/she/it releases, lets go","Note that the present stem is formed with an infixed nasal (<span class=""translit"">muñcá-</span>).",verb,,,sg,,3rd,parasmai,muc,,laṭ,tudadi,मुञ्चति,lesson-11 verbs::class-06

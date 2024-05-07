@@ -1,0 +1,28 @@
+Word (ISO 15919),Meaning,Notes,Class,Stems,Gender,Number,Case,Person,Padam,Root,Preverbs,Tense-Mood,Class,Word (Dēvanāgarī),Anki Tags
+14,kíyat,how much? how great?,"Inflected like a possessive adjective in <span class=""translit"">-vát</span>.",adj,"kíyat-, kíyatī-",n,sg,1,,,,,,,कियत्,lesson-14 adjectives::interrogative
+14,káti,how many?,Indeclinable.,adj,káti,n,sg,1,,,,,,,कति,lesson-14 adjectives::interrogative
+14,tā́vat,so much/many,"Inflected like a possessive adjective in <span class=""translit"">-vát</span>.",adj,"tā́vat-, tā́vatī-",n,sg,1,,,,,,,तावत्,lesson-14 adjectives
+14,yā́vat,how much/many (relative),"Inflected like a possessive adjective in <span class=""translit"">-vát</span>.",adj,"yā́vat-, yā́vatī-",n,sg,1,,,,,,,यावत्,lesson-14 adjectives::relative
+14,ētā́vat,this much/many,"Inflected like a possessive adjective in <span class=""translit"">-vát</span>.",adj,"ḗtā́vat-, ētā́vatī-",n,sg,1,,,,,,,एतावत्,lesson-14 adjectives
+14,ḗkaḥ,"one, single, alone",See the lesson for the full inflection.,numeral,"ḗka-, ḗkā-",m,sg,1,,,,,,,एकः,lesson-14 numerals
+14,dváu,two,See the lesson for the full inflection.,numeral,dvi-,m,du,1,,,,,,,द्वौ,lesson-14 numerals
+14,tráyaḥ,three,See the lesson for the full inflection.,numeral,tri-,m,sg,1,,,,,,,त्रयः,lesson-14 numerals
+14,catvāraḥ,four,See the lesson for the full inflection.,numeral,catur-,m,pl,1,,,,,,,चत्वारः,lesson-14 numerals
+14,páñca,five,,numeral,páñca-,,pl,1,,,,,,,पञ्च,lesson-14 numerals
+14,ṣáṭ,six,,numeral,ṣáṭ-,,pl,1,,,,,,,षट्,lesson-14 numerals
+14,saptá,seven,,numeral,saptá-,,pl,1,,,,,,,सप्त,lesson-14 numerals
+14,aṣṭá,eight,,numeral,aṣṭá,,pl,1,,,,,,,अष्ट,lesson-14 numerals
+14,náva,nine,,numeral,náva,,pl,1,,,,,,,नव,lesson-14 numerals
+14,dáśa,ten,,numeral,dáśa-,n,sg,1,,,,,,,दश,lesson-14 numerals
+14,śatám,hundred,,numeral,śatá-,n,sg,1,,,,,,,शतम्,lesson-14 numerals
+14,atti,he/she/it eats,"Note that the past passive participle is <span class=""translit"">anna-</span>.",verb,,,sg,,3rd,parasmai,ad,,laṭ,adadi,अत्ति,lesson-14 verbs::class-02
+14,vētti,he/she/it knows,"Note that the past passive participle is <span class=""translit"">vidita-</span>.",verb,,,sg,,3rd,parasmai,vid,,laṭ,adadi,वेत्ति,lesson-14 verbs::class-02
+14,asti,he/she/it is,No past passive participle. Note the augment between the root and the endings.,verb,,,sg,,3rd,parasmai,as,,laṭ,adadi,अस्ति,lesson-14 verbs::class-02
+14,ēti,he/she/it goes,"Past passive participle is <span class=""translit"">ita-</span>.",verb,,,sg,,3rd,parasmai,i,,laṭ,adadi,एति,lesson-14 verbs::class-02
+14,āstē,he/she/it sits,"Past passive participle is <span class=""translit"">āsita-</span>.",verb,,,sg,,3rd,atmane,ās,,laṭ,adadi,आस्ते,lesson-14 verbs::class-02
+14,vakti,he/she/it says,"Past passive participle is <span class=""translit"">ukta-</span>/",verb,,,sg,,3rd,parasmai,vac,,laṭ,adadi,वक्ति,lesson-14 verbs::class-02
+14,rōditi,he/she/it cries,"Past passive participle <span class=""translit"">rudita-</span>. Note the augment between the root and the endings.",verb,,,sg,,3rd,parasmai,rud,,laṭ,adadi,रोदिति,lesson-14 verbs::class-02
+14,svapiti,he/she/it sleeps,"Past passive participle <span class=""translit"">supta-</span>. Note the augment between the root and the endings.",verb,,,sg,,3rd,parasmai,svap,,laṭ,adadi,स्वपिति,lesson-14 verbs::class-02
+14,bravīti,he/she/it says,"No past passive participle (<span class=""translit"">ukta-</span> is used instead). Note the augment between the root and the endings.",verb,,,sg,,3rd,ubhaya,brū,,laṭ,adadi,ब्रवीति,lesson-14 verbs::class-02
+14,yāti,he/she/it goes,"Past passive participle is <span class=""translit"">yāta-</span>/",verb,,,sg,,3rd,parasmai,yā,,laṭ,adadi,याति,lesson-14 verbs::class-02
+14,adhītē,he/she/it studies,"Past passive participle is <span class=""translit"">adhīta-</span>/",verb,,,sg,,3rd,atmane,i,adhi,laṭ,adadi,अधीते,lesson-14 verbs::class-02

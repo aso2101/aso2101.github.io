@@ -1,0 +1,17 @@
+.card-reading .card-header { padding: 0 0.5rem; }
+
+.gloss { color: #999; font-weight: normal !important; }
+
+.gloss:before { content: "["; padding: 0 3px; }
+
+.gloss:after { content: "]"; padding: 0 3px; }
+
+.custom-checkbox { margin-left: 0.5rem; }
+
+.custom-checkbox .custom-control-label { padding-top: 0.35rem; }
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before { background-color: red !important; }
+
+.custom-checkbox .custom-control-input:focus ~ .custom-control-label::before { box-shadow: none !important; }
+
+/*# sourceMappingURL=readings.css.map */

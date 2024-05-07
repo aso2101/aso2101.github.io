@@ -1,0 +1,20 @@
+Word (ISO 15919),Meaning,Notes,Class,Stems,Gender,Number,Case,Person,Padam,Root,Preverbs,Tense-Mood,Class,Word (Dēvanāgarī),Anki Tags
+06,strī́,woman,Recall the somewhat distinct declension of this stem.,noun,strī́-,f,sg,1,,,,,,,स्त्री,lesson-06 nouns
+06,járā,old age,,noun,járā-,f,sg,1,,,,,,,जरा,lesson-06 nouns
+06,maraṇám,death,,noun,maraṇá-,n,sg,1,,,,,,,मरणम्,lesson-06 nouns
+06,kāyaḥ,body,,noun,kāya-,m,sg,1,,,,,,,कायः,lesson-06 nouns
+06,kāláḥ,time,,noun,kālá-,m,sg,1,,,,,,,कालः,lesson-06 nouns
+06,prajā́,"offspring, beings, people",,noun,prajā́-,f,sg,1,,,,,,,प्रजा,lesson-06 nouns
+06,dēvī́,"goddess, queen",,noun,dēvī́-,f,sg,1,,,,,,,देवी,lesson-06 nouns
+06,mālā,garland,,noun,mālā-,f,sg,1,,,,,,,माला,lesson-06 nouns
+06,sarasī,"pond, lake",,noun,sarasī-,f,sg,1,,,,,,,सरसी,lesson-06 nouns
+06,bālā,girl,,noun,bālā-,f,sg,1,,,,,,,बाला,lesson-06 nouns
+06,vidyā́,"knowledge, science",,noun,vidyā́-,f,sg,1,,,,,,,विद्या,lesson-06 nouns
+06,vadhū́ḥ,"bride, wife",,noun,vadhū́-,f,sg,1,,,,,,,वधूः,lesson-06 nouns
+06,kúlam,"family, clan",,noun,kúla-,n,sg,1,,,,,,,कुलम्,lesson-06 nouns
+06,nadī́,river,,noun,nadī́-,f,sg,1,,,,,,,नदी,lesson-06 nouns
+06,kū́lam,"bank, shore (of a river)",,noun,kū́la-,n,sg,1,,,,,,,कूलम्,lesson-06 nouns
+06,caritám,"deed, act, conduct, story","This is actually the past absolutive participle of the verb √<span class=""translit"">car</span> “act, do,” but often used substantively to mean the thing or things that someone has done.",noun,caritá-,n,sg,1,,,,,,,चरित्रम्,lesson-06 nouns
+06,májjati,"sink, submerge","Note that this verb is intransitive (unlike the English equivalents, which can be both transitive and intransitive).",verb,,,sg,,3rd,parasmai,majj,,laṭ,bhvadi,मज्जति,lesson-06 verbs::class-01
+06,tíṣṭhati,stand,"Note that this first-class verb forms its present stem with reduplication. (Compare <span class=""gre"">ἵστημι</span>).",verb,,,sg,,3rd,parasmai,sthā,,laṭ,bhvadi,तिष्ठति,lesson-06 verbs::class-01
+06,vásati,"he/she/it stays, lives (in a place)",,verb,,,sg,,3rd,parasmai,vas,,laṭ,bhvadi,वसति,lesson-06 verbs::class-01

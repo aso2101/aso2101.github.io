@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Puṣpitāgrā | Vr̥ddhiḥ</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Puṣpitāgrā" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Sanskrit at the University of Chicago" />
+<meta property="og:description" content="Sanskrit at the University of Chicago" />
+<link rel="canonical" href="http://localhost:4000/vrddhi/meter/puspitagra/" />
+<meta property="og:url" content="http://localhost:4000/vrddhi/meter/puspitagra/" />
+<meta property="og:site_name" content="Vr̥ddhiḥ" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Puṣpitāgrā" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Sanskrit at the University of Chicago","headline":"Puṣpitāgrā","url":"http://localhost:4000/vrddhi/meter/puspitagra/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/vrddhi/assets/css/main.css"/>
+  <link rel="stylesheet" href="/vrddhi/assets/css/readings.css"/>
+  <script src="https://kit.fontawesome.com/131949e24a.js" crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/vrddhi/feed.xml" title="Vr̥ddhiḥ" /></head>
+<body><nav class="navbar navbar-light navbar-expand-md sticky-top">
+  <div class="container">
+    <div class="borders"></div>
+    <a class="navbar-brand mx-2" href="/vrddhi/">
+      <img width="200px" src="/vrddhi/assets/img/logo-alt.png"/>
+    </a>
+
+    <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarContent">
+ 
+      <ul class="navbar-nav mx-4">
+	<li class="nav-item">
+	  <a class="d-flex flex-column nav-button text-center" href="/vrddhi/course/">
+	    Lessons<br/>
+	    <span class="translit">adhyayanam</span></a>
+	</li>
+	
+	<div class="mx-auto my-auto">
+	  <img width="15px" src="/vrddhi/assets/img/mathura_fleuron_01.svg"></img>
+	</div>
+	<li class="nav-item">
+	  <a class="d-flex flex-column nav-button text-center" href="/vrddhi/grammar/">
+	    Grammar<br/>
+	    <span class="translit">vyākaraṇam</span></a>
+	</li>
+	
+	<div class="mx-auto my-auto">
+	  <img width="15px" src="/vrddhi/assets/img/mathura_fleuron_01.svg"></img>
+	</div>
+	<li class="nav-item">
+	  <a class="d-flex flex-column nav-button text-center" href="/vrddhi/readings/">
+	    Readings<br/>
+	    <span class="translit">pāṭhāḥ</span></a>
+	</li>
+	
+	<div class="mx-auto my-auto">
+	  <img width="15px" src="/vrddhi/assets/img/mathura_fleuron_01.svg"></img>
+	</div>
+	<li class="nav-item">
+	  <a class="d-flex flex-column nav-button text-center" href="/vrddhi/meter/">
+	    Meters<br/>
+	    <span class="translit">chandaḥ</span></a>
+	</li>
+	
+	<div class="mx-auto my-auto">
+	  <img width="15px" src="/vrddhi/assets/img/mathura_fleuron_01.svg"></img>
+	</div>
+	<li class="nav-item">
+	  <a class="d-flex flex-column nav-button text-center" href="/vrddhi/resources/">
+	    Resources<br/>
+	    <span class="translit">upāyāḥ</span></a>
+	</li>
+	</ul><div class="dropdown mx-auto my-3" style="width:4rem;">
+  <button class="btn btn-sm btn-grey dropdown-toggle" type="button" id="transliterationButton" data-toggle="dropdown" title="Transliteration options" aria-haspopup="true" aria-expanded="false">
+    <img src="/vrddhi/assets/img/transliterate.svg" width="20px"/>
+  </button>
+  <div class="dropdown-menu dropdown-menu-right dropdown-menu-twocolumn" aria-labelledby="transliterationButton">
+    <div class="row">
+      <div class="col-md-6">
+	<a class="dropdown-item disabled" id="options-info">Transliteration options</a>
+	<a class="dropdown-item translitSelector" href="javascript:void(0);" id="translitOnlyIndic" onclick="translitOptions(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span class="translit-only-indic" data-original="vāk">vāk</span>
+	    <small><span class="text-muted">Indic text</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item translitSelector" href="javascript:void(0);" id="translitOnlyRoman" onclick="translitOptions(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <i>vāk</i>
+	    <div><small><span class="text-muted">Roman text</span></small></div>
+	  </div>
+	</a>
+	<a class="dropdown-item translitSelector" href="javascript:void(0);" id="translitRomanIndic" onclick="translitOptions(this)" >
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span><i>vāk</i> <span class="translit-only-indic" data-original="vāk">vāk</span></span>
+	    <small><span class="text-muted">Roman + Indic</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item translitSelector" href="javascript:void(0);" id="translitIndicRoman" onclick="translitOptions(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span><span class="translit-only-indic" data-original="vāk">vāk</span> <i>vāk</i></span>
+	    <small><span class="text-muted">Indic + Roman</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item translitSelector" href="javascript:void(0);" id="translitIndicRomanTooltips" onclick="translitOptions(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span style="text-decoration;text-decoration:underline dotted;"><span class="translit-only-indic" data-original="vāk">vāk</span></span>
+	    <small><span class="text-muted">Indic + Roman tooltips</span></small> 
+	  </div>
+	</a>
+	<a class="dropdown-item translitSelector" href="javascript:void(0);" id="translitRomanIndicTooltips" onclick="translitOptions(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span><span style="text-decoration;text-decoration:underline dotted;">vāk</span></span>
+	    <small><span class="text-muted">Roman (Indic tooltips)</span></small>
+	  </div>
+	</a>
+      </div>
+      <div class="col-md-6">
+	<a class="dropdown-item disabled" id="scripts-info">Indic scripts</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Deva" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span class="Deva">देवनागरी</span>
+	    <small><span class="text-muted">Dēvanāgarī</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Knda" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span class="Knda">ಕನ್ನಡ</span>
+	    <small><span class="text-muted">Kannaḍa</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Telu" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span>తెలుగు</span>
+	    <small><span class="text-muted">Telugu</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Mlym" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span>മലയാളം</span>
+	    <small><span class="text-muted">Malayāḷaṁ</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Beng" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span>বাংলা</span>
+	    <small><span class="text-muted">Bāṅlā</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Gujr" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span>ગુજરાતી</span>
+	    <small><span class="text-muted">Gujarātī</span></small>
+	  </div>
+	</a>
+	<a class="dropdown-item scriptSelector" href="javascript:void(0);" id="script-Gran" onclick="indicScript(this)">
+	  <div class="d-flex justify-content-between align-items-center">
+	    <span class="Gran">𑌗𑍍𑌰𑌨𑍍𑌥</span>
+	    <small><span class="text-muted">Grantha</span></small>
+	  </div>
+	</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    <div class="borders"></div>
+
+  </div>
+</nav>
+<main class="page-content" aria-label="Content">
+      <div class="container">
+	<div class="row">
+	  <div class="col-3 meter-toc">
+	    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="text-center mb-2 mt-3">
+  <h4><a href="/vrddhi/meter"><span class="translit">chandōrṇavaḥ</span></a></h4>
+</div>
+
+<ul class="list-group">
+  <li class="list-group-item slideToggleTrigger">
+    <h5 class="translit"><b>vr̥ttāni</b></h5>
+    <div class="float-right text-right toggleIcon"><i class="fas fa-compress-arrows-alt"></i></div>    
+  </li>
+  <li class="list-group-item slideToggleTarget">
+    <p class="description">Syllable-counting meters</p>
+    <ul>
+      <li><span class="translit">Anuṣṭup</span> (8 &times; 4)
+        <ul>
+          <li><a href="/vrddhi/meter/anustubh.html" class="translit">ślōkaḥ</a></li>
+	</ul>
+      </li>
+      <li><span class="translit">Triṣṭup</span> (11 &times; 4)
+      <ul>
+	
+	<li><a href="/vrddhi/meter/upajati" class="translit">Indravajrā/Upēndravajrā (Upajātiḥ)</a></li>
+	
+	<li><a href="/vrddhi/meter/shalini" class="translit">Śālinī</a></li>
+	
+	<li><a href="/vrddhi/meter/rathoddhata" class="translit">Rathōddhatā</a></li>
+	
+	<li><a href="/vrddhi/meter/svagata" class="translit">Svāgatā</a></li>
+	
+      </ul>
+      </li>
+      <li><span class="translit">Jagatī</span> (12 &times; 4)
+      <ul>
+	
+	<li><a href="/vrddhi/meter/vamshastha" class="translit">Vaṁśastham</a></li>
+	
+	<li><a href="/vrddhi/meter/drutavilambita" class="translit">Drutavilambitam</a></li>
+	
+      </ul>
+      </li>
+      <li><span class="translit">Atijagatī</span> (13 &times; 4)
+      <ul>
+	
+	<li><a href="/vrddhi/meter/praharsini" class="translit">Praharṣiṇī</a></li>
+	
+	<li><a href="/vrddhi/meter/manjubhasini" class="translit">Mañjubhāṣiṇī</a></li>
+	
+      </ul>
+      </li>
+      <li><span class="translit">Śakvarī</span> (14 &times; 4)
+      <ul>
+	
+	<li><a href="/vrddhi/meter/vasantatilaka" class="translit">Vasantatilakam</a></li>
+	
+      </ul>
+      </li>
+      <li><span class="translit">Atiśakvarī</span> (15 &times; 4)
+      <ul>
+	
+	<li><a href="/vrddhi/meter/malini" class="translit">Mālinī</a></li>
+	
+      </ul>
+      </li>
+      <li><span class="translit">Aṣṭiḥ</span> (16 &times; 4)
+	<ul>
+	  
+	</ul>
+      </li>
+      <li><span class="translit">Atyaṣṭiḥ</span> (17 &times; 4)
+      <ul>
+	
+	<li><a href="/vrddhi/meter/prthvi" class="translit">Pr̥thvī</a></li>
+	
+	<li><a href="/vrddhi/meter/mandakranta" class="translit">Mandākrāntā</a></li>
+	
+	<li><a href="/vrddhi/meter/sardulavikridita" class="translit">Śārdūlavikrīḍitam</a></li>
+	
+	<li><a href="/vrddhi/meter/sikharini" class="translit">Śikhariṇī</a></li>
+	
+	<li><a href="/vrddhi/meter/harini" class="translit">Hariṇī</a></li>
+	
+      </ul>
+      </li>
+      <li><span class="translit">Atidhr̥tiḥ</span> (19 &times; 4)
+      <ul>
+	
+      </ul>
+      </li>
+      <li><span class="translit">Kr̥tiḥ</span> (20 &times; 4)
+      <ul>
+	
+	<li><a href="/vrddhi/meter/utpalamalika" class="translit">Utpalamālikā</a></li>
+	
+	<li><a href="/vrddhi/meter/mattebhavikridita" class="translit">Mattēbhavikrīḍitam</a></li>
+	
+      </ul>
+      </li>
+      <li><span class="translit">Prakr̥tiḥ</span> (21 &times; 4)
+      <ul>
+	
+	<li><a href="/vrddhi/meter/sragdhara" class="translit">Sragdharā</a></li>
+	
+      </ul>
+      </li>
+    </ul>
+  </li>
+  <li class="list-group-item last">
+  </li>
+</ul>
+
+<ul class="list-group mb-5">
+  <li class="list-group-item slideToggleTrigger">
+    <h5 class="translit"><b>jātayaḥ</b></h5>
+    <div class="float-right text-right toggleIcon"><i class="fas fa-compress-arrows-alt"></i></div>    
+  </li>
+  <li class="list-group-item slideToggleTarget">
+    <p class="description">Mora-counting meters</p>
+    <ul>
+      <li><a href="/vrddhi/meter/arya.html" class="translit">Āryā/Gāhā</a></li>
+      <li><a href="/vrddhi/meter/aryagiti.html" class="translit">Āryāgītiḥ/Khandaaṁ</a></li>
+      <li><a href="/vrddhi/meter/vaitaliya.html" class="translit">Vaitālīyam–Aupacchandasikam</a></li>
+    </ul>
+  </li>
+  <li class="list-group-item last">
+  </li>
+</ul>
+
+	  </div>
+	  <div class="col-9">
+	    <div class='text-center mt-5'><h4 class='display-4 mb-4 translit'>Puṣpitāgrā</h4></div>
+	    <div class="row">
+	      <div class="col-11">
+		<div class="card float-right">
+		  
+		  <div class="card-body">
+		    <h5 class="card-title">Pattern</h5>
+		    
+		    
+		    <p class="card-text">
+		      
+		      
+		      <a href='javascript:void(0)' class='translit' data-toggle='popover' data-trigger='focus' data-placement='top' data-html='true' data-content='।।। (three light syllables)'>n</a>
+		      
+		       · 
+		      
+		      
+		      
+		      <a href='javascript:void(0)' class='translit' data-toggle='popover' data-trigger='focus' data-placement='top' data-html='true' data-content='।।। (three light syllables)'>n</a>
+		      
+		       · 
+		      
+		      
+		      
+		      <a href='javascript:void(0)' class='translit' data-toggle='popover' data-trigger='focus' data-placement='top' data-html='true' data-content='ऽ।ऽ (a heavy syllable, a light syllable, and a heavy syllable)'>r</a>
+		      
+		       · 
+		      
+		      
+		      
+		      <a href='javascript:void(0)' class='translit' data-toggle='popover' data-trigger='focus' data-placement='top' data-html='true' data-content='।ऽऽ (one light syllable followed by two heavy syllables)'>y</a>
+		      
+		       · 
+		      
+		      
+		      
+		      <a href='javascript:void(0)' class='translit' data-toggle='popover' data-trigger='focus' data-placement='top' data-html='true' data-content='।।। (three light syllables)'>n</a>
+		      
+		       · 
+		      
+		      
+		      
+		      <a href='javascript:void(0)' class='translit' data-toggle='popover' data-trigger='focus' data-placement='top' data-html='true' data-content='।ऽ। (a light syllable, a heavy syllable, and a light syllable)'>j</a>
+		      
+		       · 
+		      
+		      
+		      
+		      <a href='javascript:void(0)' class='translit' data-toggle='popover' data-trigger='focus' data-placement='top' data-html='true' data-content='।ऽ। (a light syllable, a heavy syllable, and a light syllable)'>j</a>
+		      
+		       · 
+		      
+		      
+		      
+		      <a href='javascript:void(0)' class='translit' data-toggle='popover' data-trigger='focus' data-placement='top' data-html='true' data-content='ऽ।ऽ (a heavy syllable, a light syllable, and a heavy syllable)'>r</a>
+		      
+		       · 
+		      
+		      
+		      
+		      <a href='javascript:void(0)' class='translit' data-toggle='popover' data-trigger='focus' data-placement='top' data-html='true' data-content='ऽ (one heavy syllable)'>g</a>
+		      
+		      
+		      <a href='javascript:void(0)' class='translit pl-2' data-toggle='popover' data-trigger='focus' data-placement='top' data-html='true' data-content='Many metrical treatises represent the metrical scheme of a verse with a sequence of letters called <i>trika</i>s (‘triplets’), each of which stands for a particular configuration of light and heavy syllables.'><i class='fas fa-question-circle'></i></a>
+		    </p>
+		    
+		    
+		    
+		    <div>
+		      
+		      <a href='javascript:void(0)' class='translit' data-toggle='popover' data-trigger='focus' data-placement='top' data-html='true' data-content='A meter that counts <i>syllables</i> (as opposed to <i>moras</i>).'>varṇavr̥ttam</a>		    
+		      
+		      
+		      
+		      <br/>&rarr;
+		      <a href='javascript:void(0)' class='translit' data-toggle='popover' data-trigger='focus' data-placement='top' data-html='true' data-content='A meter with a certain number of syllables (<i>n</i>) in two verse lines (e.g., the odd lines), and another number of syllables (<i>m</i>) in the other two verse lines (e.g., the even lines).'>ardhasamavr̥ttam</a>		    
+		      
+		      
+		    </div>
+		  </div>
+		  
+		</div>
+		
+		<h3>Description</h3>
+		<p>The <b>puṣpitāgrā</b> meter is the most common of the <i>ardhasamavr̥ttam</i> meters. It contains 50 syllables in total: the odd quarters have twelve syllables, and the even quarters have thirteen. Its syllabic pattern is as follows:</p><p class='text-center'>1 and 3: । । । । । । ऽ । ऽ । ऽ ऽ</p><p class='text-center'>2 and 4: । । । । ऽ । । ऽ । ऽ । ऽ ऽ</p>
+		
+		
+		<h3>Definitions</h3>
+		
+		<div class="row ml-2 mt-3">
+		  <div class="col">
+		    <h6>Piṅgala, <i>Chandaḥsūtram</i> 5.41:</h6>
+		    <p><span class='translit'>puṣpitāgrā nau ryau njau jrau g</span></p>
+		  </div>
+		</div>
+		
+		<div class="row ml-2 mt-3">
+		  <div class="col">
+		    <h6><i>Nāṭyaśāstram</i> 15.186:</h6>
+		    <p><span class='translit'>nau ryau tu prathamē pādē njau jrau gaś ca tathāparē<br/>yatra tat puṣpitāgrā syād yadi śēṣaṁ tu pūrvavat</span></p>
+		  </div>
+		</div>
+		
+		<div class="row ml-2 mt-3">
+		  <div class="col">
+		    <h6><i>Ratnamañjūṣā</i> 2.26:</h6>
+		    <p><span class='translit'>puṣpitāgraṁ hitē huntau</span></p>
+		  </div>
+		</div>
+		
+		<div class="row ml-2 mt-3">
+		  <div class="col">
+		    <h6><i>Jānāśrayī</i> 3.11:</h6>
+		    <p><span class='translit'>puṣpitāgrā nīḍ dāśr̥</span></p>
+		  </div>
+		</div>
+		
+		<div class="row ml-2 mt-3">
+		  <div class="col">
+		    <h6>Jayadeva, <i>Chandaḥśāstram</i> 3.10:</h6>
+		    <p><span class='translit'>ayug iha yadi nau rayau ca yugmē<br/>najajaragāḥ kathayanti puṣpitāgram</span></p>
+		  </div>
+		</div>
+		
+		<div class="row ml-2 mt-3">
+		  <div class="col">
+		    <h6>Jayakīrti, <i>Chandōnuśāsanam</i> 3.12:</h6>
+		    <p><span class='translit'>nagaṇayugarayēṇa puṣpitāgrā<br/>najajaragair viditā jinavratāṁśaiḥ</span></p>
+		  </div>
+		</div>
+		
+		<div class="row ml-2 mt-3">
+		  <div class="col">
+		    <h6>Kedārabhaṭṭa, <i>Vr̥ttaratnākaraḥ</i> 4.10:</h6>
+		    <p><span class='translit'>ayuji nayugarēphatō yakārō<br/>yuji canajau jaragāś ca puṣpitāgrā</span></p>
+		  </div>
+		</div>
+		
+		<div class="row ml-2 mt-3">
+		  <div class="col">
+		    <h6>Hemacandra, <i>Chandōnuśāsanam</i> 3.16:</h6>
+		    <p><span class='translit'>gāntaṁ puṣpitāgrā</span></p>
+		  </div>
+		</div>
+		
+		
+		
+		<h3>Examples</h3>
+		
+		<div class="row ml-2 mt-3">
+		  <div class="col">
+		    <h4><span class='translit'>Raghuvaṁśaḥ</span> <span class='translit'>6.86</span></h4>
+		    
+		    This example was recited by H. V. Nagaraja Rao and recorded by Gil Ben-Herut in 2006. The translation is mine.
+		    
+		    
+		    <p>
+		      <audio class="audioplayer" src='/vrddhi/assets/audio/Puṣpitāgra_Raghuvamsa 6.86.mp3' preload="auto"/>
+		    </p>
+		    
+		    
+		    
+		    
+		    
+		    
+		    <div class="lg">
+		      <span class="l translit">
+			pramuditavarapakṣam ēkatas tat 
+			<span class="caesura"></span>
+			kṣitipatimaṇḍam anyatō vitānam
+		      </span>
+		      <span class="l translit">
+			uṣasi sara iva praphullapadmaṁ
+			<span class="caesura"></span>
+			kumudavanapratipannanidram āsīt
+		      </span>
+		    </div>
+		    
+		    
+		    
+		    
+		    <p>
+		    
+		    Within the group of kings, the groom’s party, on the one hand,
+		    
+		      <br/>
+		    
+		    
+		    was delighted, while all of the others were out of sorts.
+		    
+		      <br/>
+		    
+		    
+		    It was like a pond at dawn, when the day-lotuses start to open,
+		    
+		      <br/>
+		    
+		    
+		    and the water lilies get to sleep.
+		    
+		    
+		    </p>
+		    
+		  </div><!-- col !-->
+		</div><!-- row !-->
+		
+		
+	      </div><!-- column !-->
+	    </div><!-- row !-->
+	  </div><!-- column !-->
+	</div><!-- row !-->
+      </div><!-- container !-->
+    </main><footer class="site-footer">
+  <data class="u-url" href="/vrddhi/"></data>
+
+  <div class="container">
+    <div class="d-flex align-items-stretch justify-content-between" style="flex: 0 0 100%;">
+      <div class="borders"></div>
+      <div class="row flex-fill">
+	<div class="col-md-6 text-right">
+	  <p>made with <a href="https://jekyllrb.com/">jekyll</a></p>
+	  <p>all content released on a <a href="https://creativecommons.org/licenses/by/4.0/">cc by-4.0</a> license</p>
+	</div>
+	<div class="col-md-6 text-left">
+	  <p>designed and maintained by <a href="https://salc.uchicago.edu/andrew-ollett">andrew ollett</a></p>
+	  <p><a href="https://salc.uchicago.edu/">south asian languages and civilizations</a>,<br/>
+	    <a href="https://www.uchicago.edu">university of chicago</a></p>
+	</div>
+      </div>
+      <div class="borders"></div>
+    </div>
+  </div>
+</footer>
+<script src="/vrddhi/assets/js/sanscript.js"></script>
+    <script src="/vrddhi/assets/js/script-noreload.js"></script>
+    <script src="/vrddhi/assets/js/audio.min.js"></script>
+    <script src="/vrddhi/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/vrddhi/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="/vrddhi/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/vrddhi/assets/js/initialization-tools.js"></script>
+    <script>
+      $(document).ready(function(){
+	  setTransliterationOptions();
+	  setScriptMenu();
+          transliterate();
+      });
+    </script>
+  </body>
+
+</html>
