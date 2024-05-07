@@ -86,7 +86,7 @@
 	  </witness>
           <witness xml:id="B">
 	    <label>Ms. from Jñānabhaṇḍār of Ācārya Śrī Jinaharisāgarjī at Lohāvaṭ in Marwar.</label>
-	    28 leaves. Completed at Hisāradurga (Hisār fort in the Punjab) on the 8th day of the bright half of Āṣādha, Wednesday. Contains a Sanskrit ṭippaṇa with many errors, authored by Lakṣmīcandra, a disciple of Devendrasūri of the Rudrapallīya Gaccha; his belonged to the Prāgvāṭa family (i.e. the Porwāḍ caste of the Banias) and his father's name was Hāliga and his mother's Tilakhū; commentary composed in 1465 VS. He says that he copied it from the exposition of a Kṣatriya named Gāhaḍa.
+	    28 leaves. Completed at Hisāradurga (Hisār fort in the Punjab) on the 8th day of the bright half of Āṣādha, Wednesday. Contains a Sanskrit <foreign xml:lang="san-Latn">ṭippaṇa</foreign> with many errors, authored by Lakṣmīcandra, a disciple of Devendrasūri of the Rudrapallīya Gaccha; his belonged to the Prāgvāṭa family (i.e. the Porwāḍ caste of the Banias) and his father's name was Hāliga and his mother's Tilakhū; commentary composed in 1465 VS. He says that he copied it from the exposition of a Kṣatriya named Gāhaḍa.
 	  </witness>
           <witness xml:id="C">
 	    <label>Ms. from a Bhaṇḍār at Pātan.</label>
@@ -94,23 +94,23 @@
 	  </witness>
 	  <witness xml:id="LD1">
 	    <label>Mss. no. 45572 of the L.D. Institute of Indology in Ahmedabad.</label>
-	    23 folios. 30.5 x 11.5 cm. 13 lines per page, 53–57 letters per line. Condition is good.
+	    23 folios. 30.5 x 11.5 cm. 13 lines per page, 53–57 letters per line. Condition is good. Contains the commentary of Lakṣmīcandra.
 	  </witness>
 	  <witness xml:id="LD2">
 	    <label>Mss. no. 16654 of the L.D. Institute of Indology in Ahmedabad.</label>
-	    Folios 12 to 18, 30 x 13 cm. 12 lines per page. 40–43 letters in each line. Condition is good.
+	    Folios 12 to 18, 30 x 13 cm. 12 lines per page. 40–43 letters in each line. Condition is good. Contains the commentary of Lakṣmīcandra.
 	  </witness>
 	  <witness xml:id="LD3">
 	    <label>Mss. no. kh. 6594 of the L.D. Institute of Indology in Ahmedabad.</label>
-	    Photostat of a manuscript from Amer (Jaipur), folios 3 to 31 of the original. Folios 1 and 2 are missing. 28.3 x 11.2 cm. 11 lines per age and 37–40 letters per line. Contains the <hi>avacūrikā</hi> printed in the 1945 edition.
+	    Photostat of a manuscript from Lūṇakarṇa Pāṇḍya Śrī Digambara Jaina Mandira in Jaipur, folios 3 to 31 of the original. Folios 1 and 2 are missing. 28.3 x 11.2 cm. 11 lines per age and 37–40 letters per line. Contains a commentary very similar to the <hi>avacūrikā</hi> printed in the 1945 edition; this commentary was printed as an appendix in Dwivedi’s edition. Written in 1551. Colophon: <ab xml:lang="san-Latn">saṁ. 1608 varṣē viśākhasudi 14 ravidinē śrīsarasvatīpattanē pātisāha Śrīisilēmasyāhivijayarājye Śrībr̥hadagacchagaganāṅgaṇabhāskarāṇaṁ pūjyārādhyaśrī udayasūrīndrāṇāṁ vijayarājyē. pū. śrī śrī śrī saṁyamarājasūriśakrāṇāṁ vinēyēna vācanācāryaśrīmāṇikyarājamiśravarair alēkhi svapaṭhanāya vicāracaturaiḥ saṁyuktyā śōdhyaṁ.</ab> 
 	  </witness>
 	  <witness xml:id="LD4">
 	    <label>Mss. no. 33912 of the L.D. Institute of Indology in Ahmedabad.</label>
-	    Photostat of a manuscript from the Vijayagaccha collection at Radhanpur. 21 folios. 26 x 11.5 cm.
+	    Photostat of a manuscript from the Vijayagaccha collection at Radhanpur. 21 folios. 26 x 11.5 cm. Seems to contain Lakṣmīcandra’s commentary. Written in 1594. Colophon: <ab xml:lang="san-Latn">iti saṁdēśarāsakas tatra saṁpūrṇam. śubhaṁ lēkhakapāṭhakayōḥ. saṁvata 1652 varaṣē paüṣasuda ēkādasī guru. śrī suśubhaṁ bhavatu kalyāṇam astu. iti śrīdēvēndrasūriśiṣya śrī la...</ab>
 	  </witness>
 	  <witness xml:id="N1">
 	    <label>A manuscript from Agarchand Nahta’s collection in Bikaner.</label>
-	    7 folios.
+	    7 folios. Apparently this was the manuscript supplied to Jinavijaya Muni at a late stage of preparation of the 1945 edition. It includes a commentary which is ascribed to Labdhisundara, though “mostly identical to the <foreign xml:lang="san-Latn">Avacūrikā</foreign>” printed in the 1945 edition.
 	  </witness>
 	  <witness xml:id="N2">
 	    <label>A manuscript from Agarchand Nahta’s collection in Bikaner.</label>
