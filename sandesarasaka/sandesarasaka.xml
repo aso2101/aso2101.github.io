@@ -171,7 +171,6 @@
   </teiHeader>
   <text>
     <body>
-      <!--
       <div n="1" type="prakrama">
 	<head>prathamaḥ prakramaḥ</head>
 	<pb n="1"/>
@@ -739,8 +738,8 @@
 	<milestone unit="metricalgroup"/>
 	<lg xml:id="SaRā.018" type="raḍḍa">
 	  <l xml:id="SaRā.018ab">
-            ṇatthi tihuyaṇi jaṃ ca ṇahu diṭṭhu,</seg>
-            tumhehiṁ vi jaṃ na suu viaḍabaṃdhu succhaṃdu sarasaü |</seg>
+            ṇatthi tihuyaṇi jaṃ ca ṇahu diṭṭhu,
+            tumhehiṁ vi jaṃ na suu viaḍabaṃdhu succhaṃdu sarasaü |
 	  </l>
 	  <l xml:id="SaRā.018c">ṇisuṇeviṇu ko rahaï, laliyahīṇu mukkhāha pharasaü |</l>
 	  <pb n="7"/>
@@ -792,7 +791,6 @@
             <lem>māhappa</lem>
             <rdg wit="#C">māhappu</rdg>
             </app>,
-            </seg>
             paṃḍitta<app>
             <lem>pavittharaṇu</lem>
             <rdg wit="#B">pavivittharaṇu</rdg>
@@ -803,7 +801,6 @@
               <rdg wit="#C">kāliya</rdg>
               </app>payāsiu |
               <note place="app">For line 2 B reads <foreign xml:lang="sa">maṇu muṇevi kiṃciya payāsiu</foreign>.</note>
-            </seg>
 	  </l>
 	  <l xml:id="SaRā.019c">koūhali bhāsiaü sarala<app>
           <lem>bhāi</lem>
@@ -862,19 +859,19 @@
               <app>
 		<lem>saṃpaḍiu</lem>
 		<rdg wit="#B">saṃpaḍiyaṃ</rdg>
-            </app> ju sikkhaï kui samatthu,</seg>
+            </app> ju sikkhaï kui samatthu,
             tasu kahaü vibuha saṃgaha<app>
             <lem>vi hatthu</lem>
             <rdg wit="#C">bihatthu </rdg>
-            </app> |</seg>
+            </app> |
 	  </l>
 	  <l xml:id="SaRā.020cd">
-            paṃḍittaha mukkhaha muṇahi bheu,</seg>
+            paṃḍittaha mukkhaha muṇahi bheu,
             
               <app>
 		<lem>tiha</lem>
 		<rdg wit="#B #C">taha</rdg>
-            </app> puraü paḍhivvaü ṇa hu vi eu || 20 ||</seg>
+            </app> puraü paḍhivvaü ṇa hu vi eu || 20 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[20]  tataḥ prāñjalir nijagranthaśravaṇārthaṃ paṇḍitān āha | tato granthapaṭhanasya śiṣyā(kṣā)m āha — ‘saṃpaḍiü ju-’ — ko 'pi samarthaḥ — prajñāvān, saṃpratitaṃ — prasaṅgāgatam, idaṃ(maṃ) sandeśarāsakaṃ paṭhati, tasya sandeśakavido hastaṃ gṛhītvā bhaṇāmi | ye janāḥ paṇḍitānāṃ mūrkhāṇāṃ cāntaraṃ jānanti, teṣāṃ pura[ta] eṣa sandeśarāsako nāma na paṭhitavyaḥ | yatas te mahāntaḥ paṇḍitāḥ | paddhaḍīchandaḥ | tallakṣaṇam —</p>
@@ -900,24 +897,24 @@
 	<pb n="9"/>
 	<lg xml:id="SaRā.021" type="paddhaṭika">
 	  <l xml:id="SaRā.021ab">
-            ṇahu rahaï buhā kukavittaresi, </seg>
+            ṇahu rahaï buhā kukavittaresi,
             <app>
               <lem>abuhattaṇi abuhaha ṇahu pavesi</lem>
               <rdg wit="#B">abuhattaṇitta abbuhappavesi</rdg>
               <rdg wit="#C">pavesu</rdg>
-            </app> |</seg>
+            </app> |
 	  </l>
 	  <l xml:id="SaRā.021cd">
             ji ṇa mukkha 
             <app>
               <lem>ṇa</lem>
               <rdg wit="#B #C">na</rdg>
-            </app> paṃḍiya majjhayāra, </seg>
+            </app> paṃḍiya majjhayāra,
             
               <app>
 		<lem>tiha</lem>
 		<rdg wit="#C">taha</rdg>
-            </app> puraü paḍhivvaü savvavāra || 21 || [paddhaḍīchandaḥ]</seg>
+            </app> puraü paḍhivvaü savvavāra || 21 || [paddhaḍīchandaḥ]
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[21] taddhetum āha — ‘ṇahu rahaï-’ — budhā matkṛte kāvye kutthi(tsi)te, na tiṣṭhanti — na manaḥ kurvanti | abudhatvena — abudhās tatrāpraveśinaḥ | ye na mūrkhāḥ, na paṇḍitāḥ, kintu madhyasthāḥ, teṣāṃ purataḥ sarvadaiva paṭhitavyaḥ || 21 ||</p>
@@ -939,11 +936,11 @@
             </app><app>
             <lem>maṇaharu</lem>
             <rdg wit="#C">maṇuharu</rdg>
-            </app>, </seg>
+            </app>, 
             mayaṇa<app>
             <lem>maṇaha</lem>
             <rdg wit="#C">mahappaha</rdg>
-            </app> pahadīvayaro |</seg>
+            </app> pahadīvayaro |
 	  </l>
 	  <l xml:id="SaRā.022cd">
             virahaṇi<app>
@@ -953,12 +950,12 @@
           <app>
             <lem>suṇahu</lem>
             <rdg wit="#A">suṇaha</rdg>
-            </app> visuddhaü, </seg>
+            </app> visuddhaü, 
             rasiyaha rasa<app>
             <lem>saṃjīvayaro</lem>
             <rdg wit="#B">saṃjīyaro</rdg>
             <rdg wit="#C">saṃjīviyaro</rdg>
-            </app> || 22 ||</seg>
+            </app> || 22 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[22] granthasya guṇā[nā]ha — ‘aṇuraïya-’ — anurāgiṇāṃ sarvaśāstravidāṃ ratigṛhaṃ samādhisthānam, kāmukānāṃ manoharam, madanamanaskānāṃ pathodīpakaram | virahiṇīnāṃ makaradhvajam, rasikānāṃ rasasaṃjīvanakaram, viśuddhaṃ ja[nāḥ] śṛṇuta || 22 ||</p>
@@ -977,12 +974,12 @@
               <app>
 		<lem>aïṇehiṇa</lem>
 		<rdg wit="#C">ahaṇeiha</rdg>
-            </app> bhāsiu, raïmaïvāsiu, </seg>
+            </app> bhāsiu, raïmaïvāsiu, 
             savaṇa<app>
             <lem>sakuliyaha</lem>
             <rdg wit="#B">sukuli jiya</rdg>
             <rdg wit="#C">sukuli jahi</rdg>
-            </app> amiyasaro |</seg>
+            </app> amiyasaro |
 	  </l>
 	  <l xml:id="SaRā.023cd">
             
@@ -993,7 +990,7 @@
               <app>
 		<lem>lihaï</lem>
 		<rdg wit="#A #C">lahaï</rdg>
-            </app> viyakkhaṇu, atthaha lakkhaṇu, </seg>
+            </app> viyakkhaṇu, atthaha lakkhaṇu, 
             suraï<app>
             <lem>saṃgi</lem>
             <rdg wit="#C">saggi</rdg>
@@ -1006,7 +1003,7 @@
             <lem>viaḍḍha</lem>
             <rdg wit="#A #B">viaḍha</rdg>
             </app>naro || 23 || [ḍumilāchandaḥ]
-            </seg>
+            
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[23] yato 'tisnehena bhāṣitam, ratimativāsitam, karṇaśaṣkulyāṃ yathā'bhṛtam | anyac ca — vicakṣaṇo lae — bhāve likhati jānāti | anyac ca — arthalakṣaṇaṃ sa eva vetti, yaḥ suratisaṅge vidagdho bhavati, nāparaḥ | ḍumillācchandaḥ | tallakṣaṇaṃ yathā — </p>
@@ -1032,8 +1029,8 @@
 	<pb n="11"/>
 	<lg xml:id="SaRā.024" type="raḍḍa">
 	  <l xml:id="SaRā.024ab">
-            vijayanayarahu kāvi vara<app><lem>ramaṇi</lem><rdg wit="#A">ravaṇi</rdg><rdg wit="#B">taruṇi</rdg></app>,</seg>
-            uttaṃgathira<app><lem>thorathaṇi</lem><rdg wit="#C">thoru-</rdg><rdg wit="#B">thoraghaṇa</rdg></app>, <app><lem>biruḍa</lem><rdg wit="#A">baruḍa</rdg><rdg wit="#B">viraḍa</rdg></app>lakka dhayaraṭṭhapaühara |</seg>
+            vijayanayarahu kāvi vara<app><lem>ramaṇi</lem><rdg wit="#A">ravaṇi</rdg><rdg wit="#B">taruṇi</rdg></app>,
+            uttaṃgathira<app><lem>thorathaṇi</lem><rdg wit="#C">thoru-</rdg><rdg wit="#B">thoraghaṇa</rdg></app>, <app><lem>biruḍa</lem><rdg wit="#A">baruḍa</rdg><rdg wit="#B">viraḍa</rdg></app>lakka dhayaraṭṭhapaühara |
 	  </l>
 	  <l xml:id="SaRā.024c">dīṇāṇaṇa pahu <app><lem>ṇihaï</lem><rdg wit="#B">nihaï"</rdg><rdg wit="#C">nihaya</rdg></app>, <app><lem>jala</lem><rdg wit="#C">jalu jala-</rdg></app>pavāha <app><lem>pavahaṃti</lem><rdg wit="#B">pavahaṃta</rdg></app> dīhara |</l>
 	  <l xml:id="SaRā.024d">virahaggihi <app><lem>kaṇayaṃgi</lem><rdg wit="#C">kaṇayaggi</rdg></app>taṇu taha <app><lem>sāmalima</lem><rdg wit="#A">sāmalaü</rdg><rdg wit="#C">sāmaliya</rdg></app><app><lem>pavannu</lem><rdg wit="#C">pavanna</rdg></app> |</l>
@@ -1050,8 +1047,8 @@
 	</lg>
 	<lg xml:id="SaRā.025" type="raḍḍa">
 	  <l xml:id="SaRā.025ab">
-            phusaï loyaṇa <app><lem>ruvaï</lem><rdg wit="#B">ruyaï</rdg><rdg wit="#C">ruaï</rdg></app> <app><lem>dukkhatta</lem><rdg wit="#B">dukkhitta</rdg></app>, </seg>
-            <app><lem>dhammillaü</lem><rdg wit="#C">dhammillo</rdg></app>mukka<app><lem>muha</lem><rdg wit="#C">muhu</rdg></app>, vijjaṃbhaï <app><lem>aru</lem><rdg wit="#B">ta</rdg><rdg wit="#C">niya-</rdg></app> <app><lem>aṃgu</lem><rdg wit="#A">aṃga</rdg></app> moḍaï |</seg>
+            phusaï loyaṇa <app><lem>ruvaï</lem><rdg wit="#B">ruyaï</rdg><rdg wit="#C">ruaï</rdg></app> <app><lem>dukkhatta</lem><rdg wit="#B">dukkhitta</rdg></app>, 
+            <app><lem>dhammillaü</lem><rdg wit="#C">dhammillo</rdg></app>mukka<app><lem>muha</lem><rdg wit="#C">muhu</rdg></app>, vijjaṃbhaï <app><lem>aru</lem><rdg wit="#B">ta</rdg><rdg wit="#C">niya-</rdg></app> <app><lem>aṃgu</lem><rdg wit="#A">aṃga</rdg></app> moḍaï |
 	  </l>
 	  <l xml:id="SaRā.025c">virahānali <app><lem>saṃtavia</lem><rdg wit="#A">saṃtavīa</rdg></app>, sasaï dīha kara<app><lem>sāha</lem><rdg wit="#C">sāsa</rdg></app> toḍaï |</l>
 	  <pb n="12"/>
@@ -1070,12 +1067,12 @@
 	<milestone unit="metricalgroup"/>
 	<lg xml:id="SaRā.026" type="rāsā">
 	  <l xml:id="SaRā.026ab">
-            taṃ <app><lem>ji</lem><rdg wit="#C">ja</rdg></app> <app><lem>pahia</lem><rdg wit="#A">pahiu</rdg></app> pekkheviṇu <app><lem>pia</lem><rdg wit="#B">piya</rdg></app><app><lem>ükkaṃkhiriya</lem><rdg wit="#A">ukkhaṃkhirīya</rdg><rdg wit="#C">ukkaṃṣiriya</rdg></app>, </seg>
-            maṃtharagaya <app><lem>saralāivi</lem><rdg wit="#A">saralāvia</rdg></app> uttāvali <app><lem>caliya</lem><rdg wit="#A">calia</rdg></app> | </seg>
+            taṃ <app><lem>ji</lem><rdg wit="#C">ja</rdg></app> <app><lem>pahia</lem><rdg wit="#A">pahiu</rdg></app> pekkheviṇu <app><lem>pia</lem><rdg wit="#B">piya</rdg></app><app><lem>ükkaṃkhiriya</lem><rdg wit="#A">ukkhaṃkhirīya</rdg><rdg wit="#C">ukkaṃṣiriya</rdg></app>, 
+            maṃtharagaya <app><lem>saralāivi</lem><rdg wit="#A">saralāvia</rdg></app> uttāvali <app><lem>caliya</lem><rdg wit="#A">calia</rdg></app> | 
 	  </l>
 	  <l xml:id="SaRā.026cd">
-            taha maṇahara <app><lem>callaṃtiya</lem><rdg wit="#B">calaṇihi callaṃ</rdg></app> caṃcala<app><lem>ramaṇa</lem><rdg wit="#A">ravaṇi</rdg></app>bhari, </seg>
-            <app><lem>chuḍavi</lem><rdg wit="#A">chuḍḍavi</rdg></app> <app><lem>khisiya</lem><rdg wit="#A">khisīa</rdg></app> rasaṇāvali <app><lem>kiṃkiṇi</lem><rdg wit="#A">kaṃkaṇi</rdg><rdg wit="#B">kiṃkaṇi</rdg></app><app><lem>ravapasari</lem><rdg wit="#A #C">gaya pasari</rdg></app> || 26 ||</seg>
+            taha maṇahara <app><lem>callaṃtiya</lem><rdg wit="#B">calaṇihi callaṃ</rdg></app> caṃcala<app><lem>ramaṇa</lem><rdg wit="#A">ravaṇi</rdg></app>bhari, 
+            <app><lem>chuḍavi</lem><rdg wit="#A">chuḍḍavi</rdg></app> <app><lem>khisiya</lem><rdg wit="#A">khisīa</rdg></app> rasaṇāvali <app><lem>kiṃkiṇi</lem><rdg wit="#A">kaṃkaṇi</rdg><rdg wit="#B">kiṃkaṇi</rdg></app><app><lem>ravapasari</lem><rdg wit="#A #C">gaya pasari</rdg></app> || 26 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[26] taṃ pathikaṃ dṛṣṭvā patyutkaṇṭhitā, mantharagatiṃ saralayitvā yāvad utsukagatyā caliyā, tāvanmanoharaṃ calantyāś capalaramaṇabharāt kaṭipradeśād rasanāvaliḥ kiṅkiṇīkvaṇayuktā chuṭitā | ābhāṇakanāma cchandaḥ | tallakṣaṇaṃ yathā — </p>
@@ -1104,12 +1101,12 @@
 	<pb n="13"/>
 	<lg xml:id="SaRā.027" type="rāsā">
 	  <l xml:id="SaRā.027ab">
-            taṃ jaṃ <app><lem>mehala</lem><rdg wit="#A">mehali</rdg></app> ṭhavaï gaṃṭhi <app><lem>ṇiṭṭhura</lem><rdg wit="#B #C">niṭṭhura</rdg></app> suhaya,</seg>
-            <app><lem>tuḍiya</lem><rdg wit="#A">tuḍavi</rdg><rdg wit="#C">tuḍaci</rdg></app> <app><lem>tāva</lem><rdg wit="#A">tāma</rdg><rdg wit="#C">tāba</rdg></app> <app><lem>thūlāvali</lem><rdg wit="#C">dhūlāvali</rdg></app> <app><lem>ṇava</lem><rdg wit="#B #C">nava</rdg></app>sarahāralaya |</seg>
+            taṃ jaṃ <app><lem>mehala</lem><rdg wit="#A">mehali</rdg></app> ṭhavaï gaṃṭhi <app><lem>ṇiṭṭhura</lem><rdg wit="#B #C">niṭṭhura</rdg></app> suhaya,
+            <app><lem>tuḍiya</lem><rdg wit="#A">tuḍavi</rdg><rdg wit="#C">tuḍaci</rdg></app> <app><lem>tāva</lem><rdg wit="#A">tāma</rdg><rdg wit="#C">tāba</rdg></app> <app><lem>thūlāvali</lem><rdg wit="#C">dhūlāvali</rdg></app> <app><lem>ṇava</lem><rdg wit="#B #C">nava</rdg></app>sarahāralaya |
 	  </l>
 	  <l xml:id="SaRā.027cd">
-            sā tivi kivi saṃvarivi <app><lem>caïvi</lem><rdg wit="#C">cayavi</rdg></app> <app><lem>kivi</lem><rdg wit="#A">kevi</rdg></app> <app><lem>saṃcariya</lem><rdg wit="#A">saṃcarīya</rdg></app>, </seg>
-            ṇevara <app><lem>caraṇa</lem><rdg wit="#A">caraṇi</rdg></app> vilaggivi taha <app><lem>pahi</lem><rdg wit="#B">paya</rdg></app> <app><lem>paṃkhuḍiya</lem><rdg wit="#C">pakkhaḍiya</rdg></app> || 27 ||</seg>
+            sā tivi kivi saṃvarivi <app><lem>caïvi</lem><rdg wit="#C">cayavi</rdg></app> <app><lem>kivi</lem><rdg wit="#A">kevi</rdg></app> <app><lem>saṃcariya</lem><rdg wit="#A">saṃcarīya</rdg></app>, 
+            ṇevara <app><lem>caraṇa</lem><rdg wit="#A">caraṇi</rdg></app> vilaggivi taha <app><lem>pahi</lem><rdg wit="#B">paya</rdg></app> <app><lem>paṃkhuḍiya</lem><rdg wit="#C">pakkhaḍiya</rdg></app> || 27 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[27] sā subhagā yāvat tāṃ mekhalāṃ granthau sthāpayati, tāvatā muktāmayī sthūlā navasarahāralatāvalis truṭitā | [............] tāvatā nūpuracaraṇābhyāṃ vilagya nirbalatvāt patitā || 27 ||</p>
@@ -1123,12 +1120,12 @@
 	</lg>
 	<lg xml:id="SaRā.028" type="rāsā">
 	  <l xml:id="SaRā.028ab">
-            paḍi uṭṭhiya savilakkha salajjira <app><lem>saṃjhasiya</lem><rdg wit="#A">saṃjhasīya</rdg></app>,</seg>
-            <app><lem>taü</lem><rdg wit="#A">taṃ</rdg></app> <app><lem>siya</lem><rdg wit="#A">sira></rdg></app> saccha <app><lem>ṇiyaṃ</lem><rdg wit="#B #C">niyaṃ</rdg></app>saṇa muddhaha vivala<app><lem>siya</lem><rdg wit="#B">sia</rdg></app> |</seg>
+            paḍi uṭṭhiya savilakkha salajjira <app><lem>saṃjhasiya</lem><rdg wit="#A">saṃjhasīya</rdg></app>,
+            <app><lem>taü</lem><rdg wit="#A">taṃ</rdg></app> <app><lem>siya</lem><rdg wit="#A">sira></rdg></app> saccha <app><lem>ṇiyaṃ</lem><rdg wit="#B #C">niyaṃ</rdg></app>saṇa muddhaha vivala<app><lem>siya</lem><rdg wit="#B">sia</rdg></app> |
 	  </l>
 	  <l xml:id="SaRā.028cd">
-            taṃ saṃvari <app><lem>aṇusariya</lem><rdg wit="#A">aṇusarīa</rdg></app> pahiyapāvayaṇamaṇa, </seg>
-            <app><lem>phuḍavi</lem><rdg wit="#C">phuḍivi</rdg></app> <app><lem>ṇitta</lem><rdg wit="#B">ṇatta</rdg><rdg wit="#C">nitta</rdg></app> kuppāsa vilaggiya <app><lem>dara sihaṇa</lem><rdg wit="#A">dara siṇaha</rdg></app> || 28 ||</seg>
+            taṃ saṃvari <app><lem>aṇusariya</lem><rdg wit="#A">aṇusarīa</rdg></app> pahiyapāvayaṇamaṇa, 
+            <app><lem>phuḍavi</lem><rdg wit="#C">phuḍivi</rdg></app> <app><lem>ṇitta</lem><rdg wit="#B">ṇatta</rdg><rdg wit="#C">nitta</rdg></app> kuppāsa vilaggiya <app><lem>dara sihaṇa</lem><rdg wit="#A">dara siṇaha</rdg></app> || 28 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>yāvat patitotthitā savilakṣā salajjā saṃbhramitā | tāvat śvetaṃ svacchaṃ nivasanaṃ — śirovastraṃ vivalasitaṃ — dūrībhūtam | tadapi saṃvarayitvā pathikaprāpana(ṇa)ma[na]skā yāvat saṃsmṛtā, tāvatā netrapaṭṭaṃ vastramayaṃ kūrpāsakaṃ kañcukaṃ vidārya kucau īsaddare chidre vilagnau — prakaṭau jā(yā)tāv ity arthyaḥ || 28 ||</p>
@@ -1142,13 +1139,13 @@
 	</lg>
 	<lg xml:id="SaRā.029" type="rāsā">
 	  <l xml:id="SaRā.029ab">
-            chā<app><lem>yaṃtī</lem><rdg wit="#A">yaṃtī</rdg></app> kaha kaha va salajjira <app><lem>ṇiya</lem><rdg wit="#B">niya</rdg></app><app><lem>karahi</lem><rdg wit="#B">karihi</rdg></app>,</seg>
-            kaṇayakalasa jhaṃpaṃtī ṇaṃ iṃdī<app><lem>varahi</lem><rdg wit="#A #B">varihi</rdg></app> |</seg>
+            chā<app><lem>yaṃtī</lem><rdg wit="#A">yaṃtī</rdg></app> kaha kaha va salajjira <app><lem>ṇiya</lem><rdg wit="#B">niya</rdg></app><app><lem>karahi</lem><rdg wit="#B">karihi</rdg></app>,
+            kaṇayakalasa jhaṃpaṃtī ṇaṃ iṃdī<app><lem>varahi</lem><rdg wit="#A #B">varihi</rdg></app> |
 	  </l>
 	  <pb n="14"/>
 	  <l xml:id="SaRā.029cd">
-            to āsanna pahutta <app><lem>sagaggira</lem><rdg wit="#B">gaggira</rdg></app><app><lem>gira</lem><rdg wit="#C">giri</rdg></app><app><lem>vayaṇi</lem><rdg wit="#A">taruṇi</rdg></app>,</seg>
-            <app><lem>kiyaü</lem><rdg wit="#A">kiaü</rdg></app> saddu <app><lem>savilāsu</lem><rdg wit="#A">suvilāsu</rdg></app> karuṇa dīharanayaṇi || 29 ||</seg>
+            to āsanna pahutta <app><lem>sagaggira</lem><rdg wit="#B">gaggira</rdg></app><app><lem>gira</lem><rdg wit="#C">giri</rdg></app><app><lem>vayaṇi</lem><rdg wit="#A">taruṇi</rdg></app>,
+            <app><lem>kiyaü</lem><rdg wit="#A">kiaü</rdg></app> saddu <app><lem>savilāsu</lem><rdg wit="#A">suvilāsu</rdg></app> karuṇa dīharanayaṇi || 29 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[29] sā bālā salajjā pathikaṃ pati[vi]rahiṇītvāt karaṇam, padminītvāt savilāsam, śabdaṃ kṛtavatī | kiṃ kurvantī? — nijakarābhyāṃ kucāvācchādayantī | nu vitarke | kanakakalasāvindīvarābhyāmācchādayantī | yatas tasyā hastau punaḥ punaḥ sakajjalanetrasparśādakṣālanāt śyāmalatāṃ gatau | tato dīrghanetrā sagadgadgīrvadanā āsannaṃ nikaṭaṃ prāptā || 29 ||</p>
@@ -1162,12 +1159,12 @@
 	</lg>
 	<lg xml:id="SaRā.030" type="rāsā">
 	  <l xml:id="SaRā.030ab">
-            ṭhāhi ṭhāhi <app><lem>ṇimisiddhu</lem><rdg wit="#B">ṇimisaddhu</rdg><rdg wit="#C">timisiddhu</rdg></app> suthiru avahāri maṇu, </seg>
-            ṇisuṇi kiṃ pi jaṃ jaṃpaüṃ <app><lem>hiyaï</lem><rdg wit="#A">hiaï</rdg><rdg wit="#C">hiyaya</rdg></app> <app><lem>pasijji</lem><rdg wit="#A">pasijjhi</rdg><rdg wit="#B">pasajji</rdg></app> khaṇu |</seg>
+            ṭhāhi ṭhāhi <app><lem>ṇimisiddhu</lem><rdg wit="#B">ṇimisaddhu</rdg><rdg wit="#C">timisiddhu</rdg></app> suthiru avahāri maṇu, 
+            ṇisuṇi kiṃ pi jaṃ jaṃpaüṃ <app><lem>hiyaï</lem><rdg wit="#A">hiaï</rdg><rdg wit="#C">hiyaya</rdg></app> <app><lem>pasijji</lem><rdg wit="#A">pasijjhi</rdg><rdg wit="#B">pasajji</rdg></app> khaṇu |
 	  </l>
 	  <l xml:id="SaRā.030cd">
-            <app><lem>eya</lem><rdg wit="#A">eï</rdg></app> vayaṇa <app><lem>āyanni</lem><rdg wit="#C">āinni</rdg></app> pahiu <app><lem>koūhaliu</lem><rdg wit="#C">koūhiliyaŏ</rdg></app>,</seg>
-            <app><lem>ṇeya ṇia</lem><rdg wit="#C">nei niya</rdg></app>ttaü tā su kamaddhu vi <app><lem>ṇahu</lem><rdg wit="#B #C">nahu</rdg></app> caliu || 30 ||</seg>
+            <app><lem>eya</lem><rdg wit="#A">eï</rdg></app> vayaṇa <app><lem>āyanni</lem><rdg wit="#C">āinni</rdg></app> pahiu <app><lem>koūhaliu</lem><rdg wit="#C">koūhiliyaŏ</rdg></app>,
+            <app><lem>ṇeya ṇia</lem><rdg wit="#C">nei niya</rdg></app>ttaü tā su kamaddhu vi <app><lem>ṇahu</lem><rdg wit="#B #C">nahu</rdg></app> caliu || 30 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[30] kim āha — ‘ṭhāhi ṭhāhi’ — nimeṣārddhaṃ susthiraṃ yadhā(thā) tiṣṭha tiṣ̣ṭha | manasy avadhāraya | yat kiñcid jalpāmi tacchravaṇābhyāṃ śṛṇu | kṣaṇaṃ hṛdaye prasīda | tasyā etāni vākyāni ākarṇya, pathikaḥ kautūhalitaḥ san, na kramārddhaṃ nivṛtto n cāgre calitaḥ | kṣubdhatvāt tathaiva saṃsthita ity arthaḥ || 30 ||</p>
@@ -1182,12 +1179,12 @@
 	<milestone unit="metricalgroup"/>
 	<lg xml:id="SaRā.031" type="dohā">
 	  <l xml:id="SaRā.031ab">
-            <app><lem>kusuma</lem><rdg wit="#B #C">kusama</rdg></app>sarāuha rūva<app><lem>ṇihi</lem><rdg wit="#C">ṇihiṃ</rdg></app></seg>
-            vihi <app><lem>ṇimmaviya</lem><rdg wit="#B">ṇimmamiya</rdg></app> gariṭṭha |</seg>
+            <app><lem>kusuma</lem><rdg wit="#B #C">kusama</rdg></app>sarāuha rūva<app><lem>ṇihi</lem><rdg wit="#C">ṇihiṃ</rdg></app>
+            vihi <app><lem>ṇimmaviya</lem><rdg wit="#B">ṇimmamiya</rdg></app> gariṭṭha |
 	  </l>
 	  <l xml:id="SaRā.031cd">
-            taṃ pikkheviṇu <app><lem>pahiyaṇihiṃ</lem><rdg wit="#A">paṃthiyaṇihiṃ</rdg><rdg wit="#B">pahiyajaṇi</rdg></app></seg>
-            gāhā <app><lem>bhaṇiyā</lem><rdg wit="#B #C">paḍhiyā</rdg></app> aṭṭha || 31 ||</seg>
+            taṃ pikkheviṇu <app><lem>pahiyaṇihiṃ</lem><rdg wit="#A">paṃthiyaṇihiṃ</rdg><rdg wit="#B">pahiyajaṇi</rdg></app>
+            gāhā <app><lem>bhaṇiyā</lem><rdg wit="#B #C">paḍhiyā</rdg></app> aṭṭha || 31 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[31] kusumaśarāyudhāṃ vidhinā gariṣṭhāṃ rūpanidhiḥ(dhiṃ) nirmitāṃ tāṃ prekṣya pathikenāṣṭhau gāthā bhaṇitā[ḥ] || 31 ||</p>
@@ -1352,12 +1349,12 @@
 	<pb n="18"/>
 	<lg xml:id="SaRā.041" type="rāsā">
 	  <l xml:id="SaRā.041ab">
-            gāhā taṃ nisuṇeviṇu <app><lem>rāya</lem><rdg wit="#C">rāi</rdg></app>marāla<app><lem>gaï</lem><rdg wit="#A">gaya</rdg></app>, </seg>
-            <app><lem>calaṇaṃ</lem><rdg wit="#A">caraṇaṃ</rdg></app>guṭṭhi dharatti salajjira ullihaï |</seg>
+            gāhā taṃ nisuṇeviṇu <app><lem>rāya</lem><rdg wit="#C">rāi</rdg></app>marāla<app><lem>gaï</lem><rdg wit="#A">gaya</rdg></app>, 
+            <app><lem>calaṇaṃ</lem><rdg wit="#A">caraṇaṃ</rdg></app>guṭṭhi dharatti salajjira ullihaï |
 	  </l>
 	  <l xml:id="SaRā.041cd">
-            <app><lem>taü</lem><rdg wit="#A">taṃ</rdg></app> paṃthiu kaṇayaṃgi tattha <app><lem>bolāviyaü</lem><rdg wit="#A">bolāviaü</rdg><rdg wit="#C">volāviu</rdg></app>, </seg>
-            <app><lem>kahi</lem><rdg wit="#A">kaha</rdg></app> jāisi hiva pahiya kaha va <app><lem>tuha</lem><rdg wit="#B">tuhu</rdg></app> <app><lem>āiyaü</lem><rdg wit="#C">āiu</rdg></app> || 41 ||</seg>
+            <app><lem>taü</lem><rdg wit="#A">taṃ</rdg></app> paṃthiu kaṇayaṃgi tattha <app><lem>bolāviyaü</lem><rdg wit="#A">bolāviaü</rdg><rdg wit="#C">volāviu</rdg></app>, 
+            <app><lem>kahi</lem><rdg wit="#A">kaha</rdg></app> jāisi hiva pahiya kaha va <app><lem>tuha</lem><rdg wit="#B">tuhu</rdg></app> <app><lem>āiyaü</lem><rdg wit="#C">āiu</rdg></app> || 41 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[41] tadanu kiṃ kṛtaṃ tayā tadāha — ‘gāhā taṃ nisuṇe’ — tā gāthāḥ śrutvā rājamarālagatyā caraṇāṅguṣṭhena dharitrīṃ salajjamullikhantyā kanakāṅgyā pathiko vācālitaḥ | ataḥ paraṃ kva yāsyasi, kutaḥ samupāgataḥ || 41 ||</p>
@@ -1372,12 +1369,12 @@
 
 	<lg xml:id="SaRā.042" type="rāsā">
 	  <l xml:id="SaRā.042ab">
-            <app><lem>ṇayaraṇāmu</lem><rdg wit="#B">nayaru nāmi</rdg></app> sāmoru saroruhadalanayaṇi, </seg>
-            <app><lem>ṇāyara</lem><rdg wit="#C">nāyara</rdg></app>jaṇa<app><lem>saṃpunnu</lem><rdg wit="#A">saṃpunna</rdg></app> harisa <app><lem>sasihara</lem><rdg wit="#C">saśihara</rdg></app><app><lem>vayaṇi</lem><rdg wit="#C">bayaṇi</rdg></app> |</seg>
+            <app><lem>ṇayaraṇāmu</lem><rdg wit="#B">nayaru nāmi</rdg></app> sāmoru saroruhadalanayaṇi, 
+            <app><lem>ṇāyara</lem><rdg wit="#C">nāyara</rdg></app>jaṇa<app><lem>saṃpunnu</lem><rdg wit="#A">saṃpunna</rdg></app> harisa <app><lem>sasihara</lem><rdg wit="#C">saśihara</rdg></app><app><lem>vayaṇi</lem><rdg wit="#C">bayaṇi</rdg></app> |
 	  </l>
 	  <l xml:id="SaRā.042cd">
-            dhavalatuṃgapāyārihi <app><lem>tiurihi</lem><rdg wit="#A">tiuri</rdg></app> <app><lem>maṃḍiyaü</lem><rdg wit="#C">maṃḍiu</rdg></app>, </seg>
-            ṇahu <app><lem>dīsaï</lem><rdg wit="#B">dīsaïṃ</rdg></app> kui mukkhu <app><lem>sayalu</lem><rdg wit="#C">sayala</rdg></app> <app><lem>jaṇu</lem><rdg wit="#A">jaṇa</rdg></app> paṇḍiyaü || 42 ||</seg>
+            dhavalatuṃgapāyārihi <app><lem>tiurihi</lem><rdg wit="#A">tiuri</rdg></app> <app><lem>maṃḍiyaü</lem><rdg wit="#C">maṃḍiu</rdg></app>, 
+            ṇahu <app><lem>dīsaï</lem><rdg wit="#B">dīsaïṃ</rdg></app> kui mukkhu <app><lem>sayalu</lem><rdg wit="#C">sayala</rdg></app> <app><lem>jaṇu</lem><rdg wit="#A">jaṇa</rdg></app> paṇḍiyaü || 42 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[42] tatpṛṣṭaḥ pathikaḥ prāha — ‘nayaru-’ — he hemasaroruhadalanetre śaśadharavadani(ne) ! sāmoru = mūlasthānanāma nagaraṃ vartate | kīdṛśam ? — nāgarikaiḥ saṃpūrṇṇam, dhavalatuṅgaprākārais tripuraiś ca maṇḍitam | anyac ca — yatra ko 'pi na mūrkhaḥ, kintu sakalo 'pi janaḥ paṇḍitaḥ || 42 || </p>
@@ -1392,13 +1389,13 @@
 
 	<lg xml:id="SaRā.043" type="rāsā">
 	  <l xml:id="SaRā.043ab">
-            viviha<app><lem>viakkhaṇa</lem><rdg wit="#B">viyakhaṇu</rdg></app>satthihi jaï <app><lem>pavasii</lem><rdg wit="#B">pavasīi</rdg></app> ṇiru,</seg>
-            summaï chaṃdu maṇoharu pāyaü <app><lem>mahurayaru</lem><rdg wit="#C">mahuru saru</rdg></app> |</seg>
+            <seg type="pada">viviha<app><lem>viakkhaṇa</lem><rdg wit="#B">viyakhaṇu</rdg></app>satthihi jaï <app><lem>pavasii</lem><rdg wit="#B">pavasīi</rdg></app> ṇiru,</seg>
+            <seg type="pada">summaï chaṃdu maṇoharu pāyaü <app><lem>mahurayaru</lem><rdg wit="#C">mahuru saru</rdg></app> |</seg>
 	  </l>
 	  <pb n="19"/>
 	  <l xml:id="SaRā.043cd">
-            kaha va <app><lem>ṭhāi</lem><rdg wit="#C">ṭhāiṃ</rdg></app> caü<app><lem>veihiṃ</lem><rdg wit="#A">veyahiṃ</rdg><rdg wit="#C">beihiṃ</rdg></app> veu payā<app><lem>siyaï</lem><rdg wit="#A">siaïṃ</rdg></app>, </seg>
-            kaha <app><lem>bahurūvi ṇi</lem><rdg wit="#A">baharūvi ṇi</rdg><rdg wit="#C">bahurūvihiṃ ya</rdg></app>baddhaü rāsaü <app><lem>bhāsiyaï</lem><rdg wit="#A">bhāsīaï</rdg><rdg wit="#C">bhāsiyaïṃ</rdg></app> || 43 ||</seg>
+            kaha va <app><lem>ṭhāi</lem><rdg wit="#C">ṭhāiṃ</rdg></app> caü<app><lem>veihiṃ</lem><rdg wit="#A">veyahiṃ</rdg><rdg wit="#C">beihiṃ</rdg></app> veu payā<app><lem>siyaï</lem><rdg wit="#A">siaïṃ</rdg></app>, 
+            kaha <app><lem>bahurūvi ṇi</lem><rdg wit="#A">baharūvi ṇi</rdg><rdg wit="#C">bahurūvihiṃ ya</rdg></app>baddhaü rāsaü <app><lem>bhāsiyaï</lem><rdg wit="#A">bhāsīaï</rdg><rdg wit="#C">bhāsiyaïṃ</rdg></app> || 43 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[43] yadi vicakṣaṇaiḥ saha purānta[ḥ] paribhramyate, tadā manoharaṃ chandasā madhuraṃ prākṛtaṃ śrūyate | kutrāpi caturvedibhiḥ veda[ḥ]prakāśyate | kutrāpi bahurūpa(pi)bhir nibaddho rāsako bhāṣyate || 43 ||</p>
@@ -1413,12 +1410,12 @@
 
 	<lg xml:id="SaRā.044" type="rāsā">
 	  <l xml:id="SaRā.044ab">
-            kaha va <app><lem>ṭhāi</lem><rdg wit="#C">thāiṃ</rdg></app> <app><lem>sudayavaccha</lem><rdg wit="#A #C">sudavaccha</rdg></app> kattha <app><lem>va nala</lem><rdg wit="#A #C">vara nala</rdg></app><app><lem>cariu</lem><rdg wit="#C">cariyaü</rdg></app>, </seg>
-            <app><lem>kattha va viviha</lem><rdg wit="#C">kattha vivihiṃ </rdg></app>viṇoihi bhārahu <app><lem>uccariu</lem><rdg wit="#B">uccariuṃ</rdg></app> |</seg>
+            kaha va <app><lem>ṭhāi</lem><rdg wit="#C">thāiṃ</rdg></app> <app><lem>sudayavaccha</lem><rdg wit="#A #C">sudavaccha</rdg></app> kattha <app><lem>va nala</lem><rdg wit="#A #C">vara nala</rdg></app><app><lem>cariu</lem><rdg wit="#C">cariyaü</rdg></app>, 
+            <app><lem>kattha va viviha</lem><rdg wit="#C">kattha vivihiṃ </rdg></app>viṇoihi bhārahu <app><lem>uccariu</lem><rdg wit="#B">uccariuṃ</rdg></app> |
 	  </l>
 	  <l xml:id="SaRā.044cd">
-            kaha va ṭhāi āsīsiya <app><lem>cāihi</lem><rdg wit="#A">cāīya</rdg></app> <app><lem>dayava</lem><rdg wit="#C">pavaï</rdg></app>rihiṃ, </seg>
-            rāmāyaṇu ahi<app><lem>ṇaviyaaï</lem><rdg wit="#A">ṇavīaï</rdg></app> kattha vi kayavarihiṃ || 44 ||</seg>
+            kaha va ṭhāi āsīsiya <app><lem>cāihi</lem><rdg wit="#A">cāīya</rdg></app> <app><lem>dayava</lem><rdg wit="#C">pavaï</rdg></app>rihiṃ, 
+            rāmāyaṇu ahi<app><lem>ṇaviyaaï</lem><rdg wit="#A">ṇavīaï</rdg></app> kattha vi kayavarihiṃ || 44 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[44] kutrāpi su(sa)dayavacchakathā, kutrāpi nalacaritra[m], kutrāpi vividhavinodaiḥ bhārataṃ uccaritaṃ śrūyate | anyac ca — kutrāpi kutrāpi āśiṣā tyāgibhir dvijavaraiḥ rāmāyaṇam abhinūyate || 44 || </p>
@@ -1433,12 +1430,12 @@
 
 	<lg xml:id="SaRā.045" type="rāsā">
 	  <l xml:id="SaRā.045ab">
-            ke <app><lem>āinnihiṃ</lem><rdg wit="#C">āinnihi</rdg><rdg wit="#B">āyannahiṃ</rdg></app> <app><lem>vaṃsavīṇa</lem><rdg wit="#C">baṃsavīṇa</rdg><rdg wit="#B">vīṇavaṃsa</rdg></app>kāhalamuraü, </seg>
-            kaha <app><lem>payavaṇṇa</lem><rdg wit="#A">payavaṃna</rdg><rdg wit="#C">payabanna</rdg></app>ṇibaddhaü <app><lem>summaï</lem><rdg wit="#A">suṃmaï</rdg></app> gīyaraü |</seg>
+            ke <app><lem>āinnihiṃ</lem><rdg wit="#C">āinnihi</rdg><rdg wit="#B">āyannahiṃ</rdg></app> <app><lem>vaṃsavīṇa</lem><rdg wit="#C">baṃsavīṇa</rdg><rdg wit="#B">vīṇavaṃsa</rdg></app>kāhalamuraü, 
+            kaha <app><lem>payavaṇṇa</lem><rdg wit="#A">payavaṃna</rdg><rdg wit="#C">payabanna</rdg></app>ṇibaddhaü <app><lem>summaï</lem><rdg wit="#A">suṃmaï</rdg></app> gīyaraü |
 	  </l>
 	  <l xml:id="SaRā.045cd">
-            <app><lem>āyaṇṇahi</lem><rdg wit="#B">āinnihiṃ</rdg></app> susamattha <app><lem>pīṇaünnaya</lem><rdg wit="#C">pīṇunnaya</rdg></app><app><lem>thaṇiya</lem><rdg wit="#A">thaṇihi</rdg></app>, </seg>
-            callahi <app><lem>calla</lem><rdg wit="#A">coa</rdg></app> <app><lem>karaṃtiya</lem><rdg wit="#A">karaṃti</rdg><rdg wit="#B">karaṃtī</rdg></app> <app><lem>kattha vi</lem><rdg wit="#A">katthaevi</rdg><rdg wit="#C">kattha va</rdg></app> <app><lem>ṇaṭṭaṇiya</lem><rdg wit="#A">ṇaïṇihi</rdg></app> || 45 ||</seg>
+            <app><lem>āyaṇṇahi</lem><rdg wit="#B">āinnihiṃ</rdg></app> susamattha <app><lem>pīṇaünnaya</lem><rdg wit="#C">pīṇunnaya</rdg></app><app><lem>thaṇiya</lem><rdg wit="#A">thaṇihi</rdg></app>, 
+            callahi <app><lem>calla</lem><rdg wit="#A">coa</rdg></app> <app><lem>karaṃtiya</lem><rdg wit="#A">karaṃti</rdg><rdg wit="#B">karaṃtī</rdg></app> <app><lem>kattha vi</lem><rdg wit="#A">katthaevi</rdg><rdg wit="#C">kattha va</rdg></app> <app><lem>ṇaṭṭaṇiya</lem><rdg wit="#A">ṇaïṇihi</rdg></app> || 45 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[45] kecid vaṃśavīṇakāhalamurajamṛdaṅgaśabdān ākarṇayanti | kvāpi prākṛtavarṇanibaddho gītaravaḥ śrūyate | kutrāpi ākarṇane(rṣaṇe) samarthā[ḥ] pīnonnatastanyaḥ narttakya[ḥ] calacaletiśabdaṃ kurvantyaś calanti || 45 ||</p>
@@ -1453,12 +1450,12 @@
 
 	<lg xml:id="SaRā.046" type="rāsā">
 	  <l xml:id="SaRā.046ab">
-            nara aüvva <app><lem>viṃbhaviya</lem><rdg wit="#B">vimhayahiṃ</rdg><rdg wit="#C">vimhiyahiṃ</rdg></app> vivihanaḍanāḍaïhiṃ,</seg>
-            <app><lem>mucchijjahi</lem><rdg wit="#B">mucchijjaï</rdg><rdg wit="#C">mucchajjahiṃ</rdg></app> <app><lem>pavisaṃta ya</lem><rdg wit="#A">pavisaṃtiya</rdg><rdg wit="#B">pavisaṃtā</rdg></app> vesā<app><lem>vāḍaïhiṃ</lem><rdg wit="#A">vāḍayahi</rdg></app> |</seg>
+            nara aüvva <app><lem>viṃbhaviya</lem><rdg wit="#B">vimhayahiṃ</rdg><rdg wit="#C">vimhiyahiṃ</rdg></app> vivihanaḍanāḍaïhiṃ,
+            <app><lem>mucchijjahi</lem><rdg wit="#B">mucchijjaï</rdg><rdg wit="#C">mucchajjahiṃ</rdg></app> <app><lem>pavisaṃta ya</lem><rdg wit="#A">pavisaṃtiya</rdg><rdg wit="#B">pavisaṃtā</rdg></app> vesā<app><lem>vāḍaïhiṃ</lem><rdg wit="#A">vāḍayahi</rdg></app> |
 	  </l>
 	  <l xml:id="SaRā.046cd">
-            bhamahiṃ <app><lem>kā</lem><rdg wit="#C">ke</rdg></app> vi <app><lem>mayaviṃbhala</lem><rdg wit="#B #C">maïmiṃbhala</rdg></app> gurukarivaragamaṇi,</seg>
-            anna rayaṇa<app><lem>tāḍaṃkihi</lem><rdg wit="#A">tādaṃkahi</rdg></app> <app><lem>parigholi</lem><rdg wit="#C">parigholli</rdg></app>rasavaṇi || 46 ||</seg>
+            bhamahiṃ <app><lem>kā</lem><rdg wit="#C">ke</rdg></app> vi <app><lem>mayaviṃbhala</lem><rdg wit="#B #C">maïmiṃbhala</rdg></app> gurukarivaragamaṇi,
+            anna rayaṇa<app><lem>tāḍaṃkihi</lem><rdg wit="#A">tādaṃkahi</rdg></app> <app><lem>parigholi</lem><rdg wit="#C">parigholli</rdg></app>rasavaṇi || 46 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[46] yatra narā vividhanaṭanāṭakibhir vismayante | yatra veśyābhir veśyāpāṭake praviśanto nīrāgiṇo 'pi mūrcchyante | tad varṇanam āha — kāścid veśyā madabhimbhalā gajagamanā bhramanti | anyā ratnatāḍaṅkaiḥ pratigholantaśravaṇāḥ paribhramanti || 46 ||</p>
@@ -1473,12 +1470,12 @@
 
 	<lg xml:id="SaRā.047" type="rāsā">
 	  <l xml:id="SaRā.047ab">
-            avara kaha va ṇivaḍabbharaghaṇatuṁgatthaṇihiṃ,</seg>
-            <app><lem>bhariṇa</lem><rdg wit="C">dhariṇa</rdg></app> majjhu <app><lem>ṇahu</lem><rdg wit="#A">ṇuhu</rdg></app> <app><lem>tuṭṭaï</lem><rdg wit="#C">tuṭṭe</rdg></app> tā <app><lem>viṃbhaü</lem><rdg wit="#B">viṃbaü</rdg><rdg wit="#C">viṃbhaü</rdg></app> maṇihiṃ |</seg>
+            avara kaha va ṇivaḍabbharaghaṇatuṁgatthaṇihiṃ,
+            <app><lem>bhariṇa</lem><rdg wit="C">dhariṇa</rdg></app> majjhu <app><lem>ṇahu</lem><rdg wit="#A">ṇuhu</rdg></app> <app><lem>tuṭṭaï</lem><rdg wit="#C">tuṭṭe</rdg></app> tā <app><lem>viṃbhaü</lem><rdg wit="#B">viṃbaü</rdg><rdg wit="#C">viṃbhaü</rdg></app> maṇihiṃ |
 	  </l>
 	  <l xml:id="SaRā.047cd">
-            kā vi keṇa <app><lem>sama dara</lem><rdg wit="#C">sama</rdg></app> hasaï <app><lem>niyakoaṇihi</lem><rdg wit="#A">nniyakoaṇihi</rdg><rdg wit="#B">niyaïmaïkoiṇihi</rdg><rdg wit="#C">nayamaïkoūṇihi</rdg></app>,</seg>
-            chittatuccha<app><lem>tāmiccha</lem><rdg wit="#C">tiricchiya</rdg></app> tiracchiyaloyaṇihi || 47 ||</seg>
+            kā vi keṇa <app><lem>sama dara</lem><rdg wit="#C">sama</rdg></app> hasaï <app><lem>niyakoaṇihi</lem><rdg wit="#A">nniyakoaṇihi</rdg><rdg wit="#B">niyaïmaïkoiṇihi</rdg><rdg wit="#C">nayamaïkoūṇihi</rdg></app>,
+            chittatuccha<app><lem>tāmiccha</lem><rdg wit="#C">tiricchiya</rdg></app> tiracchiyaloyaṇihi || 47 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[47] aparā kācana bhramati | kīdṛśī ? — yat tasyā madhyaṃ niva(bi)ḍottaraghanatuṅgastanayor bhāreṇa na truṭati tadāścaryam | aparā kācana kenāpi saha ijakalamadakaukucyạ̄m (kucābhyāṃ) kṣiptatucchatāmiccha[m] kajjalaṃ nirya(k) sthitalocanābhyāṃ dara manāk(g) hasati ||</p>
@@ -1493,12 +1490,12 @@
 
 	<lg xml:id="SaRā.048" type="rāsā">
 	  <l xml:id="SaRā.048ab">
-            avara kā vi su<app><lem>viakkhaṇa</lem><rdg wit="#C">viyakkhaṇi</rdg></app> <app><lem>vihasaṃtī</lem><rdg wit="#C">vihasaṃti</rdg><rdg wit="#B">vihasaṃtiya</rdg></app> <app><lem>vimali</lem><rdg wit="#C">vimala</rdg></app>,</seg>
-            <app><lem>ṇaṃ</lem><rdg wit="#B">ṇajjaï ṇaṃ</rdg></app> sasi<app><lem>sūra</lem><rdg wit="#A">sūru</rdg></app> <app><lem>ṇivesiya</lem><rdg wit="#A">ṇivesiu</rdg></app> <app><lem>rehaï</lem><rdg wit="#B"><note><foreign xml:lang="sa">nāsti</foreign> B</note></rdg></app> <app><lem>gaṃḍayali</lem><rdg wit="#A">gaṃḍiyali</rdg></app> |</seg>
+            avara kā vi su<app><lem>viakkhaṇa</lem><rdg wit="#C">viyakkhaṇi</rdg></app> <app><lem>vihasaṃtī</lem><rdg wit="#C">vihasaṃti</rdg><rdg wit="#B">vihasaṃtiya</rdg></app> <app><lem>vimali</lem><rdg wit="#C">vimala</rdg></app>,
+            <app><lem>ṇaṃ</lem><rdg wit="#B">ṇajjaï ṇaṃ</rdg></app> sasi<app><lem>sūra</lem><rdg wit="#A">sūru</rdg></app> <app><lem>ṇivesiya</lem><rdg wit="#A">ṇivesiu</rdg></app> <app><lem>rehaï</lem><rdg wit="#B"><note><foreign xml:lang="sa">nāsti</foreign> B</note></rdg></app> <app><lem>gaṃḍayali</lem><rdg wit="#A">gaṃḍiyali</rdg></app> |
 	  </l>
 	  <l xml:id="SaRā.048cd">
-            mayaṇa<app><lem>vaṭṭu</lem><rdg wit="#C">vaṭṭa</rdg></app> <app><lem>miaṇā</lem><rdg wit="#B">mayaṇā</rdg><rdg wit="#C">maïṇā</rdg></app>hiṇa kassa va <app><lem>paṃkiyau</lem><rdg wit="#A">paṃkaaü</rdg></app>,</seg>
-            annaha <app><lem>bhālu</lem><rdg wit="#C">bhāla</rdg></app> turakki tilaï ālaṃkiyaü || 48 ||</seg>
+            mayaṇa<app><lem>vaṭṭu</lem><rdg wit="#C">vaṭṭa</rdg></app> <app><lem>miaṇā</lem><rdg wit="#B">mayaṇā</rdg><rdg wit="#C">maïṇā</rdg></app>hiṇa kassa va <app><lem>paṃkiyau</lem><rdg wit="#A">paṃkaaü</rdg></app>,
+            annaha <app><lem>bhālu</lem><rdg wit="#C">bhāla</rdg></app> turakki tilaï ālaṃkiyaü || 48 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[48] aparā kā 'pi suvicakṣaṇā vihasantī vimalā nirmalahāsyā bhramasi | kīdṛśī ? — aham evaṃ manye śaśi-sūryau gaṇḍayor niviṣṭau | kasyāś cin madanapaṭṭaṃ kucasthalaṃ mṛganābhipaṅkāṅkitaṃ varttate | anyasyā bhālaṃ tīkṣṇena tilakenālaṅkṛtaṃ varttate || 48 ||</p>
@@ -1513,12 +1510,12 @@
 
 	<lg xml:id="SaRā.049" type="rāsā">
 	  <l xml:id="SaRā.049ab">
-            hāru <app><lem>kasa vi thūlā</lem><rdg wit="#A">kasa thūlā</rdg><rdg wit="#B">kasa va thūlā</rdg></app>vali ṇiṭṭhura rayaṇabhari,</seg>
-            lulaï maggu alahaṃtaü thaṇavaṭṭaha sihari |</seg>
+            hāru <app><lem>kasa vi thūlā</lem><rdg wit="#A">kasa thūlā</rdg><rdg wit="#B">kasa va thūlā</rdg></app>vali ṇiṭṭhura rayaṇabhari,
+            lulaï maggu alahaṃtaü thaṇavaṭṭaha sihari |
 	  </l>
 	  <l xml:id="SaRā.049cd">
-            <app><lem>guhira</lem><rdg wit="#A">gahira</rdg></app> ṇāhi<app><lem>vivaraṃtaru</lem><rdg wit="#B">viyaḍaṃtaru</rdg></app> <app><lem>kassa vi</lem><rdg wit="#B #C">kassa va</rdg></app> <app><lem>kuṃḍaliu</lem><rdg wit="#A">kuṃḍaliyaü</rdg></app>,</seg>
-            <app><lem>tivala</lem><rdg wit="#A #B">vimala</rdg></app> <app><lem>taraṃga pasaṃgihi</lem><rdg wit="#B">taraṃgi pasaṃgiu</rdg></app> rehaï <app><lem>maṃḍaliu</lem><rdg wit="#C">maṃḍaliyaü</rdg></app> || 49 ||</seg>
+            <app><lem>guhira</lem><rdg wit="#A">gahira</rdg></app> ṇāhi<app><lem>vivaraṃtaru</lem><rdg wit="#B">viyaḍaṃtaru</rdg></app> <app><lem>kassa vi</lem><rdg wit="#B #C">kassa va</rdg></app> <app><lem>kuṃḍaliu</lem><rdg wit="#A">kuṃḍaliyaü</rdg></app>,
+            <app><lem>tivala</lem><rdg wit="#A #B">vimala</rdg></app> <app><lem>taraṃga pasaṃgihi</lem><rdg wit="#B">taraṃgi pasaṃgiu</rdg></app> rehaï <app><lem>maṃḍaliu</lem><rdg wit="#C">maṃḍaliyaü</rdg></app> || 49 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[49] kasyāś cit stanapaṭṭasiṣa(śikha)re hāraḥ praveśamalabhan ratnabhareṇa lolati | kasyāś cin nābhivivaraṃ gambhīraṃ kuṇḍalitaṃ — kuṇḍalākāraṃ varttate | punaḥ kīdṛśaṃ nābhivivaranam? — trivalītaraṅgaprasaṅgato maṇḍalitam iva śobhate || 49 ||</p>
@@ -1532,12 +1529,12 @@
 	</lg>
 	<lg xml:id="SaRā.050" type="rāsā">
 	  <l xml:id="SaRā.050ab">
-            ramaṇa<app><lem>bhāra</lem><rdg wit="#A">bhāru</rdg></app> guruviyaḍaü kā <app><lem>kaṭṭhihi</lem><rdg wit="#C">kaṭṭhiṃhiṃ</rdg></app> <app><lem>dharaï</lem><rdg wit="#A">varaï</rdg></app>,</seg>
-            aï<app><lem>malhiraü</lem><rdg wit="#C">milhiraü</rdg></app> camakkaü turiyaü <app><lem>ṇahu</lem><rdg wit="#B">nahu</rdg></app> <app><lem>saraï</lem><rdg wit="#B">saraïṃ</rdg></app> |</seg>
+            ramaṇa<app><lem>bhāra</lem><rdg wit="#A">bhāru</rdg></app> guruviyaḍaü kā <app><lem>kaṭṭhihi</lem><rdg wit="#C">kaṭṭhiṃhiṃ</rdg></app> <app><lem>dharaï</lem><rdg wit="#A">varaï</rdg></app>,
+            aï<app><lem>malhiraü</lem><rdg wit="#C">milhiraü</rdg></app> camakkaü turiyaü <app><lem>ṇahu</lem><rdg wit="#B">nahu</rdg></app> <app><lem>saraï</lem><rdg wit="#B">saraïṃ</rdg></app> |
 	  </l>
 	  <l xml:id="SaRā.050cd">
-            jaṃpaṃtī mahurakkhara kassa <app><lem>va</lem><rdg wit="#C">vi</rdg></app> kāmiṇihiṃ, </seg>
-            hīrapaṃti<app><lem>sāriccha</lem><rdg wit="#C">sariccha</rdg></app> ḍasaṇa jhasurāruṇihiṃ || 50 ||</seg>
+            jaṃpaṃtī mahurakkhara kassa <app><lem>va</lem><rdg wit="#C">vi</rdg></app> kāmiṇihiṃ, 
+            hīrapaṃti<app><lem>sāriccha</lem><rdg wit="#C">sariccha</rdg></app> ḍasaṇa jhasurāruṇihiṃ || 50 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[50] kācid ramaṇabhāraṃ guruvikaṭam, atisthūlatvāt, kaṣṭena bibhartti | tasyāś  calantyā upānahoś camacamacchabdo 'timantharas tu(stva)ritaṃ na sarati | aparasyā madhurākṣaraṃ jalpantyāḥ kāminyā hīrapaṅktisadṛkṣā nāgavallīdalāraktādaśanāḥ śobhante || 50 ||</p>
@@ -1552,12 +1549,12 @@
 
 	<lg xml:id="SaRā.051" type="rāsā">
 	  <l xml:id="SaRā.051ab">
-            avara kaha va varamuddha hasaṃtiya aharayalu,</seg>
-            sohālaü karakamalu saralu <app><lem>bāhaha</lem><rdg wit="#B">bāhahu</rdg></app> juyalu |</seg>
+            avara kaha va varamuddha hasaṃtiya aharayalu,
+            sohālaü karakamalu saralu <app><lem>bāhaha</lem><rdg wit="#B">bāhahu</rdg></app> juyalu |
 	  </l>
 	  <l xml:id="SaRā.051cd">
-            <app><lem>annaha</lem><rdg wit="#B">aṇṇahaṃ</rdg></app> taruṇikaraṃguli<app><lem>ṇaha</lem><rdg wit="#B">nakha</rdg></app> ujjala vimala, </seg>
-            <app><lem>avara</lem><rdg wit="#A">ahava</rdg></app> kavola <app><lem>kalijjahi</lem><rdg wit="#A">kalijjihi</rdg></app> dāḍima<app><lem>kusuma</lem><rdg wit="#C">kusama</rdg></app>dala || 51 ||</seg>
+            <app><lem>annaha</lem><rdg wit="#B">aṇṇahaṃ</rdg></app> taruṇikaraṃguli<app><lem>ṇaha</lem><rdg wit="#B">nakha</rdg></app> ujjala vimala, 
+            <app><lem>avara</lem><rdg wit="#A">ahava</rdg></app> kavola <app><lem>kalijjahi</lem><rdg wit="#A">kalijjihi</rdg></app> dāḍima<app><lem>kusuma</lem><rdg wit="#C">kusama</rdg></app>dala || 51 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[51] aparasyā varamughdāyā hasantyā adharadalaṃ karakamalaṃ saralaṃ bāhuyugalaṃ trayaṃ samaṃ śo[bhā]ḍhyaṃ varttate | tatra kamalabhramo yathā — bāhuyugalaṃ daṇḍasthānīyam, adharaṃ dalasthānīyam, karaṃ kamalasthānīyaṃ jātam | evaṃ kamalabhramaḥ | anyasyās taruṇyāḥ karāṅgulinakhā ujjvalā vimalā[ḥ] so(śo)bhante | aparasyāḥ kapolau dāḍimakuśa(su)madalau śobhataḥ || 51 ||</p>
@@ -1572,12 +1569,12 @@
 
 	<lg xml:id="SaRā.052" type="rāsā">
 	  <l xml:id="SaRā.052ab">
-            bhamuhajuyala sannaddhaü kassa <app><lem>va</lem><rdg wit="#B">vi</rdg></app> bhāi<app><lem>yaï</lem><rdg wit="#B">yaïṃ</rdg></app>,</seg>
-            ṇāi koi <app><lem>koyaṃḍu</lem><rdg wit="#C">koiṃḍu</rdg></app> <app><lem>aṇaṃgi</lem><rdg wit="#A">āṇaṃgi</rdg></app> caḍāiyaï</seg>
+            bhamuhajuyala sannaddhaü kassa <app><lem>va</lem><rdg wit="#B">vi</rdg></app> bhāi<app><lem>yaï</lem><rdg wit="#B">yaïṃ</rdg></app>,
+            ṇāi koi <app><lem>koyaṃḍu</lem><rdg wit="#C">koiṃḍu</rdg></app> <app><lem>aṇaṃgi</lem><rdg wit="#A">āṇaṃgi</rdg></app> caḍāiyaï
 	  </l>
 	  <l xml:id="SaRā.052cd">
-            ikkaha ṇevara<app><lem>juyalaya</lem><rdg wit="#A">juyalaü</rdg><rdg wit="#C">juyala</rdg></app> summaï raü ghaṇaü,</seg>
-            annaha rayaṇanibaddhaü mehala <app><lem>ruṇa</lem><rdg wit="#B">ruṇu</rdg></app><app><lem>jhuṇaü</lem><rdg wit="#C">jhaṇaï</rdg></app> || 52 ||</seg>
+            ikkaha ṇevara<app><lem>juyalaya</lem><rdg wit="#A">juyalaü</rdg><rdg wit="#C">juyala</rdg></app> summaï raü ghaṇaü,
+            annaha rayaṇanibaddhaü mehala <app><lem>ruṇa</lem><rdg wit="#B">ruṇu</rdg></app><app><lem>jhuṇaü</lem><rdg wit="#C">jhaṇaï</rdg></app> || 52 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[52] kasyāś cid bhrūyugalaṃ sannaddhaṃ ślakṣṇaṃ bhāti | manye kamapi kodaṇḍaṃ madanena caṭāpyate | ekasyā nūpurayugalasya ghanaḥ śabdaḥ śrūyate | anyasyā ratnanibaddhāyā mekhalāyā ruṇajhuṇaśabdaḥ śrūyate || 52 ||</p>
@@ -1592,12 +1589,12 @@
 
 	<lg xml:id="SaRā.053" type="rāsā">
 	  <l xml:id="SaRā.053ab">
-            cikkaṇaraü caṃbāihiṃ līlaṃtiya <app><lem>pavaru</lem><rdg wit="#A">pavara</rdg></app>,</seg>
-            ṇava<app><lem>sara</lem><rdg wit="#C">saru</rdg></app><app><lem>āgami ṇajjaï</lem><rdg wit="#A">aggi muṇijjaï</rdg></app> <app><lem>sārasi rasiu saru</lem><rdg wit="#C">sārasiu saru</rdg></app></seg>
+            cikkaṇaraü caṃbāihiṃ līlaṃtiya <app><lem>pavaru</lem><rdg wit="#A">pavara</rdg></app>,
+            ṇava<app><lem>sara</lem><rdg wit="#C">saru</rdg></app><app><lem>āgami ṇajjaï</lem><rdg wit="#A">aggi muṇijjaï</rdg></app> <app><lem>sārasi rasiu saru</lem><rdg wit="#C">sārasiu saru</rdg></app>
 	  </l>
 	  <l xml:id="SaRā.053cd">
-            <app><lem>paṃcamu</lem><rdg wit="#C">paṃcama</rdg></app> kaha va jhuṇaṃtiya jhīnaü mahura<app><lem>yaru</lem><rdg wit="#A">yara</rdg></app>,</seg>
-            <app><lem>ṇāyaṃ tuṃbari</lem><rdg wit="#C">ṇārayatuṃbaru</rdg></app> sajjiu sura<app><lem>pikkhaṇaï</lem><rdg wit="#B">pikkhaṇaya</rdg></app> saru || 53 ||</seg>
+            <app><lem>paṃcamu</lem><rdg wit="#C">paṃcama</rdg></app> kaha va jhuṇaṃtiya jhīnaü mahura<app><lem>yaru</lem><rdg wit="#A">yara</rdg></app>,
+            <app><lem>ṇāyaṃ tuṃbari</lem><rdg wit="#C">ṇārayatuṃbaru</rdg></app> sajjiu sura<app><lem>pikkhaṇaï</lem><rdg wit="#B">pikkhaṇaya</rdg></app> saru || 53 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[53] kāsāṃcin nāi(yi)kānāṃ līlantīnāṃ upānahāṃ pravaraḥ cikkaṇaḥ śabdaḥ pravarttate | manye, navaśaradāgame sārasena rasitam | kasyāś cit kvāpi pañcamaṃ kurvantyāḥ kṣīṇo madhurataraḥ svaro bhāti sma | manye suraprekṣaṇe tumbareṇa svaraḥ sajjitaḥ || 53 ||</p>
@@ -1612,12 +1609,12 @@
 
 	<lg xml:id="SaRā.054" type="rāsā">
 	  <l xml:id="SaRā.054ab">
-            ima <app><lem>ikkikkaha</lem><rdg wit="#B #C">ikkakkaha</rdg></app> tattha <app><lem>rūvu</lem><rdg wit="#B">rūva</rdg></app> <app><lem>joyaṃtayaha</lem><rdg wit="#A">joyaṃyayahaṃ</rdg><rdg wit="#B">joyaṃtiyaṃha</rdg></app>,</seg>
-            jhasurapiṁga paya <app><lem>khalahi</lem><rdg wit="#C">khalahiṃ</rdg></app> pahiya pavahaṃ<app><lem>tayaha</lem><rdg wit="A">tayahaṃ</rdg><rdg wit="#B">tiyahaṃ</rdg></app> |</seg>
+            ima <app><lem>ikkikkaha</lem><rdg wit="#B #C">ikkakkaha</rdg></app> tattha <app><lem>rūvu</lem><rdg wit="#B">rūva</rdg></app> <app><lem>joyaṃtayaha</lem><rdg wit="#A">joyaṃyayahaṃ</rdg><rdg wit="#B">joyaṃtiyaṃha</rdg></app>,
+            jhasurapiṁga paya <app><lem>khalahi</lem><rdg wit="#C">khalahiṃ</rdg></app> pahiya pavahaṃ<app><lem>tayaha</lem><rdg wit="A">tayahaṃ</rdg><rdg wit="#B">tiyahaṃ</rdg></app> |
 	  </l>
 	  <l xml:id="SaRā.054cd">
-            aha <app><lem>bāhiri</lem><rdg wit="#A">bāhari</rdg><rdg wit="#C">bāhira</rdg></app> pari<app><lem>bhamaṇi</lem><rdg wit="#A">bhamaṇa</rdg><rdg wit="#B">bhamaṇu</rdg></app> koi jaï nīsaraï,</seg>
-            <app><lem>pikkhivi</lem><rdg wit="#A">pikkhi</rdg><rdg wit="#B">pikhi</rdg></app> <app><lem>viviha</lem><rdg wit="#A">bahi</rdg></app> <app><lem>ujjāṇu</lem><rdg wit="#A">ujjāṇa</rdg><rdg wit="#B">ujāṇa</rdg></app> bhuvaṇu <app><lem>tahi</lem><rdg wit="B">taha</rdg></app> vīsaraï || 54 ||</seg>
+            aha <app><lem>bāhiri</lem><rdg wit="#A">bāhari</rdg><rdg wit="#C">bāhira</rdg></app> pari<app><lem>bhamaṇi</lem><rdg wit="#A">bhamaṇa</rdg><rdg wit="#B">bhamaṇu</rdg></app> koi jaï nīsaraï,
+            <app><lem>pikkhivi</lem><rdg wit="#A">pikkhi</rdg><rdg wit="#B">pikhi</rdg></app> <app><lem>viviha</lem><rdg wit="#A">bahi</rdg></app> <app><lem>ujjāṇu</lem><rdg wit="#A">ujjāṇa</rdg><rdg wit="#B">ujāṇa</rdg></app> bhuvaṇu <app><lem>tahi</lem><rdg wit="B">taha</rdg></app> vīsaraï || 54 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[54] evam ekasyā ekasyās tatra rūpaṃ paśyatāṃ pathi pravahatāṃ pathikānāṃ jhasurapiṅgena nāgavallīdalāsvādanānmuktarasena [pādāḥ] skhalanti | atha bahiḥ paribhramaṇārthaṃ ko' pi yadi nissarati, tadā vividhodyānaṃ dṛṣṭvā bhuvanāni vismarati || 54 ||</p>
@@ -1633,12 +1630,12 @@
 	<p>atha vanaspatināmāni—</p>
 	<lg xml:id="SaRā.055" type="rāsā">
 	  <l xml:id="SaRā.055ab">
-            dalla kuṃda <app><lem>saya</lem><rdg wit="#A">saï</rdg></app>vattiya kattha <app><lem>va</lem><rdg wit="#C">vi</rdg></app> rattabala,</seg>
-            kaha va ṭhāi vara mālaï māliya taha vimala |</seg>
+            dalla kuṃda <app><lem>saya</lem><rdg wit="#A">saï</rdg></app>vattiya kattha <app><lem>va</lem><rdg wit="#C">vi</rdg></app> rattabala,
+            kaha va ṭhāi vara mālaï māliya taha vimala |
 	  </l>
 	  <l xml:id="SaRā.055cd">
-            <app><lem>jūhī khaṭṭaṇa</lem><rdg wit="#B">jūhiyakhaṇa</rdg></app> vālū  <app><lem>caṃbā</lem><rdg wit="#C">vaübā</rdg></app> baüla ghaṇa,</seg>
-            kevaï taha <app><lem>kuṃdaṭṭaya</lem><rdg wit="#C">kuṃḍuṭṭaya</rdg><rdg wit="#B">kaṃduḍḍhaï</rdg></app> aṇurattā sayaṇa || 55 ||</seg>
+            <app><lem>jūhī khaṭṭaṇa</lem><rdg wit="#B">jūhiyakhaṇa</rdg></app> vālū  <app><lem>caṃbā</lem><rdg wit="#C">vaübā</rdg></app> baüla ghaṇa,
+            kevaï taha <app><lem>kuṃdaṭṭaya</lem><rdg wit="#C">kuṃḍuṭṭaya</rdg><rdg wit="#B">kaṃduḍḍhaï</rdg></app> aṇurattā sayaṇa || 55 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[55-58] nāmāny eva || 55 - 58 ||</p>
@@ -1647,78 +1644,78 @@
 
 	<lg xml:id="SaRā.056" type="rāsā">
 	  <l xml:id="SaRā.056ab">
-            māuliṃga mālūra moya māyaṃda mura,</seg>
-            dakkha <app><lem>bhaṃbha</lem><rdg wit="#A">bhabhā</rdg><rdg wit="#B">bhaṃbhā</rdg></app> <app><lem>īkhoḍa</lem><rdg wit="#C">ākhoḍa</rdg></app> <app><lem>pīṇa</lem><rdg wit="#B">khīṇa</rdg><rdg wit="#C">pīḍa</rdg></app> ārū <app><lem>siyara</lem><rdg wit="#A">sihara</rdg></app> |</seg>
+            māuliṃga mālūra moya māyaṃda mura,
+            dakkha <app><lem>bhaṃbha</lem><rdg wit="#A">bhabhā</rdg><rdg wit="#B">bhaṃbhā</rdg></app> <app><lem>īkhoḍa</lem><rdg wit="#C">ākhoḍa</rdg></app> <app><lem>pīṇa</lem><rdg wit="#B">khīṇa</rdg><rdg wit="#C">pīḍa</rdg></app> ārū <app><lem>siyara</lem><rdg wit="#A">sihara</rdg></app> |
 	  </l>
 	  <l xml:id="SaRā.056cd">
-            taruṇatāla <app><lem>taṃmāla</lem><rdg wit="#B">tamāla</rdg></app> taruṇa <app><lem>tuṃbara khayara</lem><rdg wit="#B">tuṃbaru khayaru</rdg></app>,</seg>
-            <app><lem>saṃjiya</lem><rdg wit="#A">saṃjīa</rdg></app> saï<app><lem>vattiya</lem><rdg wit="#A">battīa</rdg></app> <app><lem>sirīsa</lem><rdg wit="#A #C">sarīsa</rdg></app> <app><lem>sīsama</lem><rdg wit="#A">sīsava</rdg></app> <app><lem>ayara</lem><rdg wit="#A">apara</rdg></app> || 56 ||</seg>
+            taruṇatāla <app><lem>taṃmāla</lem><rdg wit="#B">tamāla</rdg></app> taruṇa <app><lem>tuṃbara khayara</lem><rdg wit="#B">tuṃbaru khayaru</rdg></app>,
+            <app><lem>saṃjiya</lem><rdg wit="#A">saṃjīa</rdg></app> saï<app><lem>vattiya</lem><rdg wit="#A">battīa</rdg></app> <app><lem>sirīsa</lem><rdg wit="#A #C">sarīsa</rdg></app> <app><lem>sīsama</lem><rdg wit="#A">sīsava</rdg></app> <app><lem>ayara</lem><rdg wit="#A">apara</rdg></app> || 56 ||
 	  </l>
 	</lg>
 
 	<lg xml:id="SaRā.057" type="rāsā">
 	  <l xml:id="SaRā.057ab">
-            <app><lem>pippala</lem><rdg wit="#A">pippaḍa</rdg></app> pāḍala puya palāsa ghaṇasāravaṇa,</seg>
-            maṇahara <app><lem>tujja</lem><rdg wit="#A">tubū</rdg></app> hiranna <app><lem>bhujja</lem><rdg wit="#A">bhuja</rdg></app> <app><lem>dhaya</lem><rdg wit="#C">dhara</rdg></app> vaṃsavaṇa |</seg>
+            <app><lem>pippala</lem><rdg wit="#A">pippaḍa</rdg></app> pāḍala puya palāsa ghaṇasāravaṇa,
+            maṇahara <app><lem>tujja</lem><rdg wit="#A">tubū</rdg></app> hiranna <app><lem>bhujja</lem><rdg wit="#A">bhuja</rdg></app> <app><lem>dhaya</lem><rdg wit="#C">dhara</rdg></app> vaṃsavaṇa |
 	  </l>
 	  <l xml:id="SaRā.057cd">
-            <app><lem>nāliera</lem><rdg wit="#B #C">nālaera</rdg></app> niṃboya <app><lem>niṃvijiya</lem><rdg wit="#C">nivaṃjiya</rdg></app> niṃba vaḍa,</seg>
-            <app><lem>ḍhakka</lem><rdg wit="#A">kakka</rdg><rdg wit="#B">ḍakka</rdg></app> cūya <app><lem>aṃbiliya</lem><rdg wit="#A">aṃbilīa</rdg></app> kaṇayacaṃdaṇa nivaḍa || 57 ||</seg>
+            <app><lem>nāliera</lem><rdg wit="#B #C">nālaera</rdg></app> niṃboya <app><lem>niṃvijiya</lem><rdg wit="#C">nivaṃjiya</rdg></app> niṃba vaḍa,
+            <app><lem>ḍhakka</lem><rdg wit="#A">kakka</rdg><rdg wit="#B">ḍakka</rdg></app> cūya <app><lem>aṃbiliya</lem><rdg wit="#A">aṃbilīa</rdg></app> kaṇayacaṃdaṇa nivaḍa || 57 ||
 	  </l>
 	</lg>
 
 	<lg xml:id="SaRā.058">
 	  <l xml:id="SaRā.058ab">
-            <app><lem>āmarūya</lem><rdg wit="#C">āmamūra</rdg></app> gullara mahūya <app><lem>āmali</lem><rdg wit="#A">āvalīa</rdg></app> abhaya,</seg>
-            nāyaveli maṃjiṭṭha <app><lem>pasari</lem><rdg wit="#B">pasara</rdg></app> daha <app><lem>disaha</lem><rdg wit="#A">disihi</rdg></app> gaya ||</seg>
+            <app><lem>āmarūya</lem><rdg wit="#C">āmamūra</rdg></app> gullara mahūya <app><lem>āmali</lem><rdg wit="#A">āvalīa</rdg></app> abhaya,
+            nāyaveli maṃjiṭṭha <app><lem>pasari</lem><rdg wit="#B">pasara</rdg></app> daha <app><lem>disaha</lem><rdg wit="#A">disihi</rdg></app> gaya ||
 	  </l>
 	  <l xml:id="SaRā.058cd">
-            {†maṃdāra jāi taha siṃduvāra |</seg>
-            mahamahaï su vālaü atihi phāra† || rāsāchandaḥ |}<note place="app"><foreign xml:lang="sa">etat pādayugmaṃ kevalaṃ</foreign> B <foreign xml:lang="sa">ādarśe prāpyate, nopalabhyate</foreign> A C <foreign xml:lang="sa">ādarśayugme |</foreign></note></seg>
+            {†maṃdāra jāi taha siṃduvāra |
+            mahamahaï su vālaü atihi phāra† || rāsāchandaḥ |}<note place="app"><foreign xml:lang="sa">etat pādayugmaṃ kevalaṃ</foreign> B <foreign xml:lang="sa">ādarśe prāpyate, nopalabhyate</foreign> A C <foreign xml:lang="sa">ādarśayugme |</foreign></note>
 	  </l>
 	</lg>
 
 	<lg xml:id="SaRā.059" type="paddhaṭika">
 	  <l xml:id="SaRā.059ab">
-            kiṃkilla kuṃja <app><lem>kuṃkuma</lem><rdg wit="#A">kuṃjama</rdg><rdg wit="#C">kuṃkama</rdg></app> kavola,</seg>
-            surayāra <app><lem>sara</lem><rdg wit="#B">sala</rdg></app>la sallaï salola |</seg>
+            kiṃkilla kuṃja <app><lem>kuṃkuma</lem><rdg wit="#A">kuṃjama</rdg><rdg wit="#C">kuṃkama</rdg></app> kavola,
+            surayāra <app><lem>sara</lem><rdg wit="#B">sala</rdg></app>la sallaï salola |
 	  </l>
 	  <l xml:id="SaRā.059cd">
-            <app><lem>bāyaṃba</lem><rdg wit="#A">nāyaṃba</rdg></app> niṃba <app><lem>niṃbū</lem><rdg wit="#A">niṃbū a</rdg></app> cināra,</seg>
-            simi sāya sarala siya devadāra || 59 || [paddhaḍī |]</seg>
+            <app><lem>bāyaṃba</lem><rdg wit="#A">nāyaṃba</rdg></app> niṃba <app><lem>niṃbū</lem><rdg wit="#A">niṃbū a</rdg></app> cināra,
+            simi sāya sarala siya devadāra || 59 || [paddhaḍī |]
 	  </l>      
 	</lg>
 
 	<lg xml:id="SaRā.060" type="paddhaṭika">
 	  <l xml:id="SaRā.060ab">
-            <app><lem>lesūḍa</lem><rdg wit="A">lhesūḍa</rdg><rdg wit="#B">lesūḍiya</rdg></app> ela <app><lem>laṃbiya lavaṃga</lem><rdg wit="#C">laṃbaya lavaṃga</rdg><rdg wit="#B">lavaṃga caṃga</rdg></app>,</seg>
-            <app><lem>kaṇayāra</lem><rdg wit="#B">kaṇayara</rdg></app> <app><lem>kaïra</lem><rdg wit="#B">karīra</rdg><rdg wit="#C">kaliya</rdg></app> <app><lem>kurabaya</lem><rdg wit="#A">kurabaï</rdg><rdg wit="#B">kuruvaï</rdg></app> khataṃga |</seg>
+            <app><lem>lesūḍa</lem><rdg wit="A">lhesūḍa</rdg><rdg wit="#B">lesūḍiya</rdg></app> ela <app><lem>laṃbiya lavaṃga</lem><rdg wit="#C">laṃbaya lavaṃga</rdg><rdg wit="#B">lavaṃga caṃga</rdg></app>,
+            <app><lem>kaṇayāra</lem><rdg wit="#B">kaṇayara</rdg></app> <app><lem>kaïra</lem><rdg wit="#B">karīra</rdg><rdg wit="#C">kaliya</rdg></app> <app><lem>kurabaya</lem><rdg wit="#A">kurabaï</rdg><rdg wit="#B">kuruvaï</rdg></app> khataṃga |
 	  </l>
 	  <l xml:id="SaRā.060cd">
-            <app><lem>aṃviliya</lem><rdg wit="#A">aṃbilīka</rdg><rdg wit="#B">aṃbilīyayaka</rdg></app> kayaṃba bibhīya <app><lem>coya</lem><rdg wit="#B">cūya</rdg></app></seg>
-            rattaṃjaṇa jaṃbuya guru asoya || 60 ||</seg>
+            <app><lem>aṃviliya</lem><rdg wit="#A">aṃbilīka</rdg><rdg wit="#B">aṃbilīyayaka</rdg></app> kayaṃba bibhīya <app><lem>coya</lem><rdg wit="#B">cūya</rdg></app>
+            rattaṃjaṇa jaṃbuya guru asoya || 60 ||
 	  </l>      
 	</lg>
 
 	<lg xml:id="SaRā.061" type="paddhaṭika">
 	  <l xml:id="SaRā.061ab">
-            <app><lem>jaṃbīra</lem><rdg wit="#A">jaṃbhīra</rdg></app> <app><lem>suhaṃjaṇa</lem><rdg wit="#C">suhiṃjaṇa</rdg></app> nāyaraṃga,</seg>
-            <app><lem>bijjaüriya ayaruya</lem><rdg wit="#A">bijjaürī aïruī</rdg><rdg wit="C">bijjaürīya ārū</rdg></app> pīyaraṃga |</seg>
+            <app><lem>jaṃbīra</lem><rdg wit="#A">jaṃbhīra</rdg></app> <app><lem>suhaṃjaṇa</lem><rdg wit="#C">suhiṃjaṇa</rdg></app> nāyaraṃga,
+            <app><lem>bijjaüriya ayaruya</lem><rdg wit="#A">bijjaürī aïruī</rdg><rdg wit="C">bijjaürīya ārū</rdg></app> pīyaraṃga |
 	  </l>
 	  <l xml:id="SaRā.061cd">
-            naṃdaṇa <app><lem>jima</lem><rdg wit="#A">vaṇa</rdg></app> <app><lem>sohaï</lem><rdg wit="#A">sohaïhi</rdg><rdg wit="#C">sohahi</rdg></app> ratta<app><lem>sāla</lem><rdg>sālu</rdg></app>,</seg>
-            jiha pallava <app><lem>dīsaï</lem><rdg wit="#A">disaï</rdg></app> jaṇu <app><lem>palāva</lem><rdg wit="#A">palāvu</rdg></app> || 61 ||</seg>
+            naṃdaṇa <app><lem>jima</lem><rdg wit="#A">vaṇa</rdg></app> <app><lem>sohaï</lem><rdg wit="#A">sohaïhi</rdg><rdg wit="#C">sohahi</rdg></app> ratta<app><lem>sāla</lem><rdg>sālu</rdg></app>,
+            jiha pallava <app><lem>dīsaï</lem><rdg wit="#A">disaï</rdg></app> jaṇu <app><lem>palāva</lem><rdg wit="#A">palāvu</rdg></app> || 61 ||
 	  </l>      
 	</lg>
 
 	<lg xml:id="SaRā.062" type="paddhaṭika">
 	  <l xml:id="SaRā.062ab">
-            <app><lem>āriṭṭhiya</lem><rdg wit="A">ārīṭhaya</rdg><rdg wit="#C">āraṭṭhiya</rdg></app> <app><lem>damaṇaya</lem><rdg wit="#B">damaṇaï</rdg><rdg wit="#C">davaṇa</rdg></app> gidda cīḍa,</seg>
-            <app><lem>jiha</lem><rdg wit="#B">jihi</rdg></app> ālaï dīsaï <app><lem>saüṇi</lem><rdg wit="#A #C">saüṇa</rdg></app> bhīḍa |</seg>
+            <app><lem>āriṭṭhiya</lem><rdg wit="A">ārīṭhaya</rdg><rdg wit="#C">āraṭṭhiya</rdg></app> <app><lem>damaṇaya</lem><rdg wit="#B">damaṇaï</rdg><rdg wit="#C">davaṇa</rdg></app> gidda cīḍa,
+            <app><lem>jiha</lem><rdg wit="#B">jihi</rdg></app> ālaï dīsaï <app><lem>saüṇi</lem><rdg wit="#A #C">saüṇa</rdg></app> bhīḍa |
 	  </l>
 	  <l xml:id="SaRā.062cd">
-            <app><lem>khajjūri</lem><rdg wit="#C">khajjūra</rdg></app> <app><lem>beri</lem><rdg wit="#B">bori</rdg></app> <app><lem>bhāhaṇa</lem><rdg wit="#A">bhāhuṇi</rdg><rdg wit="#B">bhāhaṇu</rdg></app> sayāiṃ,</seg>
-            <app><lem>boheya</lem><rdg wit="#B">bāheya</rdg></app> <app><lem>uvaṇa</lem><rdg wit="#C">ḍuvaṇa</rdg><rdg wit="#B">ḍuvaṇu</rdg></app> tulasīyalāiṃ || 62 ||</seg>
+            <app><lem>khajjūri</lem><rdg wit="#C">khajjūra</rdg></app> <app><lem>beri</lem><rdg wit="#B">bori</rdg></app> <app><lem>bhāhaṇa</lem><rdg wit="#A">bhāhuṇi</rdg><rdg wit="#B">bhāhaṇu</rdg></app> sayāiṃ,
+            <app><lem>boheya</lem><rdg wit="#B">bāheya</rdg></app> <app><lem>uvaṇa</lem><rdg wit="#C">ḍuvaṇa</rdg><rdg wit="#B">ḍuvaṇu</rdg></app> tulasīyalāiṃ || 62 ||
 	  </l>      
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[62] atra śakuni[nāṃ] — pakṣiṇāṃ ālayānāṃ — gṛhāṇāṃ bhīḍā dṛśyate | śeṣaṃ gamyam || 62 ||</p>
@@ -1730,19 +1727,19 @@
 
 	<lg xml:id="SaRā.063" type="paddhaṭika">
 	  <l xml:id="SaRā.063ab">
-            nāesari <app><lem>moḍima</lem><rdg wit="#A">moḍiva</rdg></app> pūgamāla,</seg>
-            <app><lem>maha</lem><rdg wit="#B">aha</rdg></app>mahaï chamma maruaï visāla || 63 || [arddham]</seg>
+            nāesari <app><lem>moḍima</lem><rdg wit="#A">moḍiva</rdg></app> pūgamāla,
+            <app><lem>maha</lem><rdg wit="#B">aha</rdg></app>mahaï chamma maruaï visāla || 63 || [arddham]
 	  </l>  
 	</lg>
 
 	<lg xml:id="SaRā.064" type="rāsā">
 	  <l xml:id="SaRā.064ab">
-            annaya sesa mahī<app><lem>ruha</lem><rdg wit="#A">ruhu</rdg></app> atthi <app><lem>ji</lem><rdg wit="#B #C">ju</rdg></app> sasivayaṇi,</seg>
-            muṇaï nāmu taha kavaṇu saroruhadalanayaṇi |</seg>
+            annaya sesa mahī<app><lem>ruha</lem><rdg wit="#A">ruhu</rdg></app> atthi <app><lem>ji</lem><rdg wit="#B #C">ju</rdg></app> sasivayaṇi,
+            muṇaï nāmu taha kavaṇu saroruhadalanayaṇi |
 	  </l>
 	  <l xml:id="SaRā.064cd">
-            aha savvaï saṃkheviṇu <app><lem>nivaḍa</lem><rdg wit="#B">niviḍa</rdg></app> niraṃtariṇa,</seg>
-            joyaṇa dasa gaṃmijjaï taruchāyaṃ<app><lem>tariṇa</lem><rdg wit="#B">taruṇi</rdg><rdg wit="#C">tiriṇa</rdg></app> || 64 ||</seg>
+            aha savvaï saṃkheviṇu <app><lem>nivaḍa</lem><rdg wit="#B">niviḍa</rdg></app> niraṃtariṇa,
+            joyaṇa dasa gaṃmijjaï taruchāyaṃ<app><lem>tariṇa</lem><rdg wit="#B">taruṇi</rdg><rdg wit="#C">tiriṇa</rdg></app> || 64 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[64] ityādivṛkṣajātiṣu sugamaṃ nāmāny eva || 64 ||</p>
@@ -1759,12 +1756,12 @@
 
 	<lg xml:id="SaRā.065" type="rāsā">
 	  <l xml:id="SaRā.065ab">
-            <app><lem>tavaṇa</lem><rdg wit="#A #B">tavaṇi</rdg></app><app><lem>titthu</lem><rdg wit="#C">titthi</rdg></app> cāuddisi <app><lem>miyacchi</lem><rdg wit="#C">miccha</rdg></app> <app><lem>vakhāṇiyaï</lem><rdg wit="#A">vakhāṇīyaï</rdg></app>,</seg>
-            <app><lem>mūlatthāṇu</lem><rdg wit="#A">mūlathāṇa</rdg></app> supasiddhaü mahiyali jāṇiyaï |</seg>
+            <app><lem>tavaṇa</lem><rdg wit="#A #B">tavaṇi</rdg></app><app><lem>titthu</lem><rdg wit="#C">titthi</rdg></app> cāuddisi <app><lem>miyacchi</lem><rdg wit="#C">miccha</rdg></app> <app><lem>vakhāṇiyaï</lem><rdg wit="#A">vakhāṇīyaï</rdg></app>,
+            <app><lem>mūlatthāṇu</lem><rdg wit="#A">mūlathāṇa</rdg></app> supasiddhaü mahiyali jāṇiyaï |
 	  </l>
 	  <l xml:id="SaRā.065cd">
-            tiha huṃtaü <app><lem>haüṃ</lem><rdg wit="#B #C">haü</rdg></app> <app><lem>ikkiṇa</lem><rdg wit="#B">ikkaṇi</rdg></app> lehaü <app><lem>pesiyaü</lem><rdg wit="#A">pesiu</rdg></app>,</seg>
-            <app><lem>khaṃbhāittaïṃ</lem><rdg wit="#A">khaṃbhāitthihiṃ</rdg></app> <app><lem>vaccaüṃ</lem><rdg wit="#A #B">vaccaü</rdg></app> pahuāesiyaü || 65 ||</seg>
+            tiha huṃtaü <app><lem>haüṃ</lem><rdg wit="#B #C">haü</rdg></app> <app><lem>ikkiṇa</lem><rdg wit="#B">ikkaṇi</rdg></app> lehaü <app><lem>pesiyaü</lem><rdg wit="#A">pesiu</rdg></app>,
+            <app><lem>khaṃbhāittaïṃ</lem><rdg wit="#A">khaṃbhāitthihiṃ</rdg></app> <app><lem>vaccaüṃ</lem><rdg wit="#A #B">vaccaü</rdg></app> pahuāesiyaü || 65 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[65] he mṛgākṣi! sāmorūpure tapanatīrthaṃ — sūryakaṇḍaṃ prasiddham | caturdikṣu vyākhyāyate | tanmūlasthānaṃ nāma prasiddham | sarvair api narāmarair jñāyate | tato 'haṃ lekhavāhaka ekena prekṣi(ṣi)taḥ | stambhatīrthe prabhvādiṣṭo vrajāmi — gacchāmi || 65 ||</p>
@@ -1776,12 +1773,12 @@
 
 	<lg xml:id="SaRā.066" type="rāsā">
 	  <l xml:id="SaRā.066ab">
-            eya <app><lem>vayaṇa</lem><rdg wit="#C">vayaṇu</rdg></app> <app><lem>āyannavi</lem><rdg wit="#A">āyannivi</rdg></app> siṃdhubbhavavayaṇi,</seg>
-            <app><lem>sasivi sāsu</lem><rdg wit="#A">sasiusāsu</rdg></app> <app><lem>dīhunhaü</lem><rdg wit="#B">dīunhaü</rdg><rdg wit="#C">dīva unhaü</rdg></app> salilabbhavanayaṇi |</seg>
+            eya <app><lem>vayaṇa</lem><rdg wit="#C">vayaṇu</rdg></app> <app><lem>āyannavi</lem><rdg wit="#A">āyannivi</rdg></app> siṃdhubbhavavayaṇi,
+            <app><lem>sasivi sāsu</lem><rdg wit="#A">sasiusāsu</rdg></app> <app><lem>dīhunhaü</lem><rdg wit="#B">dīunhaü</rdg><rdg wit="#C">dīva unhaü</rdg></app> salilabbhavanayaṇi |
 	  </l>
 	  <l xml:id="SaRā.066cd">
-            toḍi karaṃguli karuṇa sagaggira girapasaru,</seg>
-            jālaṃdhari <app><lem>va</lem><rdg wit="#C">kasamī</rdg></app> samīriṇa <app><lem>muṃdha</lem><rdg wit="#A">muddha</rdg></app> thara<app><lem>hariya</lem><rdg wit="#A">harīa</rdg></app> ciru || 66 ||</seg>
+            toḍi karaṃguli karuṇa sagaggira girapasaru,
+            jālaṃdhari <app><lem>va</lem><rdg wit="#C">kasamī</rdg></app> samīriṇa <app><lem>muṃdha</lem><rdg wit="#A">muddha</rdg></app> thara<app><lem>hariya</lem><rdg wit="#A">harīa</rdg></app> ciru || 66 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[66] sindhūdbhavavadanā — candramukhī, salilodbhavanayanā — kamalākṣī, etāni vacanāny ākarṇya, dīrghocchvāsaṃ niḥśvasya, karāṅgulīs troṭaya(yi)tvā sagadgadgīḥprasarā, vātāhatā jālandharīvat — kadalīvat, ciraṃ mugdhā tharaharitā — kampitā || 66 ||</p>
@@ -1793,12 +1790,12 @@
 
 	<lg xml:id="SaRā.067" type="rāsā">
 	  <l xml:id="SaRā.067ab">
-            <app><lem>ruivi</lem><rdg wit="#B">ruyavi</rdg></app> <app><lem>khaṇaddhu</lem><rdg wit="#A">khaṇaddhaü</rdg><rdg wit="#B">khaṇaddhu vi</rdg></app> phusavi nayaṇa puṇa <app><lem>jajjariu</lem><rdg wit="#C">vajjariyaü</rdg></app>,</seg>
-            khaṃbhā<app><lem>ittaha</lem><rdg wit="#B">ittihiṃ</rdg></app> <app><lem>ṇāmi</lem><rdg wit="#C">nāmu</rdg><rdg wit="#B">nāmi</rdg></app>  <app><lem>pahiya taṇu</lem><rdg wit="#B">pahitaṇu</rdg></app> <app><lem>jajjariu</lem><rdg wit="#C">jajjariyaü</rdg></app> |</seg>
+            <app><lem>ruivi</lem><rdg wit="#B">ruyavi</rdg></app> <app><lem>khaṇaddhu</lem><rdg wit="#A">khaṇaddhaü</rdg><rdg wit="#B">khaṇaddhu vi</rdg></app> phusavi nayaṇa puṇa <app><lem>jajjariu</lem><rdg wit="#C">vajjariyaü</rdg></app>,
+            khaṃbhā<app><lem>ittaha</lem><rdg wit="#B">ittihiṃ</rdg></app> <app><lem>ṇāmi</lem><rdg wit="#C">nāmu</rdg><rdg wit="#B">nāmi</rdg></app>  <app><lem>pahiya taṇu</lem><rdg wit="#B">pahitaṇu</rdg></app> <app><lem>jajjariu</lem><rdg wit="#C">jajjariyaü</rdg></app> |
 	  </l>
 	  <l xml:id="SaRā.067cd">
-            taha <app><lem>maha</lem><rdg wit="#A">mahu</rdg></app> acchaï <app><lem>ṇāhu</lem><rdg wit="#B #C">nāhu</rdg></app> virahaülhā<app><lem>vayaru</lem><rdg>bayaru</rdg></app>,</seg>
-            ahiya kālu gammiyaü ṇa āyaü ṇiddayaru || 67 ||</seg>
+            taha <app><lem>maha</lem><rdg wit="#A">mahu</rdg></app> acchaï <app><lem>ṇāhu</lem><rdg wit="#B #C">nāhu</rdg></app> virahaülhā<app><lem>vayaru</lem><rdg>bayaru</rdg></app>,
+            ahiya kālu gammiyaü ṇa āyaü ṇiddayaru || 67 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[67] kṣaṇārddhaṃ ruditvā, netre mārjaya(yi)tvā, tayā punar uktam — he pathika! stambhatīrthanāmnā mama śarīraṃ jarjjaritam | tatra virahaspheṭako mama bharttā varttate, taṃ vinā mayā 'dhikaḥ kālo nigamitaḥ | paraṃ sa nirdayo na samāgataḥ || 67 || </p>
@@ -1810,12 +1807,12 @@
 
 	<lg xml:id="SaRā.068" type="rāsā">
 	  <l xml:id="SaRā.068ab">
-            paü <app><lem>moḍavi</lem><rdg wit="#B">moḍivi</rdg></app> <app><lem>nimisiddhu</lem><rdg wit="#B">nimisaddhu</rdg></app> pahia <app><lem>jaï</lem><rdg>je</rdg></app> daya karahi,</seg>
-            <app><lem>kahaüṃ</lem><rdg wit="#A #B">kahaü</rdg></app> kiṃpi saṃdesaü piya <app><lem>tucchakkharahi</lem><rdg wit="#A #B">tucchakharihi</rdg></app> |</seg>
+            paü <app><lem>moḍavi</lem><rdg wit="#B">moḍivi</rdg></app> <app><lem>nimisiddhu</lem><rdg wit="#B">nimisaddhu</rdg></app> pahia <app><lem>jaï</lem><rdg>je</rdg></app> daya karahi,
+            <app><lem>kahaüṃ</lem><rdg wit="#A #B">kahaü</rdg></app> kiṃpi saṃdesaü piya <app><lem>tucchakkharahi</lem><rdg wit="#A #B">tucchakharihi</rdg></app> |
 	  </l>
 	  <l xml:id="SaRā.068cd">
-            pahiu bhaṇaï kaṇayaṁgi kahaha kiṃ runnayaṇa,</seg>
-            jhijjaṃti ṇiru dīsahi <app><lem>uvvinnamiyanayaṇa</lem><rdg wit="#A">mayaṇovinnavayaṇi</rdg></app>†<note place="app">† <foreign xml:lang="sa">'kiṃ jhijjahi diṇarayaṇi uvvinniya miyanayaṇa'</foreign> C <foreign xml:lang="sa">ādarśasthitam etat pāthāntaram |</foreign></note> || 68 ||</seg>
+            pahiu bhaṇaï kaṇayaṁgi kahaha kiṃ runnayaṇa,
+            jhijjaṃti ṇiru dīsahi <app><lem>uvvinnamiyanayaṇa</lem><rdg wit="#A">mayaṇovinnavayaṇi</rdg></app>†<note place="app">† <foreign xml:lang="sa">'kiṃ jhijjahi diṇarayaṇi uvvinniya miyanayaṇa'</foreign> C <foreign xml:lang="sa">ādarśasthitam etat pāthāntaram |</foreign></note> || 68 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[68] he pathika! yadi dayāṃ kṛtvā kṣaṇārddhaṃ padaṃ moṭayasi, yadā kiñcit saṃdeśakaṃ priyāya tucchākṣaraiḥ jalpāmi | pathiko [bha]ṇati — he kanakāṅgi! kathaya | rudanena kim? | udvignamṛganetre! nitarāṃ ṣi(khi)dyamānā dṛśyase || 68 ||</p>
@@ -1827,12 +1824,12 @@
 
 	<lg xml:id="SaRā.069" type="dohā">
 	  <l xml:id="SaRā.069ab">
-            jasu ṇiggami <app><lem>reṇukkaraḍi</lem><rdg wit="#B">reṇukkaraḍa</rdg><rdg wit="#C">reḍḍakkaraḍi</rdg></app>, </seg>
-            <app><lem>kīa</lem><rdg wit="#C">kaïya</rdg><rdg wit="#B">ṇiī</rdg></app> ṇa virahadaveṇa |</seg>
+            jasu ṇiggami <app><lem>reṇukkaraḍi</lem><rdg wit="#B">reṇukkaraḍa</rdg><rdg wit="#C">reḍḍakkaraḍi</rdg></app>, 
+            <app><lem>kīa</lem><rdg wit="#C">kaïya</rdg><rdg wit="#B">ṇiī</rdg></app> ṇa virahadaveṇa |
 	  </l>
 	  <l xml:id="SaRā.069cd">
-            <app><lem>kima</lem><rdg wit="#A">kiva</rdg></app> dijjaï <app><lem>saṃdesaḍaü</lem><rdg wit="#A">saṃnehaḍaü</rdg></app>, </seg>
-            tasu <app><lem>ṇiṭṭhuraï</lem><rdg wit="#B">niṭṭhuraya</rdg></app> maṇeṇa || 69 ||</seg>
+            <app><lem>kima</lem><rdg wit="#A">kiva</rdg></app> dijjaï <app><lem>saṃdesaḍaü</lem><rdg wit="#A">saṃnehaḍaü</rdg></app>, 
+            tasu <app><lem>ṇiṭṭhuraï</lem><rdg wit="#B">niṭṭhuraya</rdg></app> maṇeṇa || 69 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[69] tataḥ sā jīvane 'pi sala[jja]tvaṃ prakaṭayantī prāha — yasya nirgame virahadavenāhaṃ reṇūtkaraṃ— bhasmapuñjaṃ na kṛtā | atas tasmai niṣṭhureṇa manasā saṃdeśakaḥ kathaṃ dīyate || 69 ||</p>
@@ -1913,12 +1910,12 @@
 
 	<lg xml:id="SaRā.094" type="vastuka">
 	  <l xml:id="SaRā.094ab">
-            niya<app><lem>daïyaha</lem><rdg wit="#B">daïya u</rdg><rdg wit="#C">daīyaha</rdg></app> <app><lem>ukkaṃkhiriya</lem><rdg wit="#C">ukkiṃkhiri</rdg></app> <app><lem>kivi</lem><rdg wit="#A">kāvi</rdg></app> virahā<app><lem>uliya</lem><rdg wit="#B">ulīya</rdg></app>,</seg>
-            piyaāsaṃggi pahuttiya <app><lem>tasu</lem><rdg wit="#C"><note><foreign xml:lang="sa">nāsti</foreign> C</note></rdg></app> <app><lem>saṃgami</lem><rdg wit="#C">saṃgama</rdg></app> bāuliya |</seg>
+            niya<app><lem>daïyaha</lem><rdg wit="#B">daïya u</rdg><rdg wit="#C">daīyaha</rdg></app> <app><lem>ukkaṃkhiriya</lem><rdg wit="#C">ukkiṃkhiri</rdg></app> <app><lem>kivi</lem><rdg wit="#A">kāvi</rdg></app> virahā<app><lem>uliya</lem><rdg wit="#B">ulīya</rdg></app>,
+            piyaāsaṃggi pahuttiya <app><lem>tasu</lem><rdg wit="#C"><note><foreign xml:lang="sa">nāsti</foreign> C</note></rdg></app> <app><lem>saṃgami</lem><rdg wit="#C">saṃgama</rdg></app> bāuliya |
 	  </l>
 	  <l xml:id="SaRā.094cd">
-            <app><lem>te</lem><rdg wit="#A #C">je</rdg></app> <app><lem>pāvahi</lem><rdg wit="#C">pāvahiṃ</rdg></app> suviṇaṃtari dhannaü <app><lem>piya</lem><rdg wit="#C"><note><foreign xml:lang="sa">nāsti</foreign> C</note></rdg></app>taṇupharasu,</seg>
-            āliṃgaṇu avaloyaṇu <app><lem>cuṃbaṇu</lem><rdg wit="#C"><note><foreign xml:lang="sa">nāsti</foreign> C</note></rdg></app> <app><lem>cavaṇu</lem><rdg wit="#A #B"><note><foreign xml:lang="sa">cavaṇu</foreign> A B</note></rdg></app> <app><lem>suraya</lem><rdg wit="#B">suraï</rdg></app>rasu |</seg>
+            <app><lem>te</lem><rdg wit="#A #C">je</rdg></app> <app><lem>pāvahi</lem><rdg wit="#C">pāvahiṃ</rdg></app> suviṇaṃtari dhannaü <app><lem>piya</lem><rdg wit="#C"><note><foreign xml:lang="sa">nāsti</foreign> C</note></rdg></app>taṇupharasu,
+            āliṃgaṇu avaloyaṇu <app><lem>cuṃbaṇu</lem><rdg wit="#C"><note><foreign xml:lang="sa">nāsti</foreign> C</note></rdg></app> <app><lem>cavaṇu</lem><rdg wit="#A #B"><note><foreign xml:lang="sa">cavaṇu</foreign> A B</note></rdg></app> <app><lem>suraya</lem><rdg wit="#B">suraï</rdg></app>rasu |
 	  </l>
 	  <l xml:id="SaRā.094ef"><app><lem>ima</lem><rdg wit="#A"><note><foreign xml:lang="sa">nāsti</foreign> A</note></rdg></app> kahiya pahiya tasu ṇiddayaha <app><lem>jaïya kāli</lem><rdg wit="#B">jahi kālihi</rdg></app> pavasiyaü tuhu |</l>
 	  <l xml:id="SaRā.094gh"><app><lem>tasu</lem><rdg wit="#C">tesu</rdg></app> <app><lem>laï maï</lem><rdg wit="#C">saïgalaï</rdg></app> <app><lem>taṇi</lem><rdg wit="#B">taṇu</rdg></app> ṇiṃda ṇahu ko <app><lem>puṇu</lem><rdg wit="#B">puṇa</rdg><rdg wit="#C">paṇi</rdg></app> <app><lem>suviṇaï</lem><rdg wit="#A">suviṇaya</rdg><rdg wit="#B">suiṇaï</rdg></app> <app><lem>saṃga</lem><rdg wit="#A">saṃgu</rdg></app>suhu || 94 || [†ṣatpadam |]<note place="app">C <foreign xml:la="sa">ādarśa evedaṃ padaṃ labhyate |</foreign></note></l>
@@ -1937,12 +1934,12 @@
 
 	<lg xml:id="SaRā.095" type="ḍumilā">
 	  <l xml:id="SaRā.095ab">
-            piyaviraha<app><lem>vioe</lem><rdg wit="#C">viyoe</rdg></app>, saṃgamasoe, <app><lem>divasarayaṇi</lem><rdg wit="#C">rayaṇi divasa</rdg><rdg wit="#B">divasarayaṇa</rdg></app> <app><lem>jhuraṃta</lem><rdg wit="#A">jhuraṃti</rdg></app> maṇe,</seg>
-            ṇiru <app><lem>aṃgu</lem><rdg wit="#A #B">aṃgi</rdg></app> <app><lem>susaṃtaha</lem><rdg wit="#A">susaṃtahaṃ</rdg></app>, vāha <app><lem>phusaṃtaha</lem><rdg wit="#A">phuraṃtahaṃ</rdg></app>, appaha niddaya kiṃ pi bhaṇe |</seg>
+            piyaviraha<app><lem>vioe</lem><rdg wit="#C">viyoe</rdg></app>, saṃgamasoe, <app><lem>divasarayaṇi</lem><rdg wit="#C">rayaṇi divasa</rdg><rdg wit="#B">divasarayaṇa</rdg></app> <app><lem>jhuraṃta</lem><rdg wit="#A">jhuraṃti</rdg></app> maṇe,
+            ṇiru <app><lem>aṃgu</lem><rdg wit="#A #B">aṃgi</rdg></app> <app><lem>susaṃtaha</lem><rdg wit="#A">susaṃtahaṃ</rdg></app>, vāha <app><lem>phusaṃtaha</lem><rdg wit="#A">phuraṃtahaṃ</rdg></app>, appaha niddaya kiṃ pi bhaṇe |
 	  </l>
 	  <l xml:id="SaRā.095cd">
-            ‡<note place="app"><foreign xml:lang="sa">etad uttarārdhātmakabhāgo 'sya padyasya patitaḥ</foreign> C <foreign xml:lang="sa">ādarśe</foreign></note>tasu <app><lem>suyaṇa</lem><rdg wit="#B">suyaṇu</rdg></app> nivesiya, <app><lem>bhāiṇa</lem><rdg wit="#A">bhāiṇi</rdg></app> <app><lem>pesiya</lem><rdg wit="#B">bhesiya</rdg></app>, mohavasaṇa volaṃta khaṇe,</seg>
-            maha sāiya vakkharu, hari gaü takkharu, jāu saraṇi kasu pahiya bhaṇe || 95 ||</seg>
+            ‡<note place="app"><foreign xml:lang="sa">etad uttarārdhātmakabhāgo 'sya padyasya patitaḥ</foreign> C <foreign xml:lang="sa">ādarśe</foreign></note>tasu <app><lem>suyaṇa</lem><rdg wit="#B">suyaṇu</rdg></app> nivesiya, <app><lem>bhāiṇa</lem><rdg wit="#A">bhāiṇi</rdg></app> <app><lem>pesiya</lem><rdg wit="#B">bhesiya</rdg></app>, mohavasaṇa volaṃta khaṇe,
+            maha sāiya vakkharu, hari gaü takkharu, jāu saraṇi kasu pahiya bhaṇe || 95 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[95] hṛte sarvasve kiṃ karttavyatāmūḍhatvam āha — priyavirahaviu(yo)gāya saṅgamasūcakāya rātriṃdinaṃ kliśyantī, nitarām aṅgaṃ śoṣayantī, bāṣpāni, mārjjayantī, ātmanā(no) nirdayāya kiṃ bhaṇāmi | paraṃ tvaṃ tvevaṃ vadeḥ — yat tvāṃ hri(hṛ)daye niveśya bhāvenāpreṣya(kṣya), mohavaśāt, kṣaṇam, tayoktam — mama svāmino vakkharaṃ = rūpaṃ nāma vastu virahanāmā taskaro hri(hṛ)tvā gacchati pratyaham | tad bhaṇa, priya kasya śaraṇaṃ vrajāmi? || 95 ||</p>
@@ -1954,12 +1951,12 @@
 
 	<lg xml:id="SaRā.096" type="rāsā">
 	  <l xml:id="SaRā.096ab">
-            ihu <app><lem>ḍomilaü</lem><rdg wit="#A">ḍomiliu</rdg><rdg wit="#B">ḍomillaü</rdg></app> bhaṇeviṇu <app><lem>niśi(si)tamaharavayaṇi</lem><rdg wit="#A">nittamahumahuravayaṇi</rdg></app>, </seg>
-            <app><lem>huiya</lem><rdg wit="#A">huīya</rdg><rdg wit="#B">huī</rdg></app> <app><lem>ṇimisa</lem><rdg wit="#B">nimiśa</rdg></app> ṇipphaṃda saroruhadalanayaṇi |</seg>
+            ihu <app><lem>ḍomilaü</lem><rdg wit="#A">ḍomiliu</rdg><rdg wit="#B">ḍomillaü</rdg></app> bhaṇeviṇu <app><lem>niśi(si)tamaharavayaṇi</lem><rdg wit="#A">nittamahumahuravayaṇi</rdg></app>, 
+            <app><lem>huiya</lem><rdg wit="#A">huīya</rdg><rdg wit="#B">huī</rdg></app> <app><lem>ṇimisa</lem><rdg wit="#B">nimiśa</rdg></app> ṇipphaṃda saroruhadalanayaṇi |
 	  </l>
 	  <l xml:id="SaRā.096cd">
-            ṇahu <app><lem>kihu</lem><rdg wit="#C">kihuṃ</rdg></app> <app><lem>kahaï</lem><rdg wit="#A">kahiu</rdg></app> ṇa pikkhaï <app><lem>jaṃ puṇu</lem><rdg wit="#B">iya puṇu</rdg><rdg wit="#C"><note>C <foreign xml:lang="sa">nāsti</foreign></note></rdg></app> <app><lem>avaru</lem><rdg wit="#C">avara</rdg></app> jaṇu,</seg>
-            <app><lem>citti</lem><rdg wit="#A">citta</rdg></app> bhitti ṇaṃ lihiya <app><lem>muṃdha</lem><rdg wit="#A">muddha</rdg></app> <app><lem>saccaviya</lem><rdg wit="#B">sāccaviya</rdg></app> khaṇu || 96 ||</seg>
+            ṇahu <app><lem>kihu</lem><rdg wit="#C">kihuṃ</rdg></app> <app><lem>kahaï</lem><rdg wit="#A">kahiu</rdg></app> ṇa pikkhaï <app><lem>jaṃ puṇu</lem><rdg wit="#B">iya puṇu</rdg><rdg wit="#C"><note>C <foreign xml:lang="sa">nāsti</foreign></note></rdg></app> <app><lem>avaru</lem><rdg wit="#C">avara</rdg></app> jaṇu,
+            <app><lem>citti</lem><rdg wit="#A">citta</rdg></app> bhitti ṇaṃ lihiya <app><lem>muṃdha</lem><rdg wit="#A">muddha</rdg></app> <app><lem>saccaviya</lem><rdg wit="#B">sāccaviya</rdg></app> khaṇu || 96 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[96] etat ḍomilaka[mu]ktvā, candravadanā kamalanetrā nirmi(rni)meśā niḥṣpandā jātā | na ca kimapi kathayati, aparaṃ jaṇaṃ na prekṣate | atra vitarke — bhittau ctralikhiteva satyāpitā — jñātetyarthaḥ || 96 ||</p>
@@ -1971,12 +1968,12 @@
 
 	<lg xml:id="SaRā.097" type="rāsā">
 	  <l xml:id="SaRā.097ab">
-            <app><lem>osāsaṃ</lem><rdg wit="#C">ūsāsaṃ</rdg></app>bhamaruddhasāsa <app><lem>urunnamuha</lem><rdg wit="#B">urannamuha</rdg></app>,</seg>
-            vammahasarapaḍibhinna saravi piyasaṃgamuha |</seg>
+            <app><lem>osāsaṃ</lem><rdg wit="#C">ūsāsaṃ</rdg></app>bhamaruddhasāsa <app><lem>urunnamuha</lem><rdg wit="#B">urannamuha</rdg></app>,
+            vammahasarapaḍibhinna saravi piyasaṃgamuha |
 	  </l>
 	  <l xml:id="SaRā.097cd">
-            dara tiracchi taralacchi pahiu jaṃ <app><lem>joiyaü</lem><rdg wit="#B">joiyaï</rdg></app>,</seg>
-            ṇaṃ guṇasadda <app><lem>uttaṭṭhi</lem><rdg wit="#C">utaṭṭha</rdg></app> <app><lem>kuraṃgi</lem><rdg wit="#C">kuraṃga</rdg></app> <app><lem>paloiyaü</lem><rdg wit="#B">paloiyaï</rdg></app> ||</seg>
+            dara tiracchi taralacchi pahiu jaṃ <app><lem>joiyaü</lem><rdg wit="#B">joiyaï</rdg></app>,
+            ṇaṃ guṇasadda <app><lem>uttaṭṭhi</lem><rdg wit="#C">utaṭṭha</rdg></app> <app><lem>kuraṃgi</lem><rdg wit="#C">kuraṃga</rdg></app> <app><lem>paloiyaü</lem><rdg wit="#B">paloiyaï</rdg></app> ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[97] ucchvāsabhramaruddhani[ḥ]svā(śvā)sayā ruditamukhyā manmathaśaraiḥ pratibhinnayā priyasaṅgamasuṣa(khaṃ) smṛtvā, tadanugavo(to)'sti vetīṣat tiryag taralākṣibhyāṃ pathiko dṛṣṭaḥ | manye vitarke vā | guṇaśabdo 'trastayā kuraṅgyā dṛṣṭaḥ saḥ || 97 ||</p>
@@ -1988,12 +1985,12 @@
 
 	<lg xml:id="SaRā.098" type="rāsā">
 	  <l xml:id="SaRā.098ab">
-            pahiu bhaṇaï thiru hohi <app><lem>dhīru</lem><rdg wit="#A #B">dhīri</rdg></app> <app><lem>āsāsi</lem><rdg wit="#C">āsīsi</rdg></app> khaṇu,</seg>
-            laïvi varikkhiya sasi<app><lem>saünnu</lem><rdg wit="#A">saünha</rdg></app> <app><lem>phaṃsahi</lem><rdg wit="#B">phuṃsahi</rdg></app> vayaṇu |</seg>
+            pahiu bhaṇaï thiru hohi <app><lem>dhīru</lem><rdg wit="#A #B">dhīri</rdg></app> <app><lem>āsāsi</lem><rdg wit="#C">āsīsi</rdg></app> khaṇu,
+            laïvi varikkhiya sasi<app><lem>saünnu</lem><rdg wit="#A">saünha</rdg></app> <app><lem>phaṃsahi</lem><rdg wit="#B">phuṃsahi</rdg></app> vayaṇu |
 	  </l>
 	  <l xml:id="SaRā.098cd">
-            tassa <app><lem>vayaṇu</lem><rdg wit="#B">vayaṇa</rdg></app> <app><lem>āyanni</lem><rdg wit="#A">āyaṃnni</rdg><rdg wit="#C">āinni</rdg></app> viraha<app><lem>bhara</lem><rdg wit="#C">bhaya</rdg></app><app><lem>bhajjariya</lem><rdg wit="#A">bhajjarīyā</rdg></app>, </seg>
-            laï <app><lem>aṃcalu</lem><rdg wit="#C">aṃculu</rdg></app> <app><lem>muhu</lem><rdg wit="#B">muhuṃ</rdg><rdg wit="#C">muha</rdg></app> puṃchiu taha va <app><lem>salajjariya</lem><rdg wit="#A">salajjarīā</rdg><rdg wit="#C">salajjiriya</rdg></app> || 98 ||</seg>
+            tassa <app><lem>vayaṇu</lem><rdg wit="#B">vayaṇa</rdg></app> <app><lem>āyanni</lem><rdg wit="#A">āyaṃnni</rdg><rdg wit="#C">āinni</rdg></app> viraha<app><lem>bhara</lem><rdg wit="#C">bhaya</rdg></app><app><lem>bhajjariya</lem><rdg wit="#A">bhajjarīyā</rdg></app>, 
+            laï <app><lem>aṃcalu</lem><rdg wit="#C">aṃculu</rdg></app> <app><lem>muhu</lem><rdg wit="#B">muhuṃ</rdg><rdg wit="#C">muha</rdg></app> puṃchiu taha va <app><lem>salajjariya</lem><rdg wit="#A">salajjarīā</rdg><rdg wit="#C">salajjiriya</rdg></app> || 98 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[98] atha pathikasaujanyam āha — pathiko bhaṇati — sthirā dhīrā bhava | kṣaṇaṃ āsvā(śvā)saya | varakkīṃ — paṭiṃ(ṭīṃ) gṛhītvā śaśisaṃpūrṇṇaṃ mukhaṃ pramārjjaya | tasya vacanam ākarṇṇya virahabharabhagnayā salajjayā vastrāñcalamādāya mukhaṃ pramārjjitam ||</p>
@@ -2005,12 +2002,12 @@
 
 	<lg xml:id="SaRā.099" type="rāsā">
 	  <l xml:id="SaRā.099ab">
-            pahia ṇa <app><lem>sijjhaï</lem><rdg wit="#C">sijjaï</rdg></app> <app><lem>kiri</lem><rdg wit="#A">kira</rdg></app> balu maha kaṃdappasaü,</seg>
-            rattaü jaṃ ca virattaü niddose ya piu |</seg>
+            pahia ṇa <app><lem>sijjhaï</lem><rdg wit="#C">sijjaï</rdg></app> <app><lem>kiri</lem><rdg wit="#A">kira</rdg></app> balu maha kaṃdappasaü,
+            rattaü jaṃ ca virattaü niddose ya piu |
 	  </l>
 	  <l xml:id="SaRā.099cd">
-            <app><lem>ṇeya</lem><rdg wit="#C">neya</rdg></app> suṇiya paraveyaṇa <app><lem>ninnehaha</lem><rdg wit="#A">ṇinnehaha</rdg></app> calaha,</seg>
-            <app><lem>māliṇi</lem><rdg wit="#C">mālaṇi</rdg></app>vittu <app><lem>kahivvaü</lem><rdg wit="#A">kahijjasu</rdg></app> ikkaï taha khalaha || 99 ||</seg>
+            <app><lem>ṇeya</lem><rdg wit="#C">neya</rdg></app> suṇiya paraveyaṇa <app><lem>ninnehaha</lem><rdg wit="#A">ṇinnehaha</rdg></app> calaha,
+            <app><lem>māliṇi</lem><rdg wit="#C">mālaṇi</rdg></app>vittu <app><lem>kahivvaü</lem><rdg wit="#A">kahijjasu</rdg></app> ikkaï taha khalaha || 99 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[99] ātmanaḥ sarvathaivāsamarthatām āha — he pathika! mama kandarppeṇa samam, kila iti saṃbhāvanāyām, balaṃ na siddhyati | yac ca tadrūpa eva priyo[nirdoṣeṇa]doṣaṃ vinā rakta eva viraktaḥ | na ca tena paravedanā śrutā | atas tasmai calitāya khalāya mālinīvṛttaṃ ekaṃ kathanīyam || 99 ||</p>
@@ -2022,12 +2019,12 @@
 
 	<lg xml:id="SaRā.100" type="mālinī">
 	  <l xml:id="SaRā.100ab">
-            jaï <app><lem>viraï</lem><rdg wit="#A">viraha</rdg><rdg wit="#C">biraha</rdg></app><app><lem>virāme</lem><rdg wit="#C">birāme</rdg></app> ṇaṭṭhasoho muṇaṃtī,</seg>
-            suhaya <app><lem>taïya</lem><rdg wit="#B #C">taya</rdg></app> <app><lem>roo uggilaṃto</lem><rdg wit="#B">virāo uggilaṃtī</rdg></app> siṇeho |</seg>
+            jaï <app><lem>viraï</lem><rdg wit="#A">viraha</rdg><rdg wit="#C">biraha</rdg></app><app><lem>virāme</lem><rdg wit="#C">birāme</rdg></app> ṇaṭṭhasoho muṇaṃtī,
+            suhaya <app><lem>taïya</lem><rdg wit="#B #C">taya</rdg></app> <app><lem>roo uggilaṃto</lem><rdg wit="#B">virāo uggilaṃtī</rdg></app> siṇeho |
 	  </l>
 	  <l xml:id="SaRā.100cd">
-            <app><lem>bharavi</lem><rdg wit="#A">bharaya</rdg></app> <app><lem>navaya</lem><rdg wit="#C">navaï</rdg></app>raṃge <app><lem>ikku</lem><rdg wit="#B">ikkuṃ</rdg></app> kuṃbho dharaṃtī,</seg>
-            hiyaü taha <app><lem>paḍillo</lem><rdg wit="#B">vaḍillo</rdg></app> boliyaṃto viratto || 100 ||</seg>
+            <app><lem>bharavi</lem><rdg wit="#A">bharaya</rdg></app> <app><lem>navaya</lem><rdg wit="#C">navaï</rdg></app>raṃge <app><lem>ikku</lem><rdg wit="#B">ikkuṃ</rdg></app> kuṃbho dharaṃtī,
+            hiyaü taha <app><lem>paḍillo</lem><rdg wit="#B">vaḍillo</rdg></app> boliyaṃto viratto || 100 ||
 	  </l>
 	  <note type="commentary" subtype="ṭippanaka">
             <p>[100] ātmano 'vimarśitvam āha — adyāpi(?) rativirāme ahaṃ svahri(hṛ)dayaṃ naṣṭasaukhyaṃ manyāsyam | yadā he subhaga! yo rāgo navaraṅgasnehamudgilannāsīt, tenaikaṃ kumbhaṃ bhṛtvādhārayiṣyam | yato hṛdayaṃ viraktaṃ tatra kumbhe kṣiptvā nna(mra)kṣitaṃ kṛtvā asthāpayiṣyam — vyāpārayiṣyam || 100 ||</p>
@@ -2084,7 +2081,7 @@
 	  <note type="translation">“The day is gone. Not much remains. Forget about going, traveller. Stay for the night and set out again in the day.” “Red-lipped girl, the sun’s disc begins to blaze at dawn, so I will travel at night: I am anxious about my task.” “If you won’t stay here, traveller, and if you really want to go, then tell my love a cūḍillaka, a khaḍahaḍaka, and a gāthā.”</note>
 	</lg>
       </div>
-      !-->
+      
       <div n="3" type="prakrama">
 	<head xml:lang="san-Latn">tṛtīyaḥ prakramaḥ</head>
 	<label type="initial" rend="squarebrackets" xml:lang="san-Latn">ato grīṣmavarṇanam</label>
